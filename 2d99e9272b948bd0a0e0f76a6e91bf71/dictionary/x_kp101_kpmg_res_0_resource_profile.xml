@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1681352b2bd88bd0a0e0f76a6e91bf6c" label="Resource Profile" max_length="40" name="x_kp101_kpmg_res_0_resource_profile" type="collection">
+        <element label="ServiceNow experience" max_length="255" name="sn_experience" type="integer"/>
+        <element label="Certification points" max_length="40" name="certification_points" type="integer"/>
+        <element display="true" label="Resource name" mandatory="true" max_length="32" name="resource_name" reference="sys_user" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Profile link" max_length="1024" name="profile_link" type="url"/>
+        <element label="Hire date" max_length="40" name="hire_date" type="glide_date"/>
+        <index name="index">
+            <element name="resource_name"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
