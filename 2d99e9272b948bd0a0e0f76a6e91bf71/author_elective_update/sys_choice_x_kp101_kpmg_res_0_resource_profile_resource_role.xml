@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="resource_role" table="x_kp101_kpmg_res_0_resource_profile" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>resource_role</element>
+            <name>x_kp101_kpmg_res_0_resource_profile</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mdcadag</sys_created_by>
+            <sys_created_on>2026-04-27 03:32:01</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>resource_role</sys_name>
+            <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+            <sys_update_name>sys_choice_x_kp101_kpmg_res_0_resource_profile_resource_role</sys_update_name>
+            <sys_updated_by>mdcadag</sys_updated_by>
+            <sys_updated_on>2026-04-27 03:32:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Associate</label>
+            <language>en</language>
+            <name>x_kp101_kpmg_res_0_resource_profile</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>mdcadag</sys_created_by>
+            <sys_created_on>2026-04-27 03:32:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdcadag</sys_updated_by>
+            <sys_updated_on>2026-04-27 03:32:01</sys_updated_on>
+            <value>associate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Consultant</label>
+            <language>en</language>
+            <name>x_kp101_kpmg_res_0_resource_profile</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>mdcadag</sys_created_by>
+            <sys_created_on>2026-04-27 03:32:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdcadag</sys_updated_by>
+            <sys_updated_on>2026-04-27 03:32:01</sys_updated_on>
+            <value>consultant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior Consultant</label>
+            <language>en</language>
+            <name>x_kp101_kpmg_res_0_resource_profile</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>mdcadag</sys_created_by>
+            <sys_created_on>2026-04-27 03:32:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdcadag</sys_updated_by>
+            <sys_updated_on>2026-04-27 03:32:01</sys_updated_on>
+            <value>senior_consultant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Junior Lead Consultant</label>
+            <language>en</language>
+            <name>x_kp101_kpmg_res_0_resource_profile</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>mdcadag</sys_created_by>
+            <sys_created_on>2026-04-27 03:32:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdcadag</sys_updated_by>
+            <sys_updated_on>2026-04-27 03:32:01</sys_updated_on>
+            <value>junior_lead_consultant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lead Consultant</label>
+            <language>en</language>
+            <name>x_kp101_kpmg_res_0_resource_profile</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>mdcadag</sys_created_by>
+            <sys_created_on>2026-04-27 03:32:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdcadag</sys_updated_by>
+            <sys_updated_on>2026-04-27 03:32:01</sys_updated_on>
+            <value>lead_consultant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior Lead Consultant</label>
+            <language>en</language>
+            <name>x_kp101_kpmg_res_0_resource_profile</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>mdcadag</sys_created_by>
+            <sys_created_on>2026-04-27 03:32:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdcadag</sys_updated_by>
+            <sys_updated_on>2026-04-27 03:32:01</sys_updated_on>
+            <value>senior_lead_consultant</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
