@@ -20,95 +20,57 @@
             <element>member_firm</element>
             <hint/>
             <inactive>false</inactive>
-            <label>KDN Audit ARC</label>
+            <label>KDN Audit</label>
             <language>en</language>
             <name>x_kp101_kpmg_res_0_project_assignment</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>mdcadag</sys_created_by>
-            <sys_created_on>2026-04-29 02:53:15</sys_created_on>
+            <sys_created_on>2026-04-29 03:29:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mdcadag</sys_updated_by>
-            <sys_updated_on>2026-04-29 02:53:15</sys_updated_on>
-            <value>kdn_audit_arc</value>
+            <sys_updated_on>2026-04-29 03:29:25</sys_updated_on>
+            <value>kdn_audit</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>member_firm</element>
             <hint/>
             <inactive>false</inactive>
-            <label>GIC</label>
+            <label>Singapore</label>
             <language>en</language>
             <name>x_kp101_kpmg_res_0_project_assignment</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>mdcadag</sys_created_by>
-            <sys_created_on>2026-04-29 02:53:15</sys_created_on>
+            <sys_created_on>2026-04-29 03:29:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mdcadag</sys_updated_by>
-            <sys_updated_on>2026-04-29 02:53:15</sys_updated_on>
-            <value>gic</value>
+            <sys_updated_on>2026-04-29 03:29:25</sys_updated_on>
+            <value>singapore</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>member_firm</element>
             <hint/>
             <inactive>false</inactive>
-            <label>GMS US R&amp;M</label>
+            <label>Australia</label>
             <language>en</language>
             <name>x_kp101_kpmg_res_0_project_assignment</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>mdcadag</sys_created_by>
-            <sys_created_on>2026-04-29 02:53:15</sys_created_on>
+            <sys_created_on>2026-04-29 03:29:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mdcadag</sys_updated_by>
-            <sys_updated_on>2026-04-29 02:53:15</sys_updated_on>
-            <value>gms_us_r_m</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>member_firm</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>IRM Risk Management</label>
-            <language>en</language>
-            <name>x_kp101_kpmg_res_0_project_assignment</name>
-            <sequence>3</sequence>
-            <synonyms/>
-            <sys_created_by>mdcadag</sys_created_by>
-            <sys_created_on>2026-04-29 02:53:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mdcadag</sys_updated_by>
-            <sys_updated_on>2026-04-29 02:53:15</sys_updated_on>
-            <value>irm_risk_management</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>member_firm</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Cloud Migration</label>
-            <language>en</language>
-            <name>x_kp101_kpmg_res_0_project_assignment</name>
-            <sequence>4</sequence>
-            <synonyms/>
-            <sys_created_by>mdcadag</sys_created_by>
-            <sys_created_on>2026-04-29 02:53:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mdcadag</sys_updated_by>
-            <sys_updated_on>2026-04-29 02:53:15</sys_updated_on>
-            <value>cloud_migration</value>
+            <sys_updated_on>2026-04-29 03:29:25</sys_updated_on>
+            <value>australia</value>
         </sys_choice>
     </sys_choice>
 </record_update>
