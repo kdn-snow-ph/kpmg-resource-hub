@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="1681352b2bd88bd0a0e0f76a6e91bf6c" label="Resource Profile" max_length="40" name="x_kp101_kpmg_res_0_resource_profile" type="collection">
-        <element choice="3" default="bench" label="Deployment status" max_length="40" name="deployment_status" type="choice">
+        <element choice="3" default="bench_training" label="Deployment status" max_length="40" name="deployment_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Deployed" sequence="1" value="deployed"/>
-                <element inactive_on_update="false" label="Bench" sequence="0" value="bench"/>
+                <element inactive_on_update="false" label="Bench - Training" sequence="1" value="bench_training"/>
+                <element inactive_on_update="false" label="Deployed" sequence="2" value="deployed"/>
+                <element inactive_on_update="false" label="On Leave" sequence="3" value="on_leave"/>
+                <element inactive_on_update="false" label="Bench - Idea Innovation" sequence="0" value="bench_idea_innovation"/>
             </choice>
         </element>
         <element default="true" label="Active" max_length="255" name="active" type="boolean"/>

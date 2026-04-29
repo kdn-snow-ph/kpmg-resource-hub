@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="deployment_status" table="x_kp101_kpmg_res_0_resource_profile">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="status" table="x_kp101_kpmg_res_0_project_assignment">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -8,10 +8,10 @@
         <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Deployment status</column_label>
+        <column_label>Status</column_label>
         <comments/>
         <create_roles/>
-        <default_value>bench_training</default_value>
+        <default_value>active</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,7 +21,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>deployment_status</element>
+        <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -30,7 +30,7 @@
         <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_kp101_kpmg_res_0_resource_profile</name>
+        <name>x_kp101_kpmg_res_0_project_assignment</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>mdcadag</sys_created_by>
-        <sys_created_on>2026-04-27 03:31:59</sys_created_on>
-        <sys_name>Deployment status</sys_name>
+        <sys_created_on>2026-04-29 02:53:08</sys_created_on>
+        <sys_name>Status</sys_name>
         <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
         <sys_policy/>
         <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
-        <sys_update_name>sys_dictionary_x_kp101_kpmg_res_0_resource_profile_deployment_status</sys_update_name>
+        <sys_update_name>sys_dictionary_x_kp101_kpmg_res_0_project_assignment_status</sys_update_name>
         <sys_updated_by>mdcadag</sys_updated_by>
-        <sys_updated_on>2026-04-27 09:33:53</sys_updated_on>
+        <sys_updated_on>2026-04-29 02:53:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

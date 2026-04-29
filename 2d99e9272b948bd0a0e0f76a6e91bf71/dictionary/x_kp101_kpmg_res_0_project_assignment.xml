@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="334058e52b248718a0e0f76a6e91bf87" label="Project Assignment" max_length="40" name="x_kp101_kpmg_res_0_project_assignment" type="collection">
+        <element label="Charge code" max_length="40" name="charge_code" type="string"/>
+        <element choice="1" label="Member firm" max_length="40" name="member_firm" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="KDN Audit ARC" sequence="0" value="kdn_audit_arc"/>
+                <element inactive_on_update="false" label="GIC" sequence="1" value="gic"/>
+                <element inactive_on_update="false" label="IRM Risk Management" sequence="3" value="irm_risk_management"/>
+                <element inactive_on_update="false" label="GMS US R&amp;M" sequence="2" value="gms_us_r_m"/>
+                <element inactive_on_update="false" label="Cloud Migration" sequence="4" value="cloud_migration"/>
+            </choice>
+        </element>
+        <element choice="3" default="active" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+                <element inactive_on_update="false" label="Inactive" sequence="1" value="inactive"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="100" name="name" type="string"/>
+    </element>
+</database>
