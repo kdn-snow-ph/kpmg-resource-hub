@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="f61437853b6cc710a154031f23e45a05" sys_domain="global" table="u_imp_tmpl_x_kp101_kpmg_res_0_user_certification" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>jdgonzales1</sys_created_by>
+            <sys_created_on>2026-04-28 06:04:07</sys_created_on>
+            <sys_id>be1437853b6cc710a154031f23e45a08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_kp101_kpmg_res_0_user_certification" sys_domain="global" view="Default view">f61437853b6cc710a154031f23e45a05</sys_ui_section>
+            <sys_updated_by>jdgonzales1</sys_updated_by>
+            <sys_updated_on>2026-04-28 06:04:07</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_points_accrued</element>
+            <position>1</position>
+            <sys_created_by>jdgonzales1</sys_created_by>
+            <sys_created_on>2026-04-28 06:04:07</sys_created_on>
+            <sys_id>761437853b6cc710a154031f23e45a0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_kp101_kpmg_res_0_user_certification" sys_domain="global" view="Default view">f61437853b6cc710a154031f23e45a05</sys_ui_section>
+            <sys_updated_by>jdgonzales1</sys_updated_by>
+            <sys_updated_on>2026-04-28 06:04:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_resource</element>
+            <position>2</position>
+            <sys_created_by>jdgonzales1</sys_created_by>
+            <sys_created_on>2026-04-28 06:04:07</sys_created_on>
+            <sys_id>f21437853b6cc710a154031f23e45a0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_kp101_kpmg_res_0_user_certification" sys_domain="global" view="Default view">f61437853b6cc710a154031f23e45a05</sys_ui_section>
+            <sys_updated_by>jdgonzales1</sys_updated_by>
+            <sys_updated_on>2026-04-28 06:04:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_date_taken</element>
+            <position>3</position>
+            <sys_created_by>jdgonzales1</sys_created_by>
+            <sys_created_on>2026-04-28 06:04:07</sys_created_on>
+            <sys_id>721437853b6cc710a154031f23e45a0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_kp101_kpmg_res_0_user_certification" sys_domain="global" view="Default view">f61437853b6cc710a154031f23e45a05</sys_ui_section>
+            <sys_updated_by>jdgonzales1</sys_updated_by>
+            <sys_updated_on>2026-04-28 06:04:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>jdgonzales1</sys_created_by>
+            <sys_created_on>2026-04-28 06:04:07</sys_created_on>
+            <sys_id>fe1437853b6cc710a154031f23e45a0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_kp101_kpmg_res_0_user_certification" sys_domain="global" view="Default view">f61437853b6cc710a154031f23e45a05</sys_ui_section>
+            <sys_updated_by>jdgonzales1</sys_updated_by>
+            <sys_updated_on>2026-04-28 06:04:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_date_renewed</element>
+            <position>5</position>
+            <sys_created_by>jdgonzales1</sys_created_by>
+            <sys_created_on>2026-04-28 06:04:07</sys_created_on>
+            <sys_id>7e1437853b6cc710a154031f23e45a0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_kp101_kpmg_res_0_user_certification" sys_domain="global" view="Default view">f61437853b6cc710a154031f23e45a05</sys_ui_section>
+            <sys_updated_by>jdgonzales1</sys_updated_by>
+            <sys_updated_on>2026-04-28 06:04:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_certificate</element>
+            <position>6</position>
+            <sys_created_by>jdgonzales1</sys_created_by>
+            <sys_created_on>2026-04-28 06:04:07</sys_created_on>
+            <sys_id>fa1437853b6cc710a154031f23e45a0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_kp101_kpmg_res_0_user_certification" sys_domain="global" view="Default view">f61437853b6cc710a154031f23e45a05</sys_ui_section>
+            <sys_updated_by>jdgonzales1</sys_updated_by>
+            <sys_updated_on>2026-04-28 06:04:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>jdgonzales1</sys_created_by>
+            <sys_created_on>2026-04-28 06:04:07</sys_created_on>
+            <sys_id>7a1437853b6cc710a154031f23e45a0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_kp101_kpmg_res_0_user_certification" sys_domain="global" view="Default view">f61437853b6cc710a154031f23e45a05</sys_ui_section>
+            <sys_updated_by>jdgonzales1</sys_updated_by>
+            <sys_updated_on>2026-04-28 06:04:07</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>template_import_log.message</element>
+            <position>8</position>
+            <sys_created_by>jdgonzales1</sys_created_by>
+            <sys_created_on>2026-04-28 06:04:07</sys_created_on>
+            <sys_id>f61437853b6cc710a154031f23e45a10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_kp101_kpmg_res_0_user_certification" sys_domain="global" view="Default view">f61437853b6cc710a154031f23e45a05</sys_ui_section>
+            <sys_updated_by>jdgonzales1</sys_updated_by>
+            <sys_updated_on>2026-04-28 06:04:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_imp_tmpl_x_kp101_kpmg_res_0_user_certification</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jdgonzales1</sys_created_by>
+            <sys_created_on>2026-04-28 06:04:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f61437853b6cc710a154031f23e45a05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_imp_tmpl_x_kp101_kpmg_res_0_user_certification</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+            <sys_update_name>sys_ui_section_f61437853b6cc710a154031f23e45a05</sys_update_name>
+            <sys_updated_by>jdgonzales1</sys_updated_by>
+            <sys_updated_on>2026-04-28 06:04:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

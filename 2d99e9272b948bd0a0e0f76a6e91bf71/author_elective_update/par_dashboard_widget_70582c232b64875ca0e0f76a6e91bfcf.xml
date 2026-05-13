@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">a4582c232b64875ca0e0f76a6e91bf77</canvas>
+        <component display_value="Filter Group">ba8b5fa922351c2027c524c91a134bf2</component>
+        <component_props>{"groupConfiguration":{"filterId":"group-moqkmp4c","showLabel":true,"label":"Filters","layout":"horizontal","spacing":"s","showSelectedValuesInPill":true,"showBorder":true,"showRoundCorners":false,"bare":false,"showApply":true,"showClear":true,"showReset":false,"combineActions":false,"showSeparator":true,"filterMaxWidth":300,"cascadeScope":"group-moqkmp4c","filters":[{"filterName":"Deployment Status","filterId":"moqkmp4c","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777873829660","datasource":{"type":"table","payload":{"field":"rp_deployment_status","table":"x_kp101_kpmg_res_0_user_and_certificates","primaryKey":"rp_sys_id-uc_sys_id"}},"targets":[{"type":"table","payload":{"field":"rp_deployment_status","table":"x_kp101_kpmg_res_0_user_and_certificates","primaryKey":"rp_sys_id-uc_sys_id"}}],"enableClearFilter":true},{"filterName":"Project","filterId":"moqs6j8j","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777949872477","datasource":{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_project_assignment","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"project_assignment","table":"x_kp101_kpmg_res_0_user_project_assignment","primaryKey":"sys_id"}}]},{"filterName":"Industry/Sector","filterId":"moqscycy","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777874535828","datasource":{"type":"table","payload":{"field":"ie_sector","table":"x_kp101_kpmg_res_0_user_and_certificates","primaryKey":"ie_sys_id-rp_sys_id-uc_sys_id"}},"targets":[{"type":"table","payload":{"field":"ie_sector","table":"x_kp101_kpmg_res_0_user_and_certificates","primaryKey":"ie_sys_id-rp_sys_id-uc_sys_id"}}]},{"filterName":"Certifications","filterId":"moqkqynu","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777949762979","datasource":{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_certificate","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"uc_certificate","table":"x_kp101_kpmg_res_0_user_and_certificates","primaryKey":"ie_sys_id-rp_sys_id-uc_sys_id"}}]},{"filterName":"Skills","filterId":"mos144to","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777949495981","datasource":{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_skills","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"skill","table":"x_kp101_kpmg_res_0_user_skill","primaryKey":"sys_id"}}]}],"isDashboard":false,"key":1777949872477},"filterConfigurations":"@state.parFilters","isDashboard":true,"filterComponentType":"multiselect","filterName":"Skills","datasource":{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_project_assignment","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"project_assignment","table":"x_kp101_kpmg_res_0_user_project_assignment","primaryKey":"sys_id"}}],"enableClearFilter":true,"filterId":"1jnr0j1b2689p6juat4s"}</component_props>
+        <h>5</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-05 09:38:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>70582c232b64875ca0e0f76a6e91bfcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_widget_70582c232b64875ca0e0f76a6e91bfcf</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-05 09:38:36</sys_updated_on>
+        <visualization/>
+        <w>47</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>par_dashboard_widget_70582c232b64875ca0e0f76a6e91bfcf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">a4582c232b64875ca0e0f76a6e91bf77</canvas><component display_value="Filter Group">ba8b5fa922351c2027c524c91a134bf2</component><component_props>{"groupConfiguration":{"filterId":"group-moqkmp4c","showLabel":true,"label":"Filters","layout":"horizontal","spacing":"s","showSelectedValuesInPill":true,"showBorder":true,"showRoundCorners":false,"bare":false,"showApply":true,"showClear":true,"showReset":false,"combineActions":false,"showSeparator":true,"filterMaxWidth":300,"cascadeScope":"group-moqkmp4c","filters":[{"filterName":"Deployment Status","filterId":"moqkmp4c","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777873829660","datasource":{"type":"table","payload":{"field":"rp_deployment_status","table":"x_kp101_kpmg_res_0_user_and_certificates","primaryKey":"rp_sys_id-uc_sys_id"}},"targets":[{"type":"table","payload":{"field":"rp_deployment_status","table":"x_kp101_kpmg_res_0_user_and_certificates","primaryKey":"rp_sys_id-uc_sys_id"}}],"enableClearFilter":true},{"filterName":"Project","filterId":"moqs6j8j","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777949872477","datasource":{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_project_assignment","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"project_assignment","table":"x_kp101_kpmg_res_0_user_project_assignment","primaryKey":"sys_id"}}]},{"filterName":"Industry/Sector","filterId":"moqscycy","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777874535828","datasource":{"type":"table","payload":{"field":"ie_sector","table":"x_kp101_kpmg_res_0_user_and_certificates","primaryKey":"ie_sys_id-rp_sys_id-uc_sys_id"}},"targets":[{"type":"table","payload":{"field":"ie_sector","table":"x_kp101_kpmg_res_0_user_and_certificates","primaryKey":"ie_sys_id-rp_sys_id-uc_sys_id"}}]},{"filterName":"Certifications","filterId":"moqkqynu","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777949762979","datasource":{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_certificate","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"uc_certificate","table":"x_kp101_kpmg_res_0_user_and_certificates","primaryKey":"ie_sys_id-rp_sys_id-uc_sys_id"}}]},{"filterName":"Skills","filterId":"mos144to","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777949495981","datasource":{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_skills","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"skill","table":"x_kp101_kpmg_res_0_user_skill","primaryKey":"sys_id"}}]}],"isDashboard":false,"key":1777949872477},"filterConfigurations":"@state.parFilters","isDashboard":true,"filterComponentType":"multiselect","filterName":"Skills","datasource":{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_project_assignment","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"project_assignment","table":"x_kp101_kpmg_res_0_user_project_assignment","primaryKey":"sys_id"}}],"enableClearFilter":true,"filterId":"1jnr0j1b2689p6juat4s"}</component_props><h>5</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>jdgonzales1</sys_created_by><sys_created_on>2026-05-05 09:38:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>70582c232b64875ca0e0f76a6e91bfcf</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>par_dashboard_widget_70582c232b64875ca0e0f76a6e91bfcf</sys_update_name><sys_updated_by>jdgonzales1</sys_updated_by><sys_updated_on>2026-05-05 09:38:36</sys_updated_on><visualization/><w>47</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-836901695</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>4b70fd6f2b988bd0a0e0f76a6e91bfad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-05 09:38:36</sys_created_on>
+        <sys_id>34582c232b64875ca0e0f76a6e91bfd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19df780f3110000001</sys_recorded_at>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-05 09:38:36</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>b0582c230264875ca40a2be4a25882d1</update_guid>
+        <update_guid_history>b0582c230264875ca40a2be4a25882d1:-836901695</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ad5860632b64875ca0e0f76a6e91bfe5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-05 09:38:40</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>697c7b8708dc4d088da9e0266486d910</sys_id>
+        <sys_metadata>70582c232b64875ca0e0f76a6e91bfcf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_70582c232b64875ca0e0f76a6e91bfcf</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_70582c232b64875ca0e0f76a6e91bfcf">34582c232b64875ca0e0f76a6e91bfd2</sys_update_version>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-05 09:38:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

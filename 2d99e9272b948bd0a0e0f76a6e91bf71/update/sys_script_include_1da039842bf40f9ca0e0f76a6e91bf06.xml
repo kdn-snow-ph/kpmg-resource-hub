@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_kp101_kpmg_res_0.CertPointsUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CertPointsUtil</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var CertPointsUtil = Class.create();
+CertPointsUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getPoints: function(certGR, dateTaken, userId) {
+
+        var type = certGR.getValue('subtype');
+        var ai = certGR.getValue('type');
+        var isAI = (ai == 'AI');
+        var basePoints = parseInt(certGR.getValue('points'), 10) || 0;
+
+        var takenDate = new GlideDateTime(dateTaken);
+
+        // Promo period
+        var promoStart = new GlideDateTime('2026-03-01 00:00:00');
+        var promoEnd = new GlideDateTime('2026-05-18 23:59:59');
+        var isPromoPeriod = (takenDate >= promoStart && takenDate <= promoEnd);
+
+        if (type == 'Mainline') {
+
+            var deadline = new GlideDateTime('2026-06-30 23:59:59');
+
+            var hireDate = null;
+            var cu = new GlideRecord('x_kp101_kpmg_res_0_resource_profile');
+            cu.addQuery('resource_name', userId);
+            cu.query();
+            if (cu.next()) {
+                hireDate = cu.getValue('hire_date');
+            }
+
+            var takenGDT = new GlideDateTime(dateTaken);
+
+            if (hireDate) {
+                var hireGDT = new GlideDateTime(hireDate);
+
+                // Days difference
+                var diffFromHire = GlideDateTime.subtract(hireGDT, takenGDT).getNumericValue() / (1000 * 60 * 60 * 24);
+                diffFromHire = Math.floor(diffFromHire);
+
+                // ]]>🔥<![CDATA[ CASE 1: Taken BEFORE hire date → ALWAYS 100
+                if (diffFromHire > 0) {
+                    return 100;
+                }
+
+                // ]]>🔥<![CDATA[ CASE 2: Taken AFTER hire date within 30 days → 100
+                if (diffFromHire <= 0 && diffFromHire >= -30) {
+                    return 100;
+                }
+            }
+
+            // ]]>🔥<![CDATA[ CASE 3: Deadline-based logic
+            var diff = GlideDateTime.subtract(takenGDT, deadline).getNumericValue() / (1000 * 60 * 60 * 24);
+            diff = Math.floor(diff);
+
+            if (diff >= 90) return 100;
+            if (diff >= 60) return 75;
+            if (diff >= 30) return 50;
+            if (diff >= 0) return 0;
+
+            return 0;
+        } else if (type == 'Delta') {
+            var deadline = new GlideDateTime('2026-04-16 23:59:59');
+
+            var hireDate = null;
+            var cu = new GlideRecord('x_kp101_kpmg_res_0_resource_profile');
+            cu.addQuery('resource_name', userId);
+            cu.query();
+            if (cu.next()) {
+                hireDate = cu.getValue('hire_date');
+            }
+
+            var takenGDT = new GlideDateTime(dateTaken);
+
+            if (hireDate) {
+                var hireGDT = new GlideDateTime(hireDate);
+
+                // Days difference
+                var diffFromHire = GlideDateTime.subtract(hireGDT, takenGDT).getNumericValue() / (1000 * 60 * 60 * 24);
+                diffFromHire = Math.floor(diffFromHire);
+
+                // ]]>🔥<![CDATA[ CASE 1: Taken BEFORE hire date → ALWAYS 100
+                if (diffFromHire > 0) {
+                    return 100;
+                }
+
+                // ]]>🔥<![CDATA[ CASE 2: Taken AFTER hire date within 30 days → 100
+                if (diffFromHire <= 0 && diffFromHire >= -30) {
+                    return 100;
+                }
+            }
+
+            // ]]>🔥<![CDATA[ CASE 3: Deadline-based logic
+            var diff = GlideDateTime.subtract(takenGDT, deadline).getNumericValue() / (1000 * 60 * 60 * 24);
+            diff = Math.floor(diff);
+
+            if (diff >= 30) return 100;
+            if (diff >= 21) return 75;
+            if (diff >= 14) return 50;
+            if (diff >= 7) return 0;
+
+            return 0;
+        }
+
+        // =========================
+        // NON-MAINLINE LOGIC
+        // =========================
+        if (isPromoPeriod) {
+            if (isAI) {
+                return basePoints * 2;
+            } else {
+                return basePoints;
+            }
+        }
+        return 0;
+
+    },
+    type: 'CertPointsUtil'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-07 04:12:20</sys_created_on>
+        <sys_id>1da039842bf40f9ca0e0f76a6e91bf06</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CertPointsUtil</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_script_include_1da039842bf40f9ca0e0f76a6e91bf06</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-07 04:17:19</sys_updated_on>
+    </sys_script_include>
+</record_update>

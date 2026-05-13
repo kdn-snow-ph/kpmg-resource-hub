@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="96d57e852b6c0bd4a0e0f76a6e91bf33" label="Industry Experience" max_length="40" name="x_kp101_kpmg_res_0_industry_experience" type="collection">
+        <element label="Years of Experience" max_length="40" name="years_of_experience" type="integer"/>
+        <element choice="1" label="Sector" mandatory="true" max_length="40" name="sector" reference="x_kp101_kpmg_res_0_sector" type="reference">
+            <choice>
+                <element inactive_on_update="false" label="Technology, Media &amp; Telecom" sequence="100" value="Technology, Media &amp; Telecom"/>
+                <element inactive_on_update="false" label="Energy &amp; Natural Resources" sequence="40" value="Energy &amp; Natural Resources"/>
+                <element inactive_on_update="false" label="Life Sciences" sequence="90" value="Life Sciences"/>
+                <element inactive_on_update="false" label="Consumer, Retail &amp; Leisure" sequence="30" value="Consumer, Retail &amp; Leisure"/>
+                <element inactive_on_update="false" label="Government &amp; Public Sector" sequence="60" value="Government &amp; Public Sector"/>
+                <element inactive_on_update="false" label="Automative" sequence="20" value="Automative"/>
+                <element inactive_on_update="false" label="Asset Management" sequence="10" value="Asset Management"/>
+                <element inactive_on_update="false" label="Financial Services" sequence="50" value="Financial Services"/>
+                <element inactive_on_update="false" label="Industrial Manufacturing" sequence="70" value="Industrial Manufacturing"/>
+                <element inactive_on_update="false" label="Education" sequence="35" value="Education"/>
+                <element inactive_on_update="false" label="Infrastructure and Transport" sequence="80" value="Infrastructure and Transport"/>
+            </choice>
+        </element>
+        <element label="Resource" mandatory="true" max_length="32" name="resource" reference="x_kp101_kpmg_res_0_resource_profile" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="resource"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">ba0ba0ef2ba4875ca0e0f76a6e91bf0a</canvas>
+        <component display_value="Filter Group">ba8b5fa922351c2027c524c91a134bf2</component>
+        <component_props>{"groupConfiguration":{"filterId":"group-moqkmp4c","showLabel":true,"label":"Filters","layout":"horizontal","spacing":"s","showSelectedValuesInPill":true,"showBorder":true,"showRoundCorners":false,"bare":false,"showApply":true,"showClear":true,"showReset":false,"combineActions":false,"showSeparator":true,"filterMaxWidth":300,"cascadeScope":"group-moqkmp4c","filters":[{"filterName":"Deployment Status","filterId":"moqkmp4c","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777989327475","datasource":{"type":"table","payload":{"field":"resource.deployment_status","table":"x_kp101_kpmg_res_0_resource_profile_summary","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"resource.deployment_status","table":"x_kp101_kpmg_res_0_resource_profile_summary","primaryKey":"sys_id"}}],"enableClearFilter":true},{"filterName":"Project","filterId":"moqs6j8j","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777989365769","datasource":{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_project_assignment","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"projects","table":"x_kp101_kpmg_res_0_resource_profile_summary","primaryKey":"sys_id"}}]},{"filterName":"Industry/Sector","filterId":"moqscycy","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777990933295","datasource":{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_industry_experience","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"industry_experience","table":"x_kp101_kpmg_res_0_resource_profile_summary","primaryKey":"sys_id"}}]},{"filterName":"Certifications","filterId":"moqkqynu","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777989491199","datasource":{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_certificate","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"certificates","table":"x_kp101_kpmg_res_0_resource_profile_summary","primaryKey":"sys_id"}}]},{"filterName":"Skills","filterId":"mos144to","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1777989516405","datasource":{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_skills","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"skills","table":"x_kp101_kpmg_res_0_resource_profile_summary","primaryKey":"sys_id"}}]},{"filterName":"Managed By","filterId":"mosg1he2","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"singleselect","updated":"1777989818161","datasource":{"type":"table","payload":{"table":"sys_user","primaryKey":"sys_id"},"encodedQuery":"nameINTin Uy,Nikka Andrea Adamos,Rusty Luisaga,Noelle Shierene Cervantes"},"targets":[{"type":"table","payload":{"field":"resource.resource_name.manager","table":"x_kp101_kpmg_res_0_resource_profile_summary","primaryKey":"sys_id"}}]}],"isDashboard":false,"key":1777990933295},"filterConfigurations":"@state.parFilters","isDashboard":true,"filterComponentType":"singleselect","filterName":"Managed By","datasource":{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_industry_experience","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"industry_experience","table":"x_kp101_kpmg_res_0_resource_profile_summary","primaryKey":"sys_id"}}],"enableClearFilter":true,"filterId":"1jnr0j1b2689p6juat4s"}</component_props>
+        <h>5</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-05 09:38:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>09586c232b64875ca0e0f76a6e91bfe5</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_widget_09586c232b64875ca0e0f76a6e91bfe5</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-05 14:22:27</sys_updated_on>
+        <visualization/>
+        <w>47</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

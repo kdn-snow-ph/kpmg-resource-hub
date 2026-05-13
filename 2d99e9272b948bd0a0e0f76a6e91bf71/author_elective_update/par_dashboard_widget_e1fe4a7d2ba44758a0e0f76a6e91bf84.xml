@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">ce3f48e92be08718a0e0f76a6e91bfd4</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-primary","label":"My Team","wontWrap":false,"hasNoMargin":true,"level":"1","align":"start","bareBorder":true}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-04-30 06:37:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1fe4a7d2ba44758a0e0f76a6e91bf84</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_widget_e1fe4a7d2ba44758a0e0f76a6e91bf84</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-05 06:19:13</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>63</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>par_dashboard_widget_e1fe4a7d2ba44758a0e0f76a6e91bf84</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">ce3f48e92be08718a0e0f76a6e91bfd4</canvas><component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component><component_props>{"variant":"header-primary","label":"My Team","wontWrap":false,"hasNoMargin":true,"level":"1","align":"start","bareBorder":true}</component_props><h>3</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ifnavarro</sys_created_by><sys_created_on>2026-04-30 06:37:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e1fe4a7d2ba44758a0e0f76a6e91bf84</sys_id><sys_mod_count>22</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>par_dashboard_widget_e1fe4a7d2ba44758a0e0f76a6e91bf84</sys_update_name><sys_updated_by>ifnavarro</sys_updated_by><sys_updated_on>2026-05-05 06:19:13</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>63</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-2051340953</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cb5a60193b684b10a154031f23e45aaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-05 06:19:13</sys_created_on>
+        <sys_id>88ba375f3be44754a154031f23e45a00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19df6ca67930000001</sys_recorded_at>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-05 06:19:13</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>44baf35fe5e4475469b65d117b3d43ff</update_guid>
+        <update_guid_history>44baf35fe5e4475469b65d117b3d43ff:-2051340953,8df97b570de447549ea0180c2771bfc0:1218932422,4989fb13f1e4475414e268370e8bc21c:-1310310366,9e1e47d393ecc354c8a35c4c938d0179:2091170592,9a4c8f534dacc354a13faf0b851c73c1:1567579785,44d90f9bec2cc35479fb7bee825f5481:390430113,0338c3cfc7a80b1c0c085ce58561e651:-133160694,2cb1cf83f8e40b1c8da0de7011213378:-481808057,0eba32439fe00b1c348ac6a475c72b30:542885864,2aefae878d6cc71c5a0838b7142bb073:1894978980,d5cf6a47296cc71c2d603036cc3adc04:-285616445,925fea832a6cc71c6bce181a9c9602d6:739077476,c21a6ecb1268c71c5b9e815e27c4cec0:-285616445,dff806032724871c3f3b2e8bcb990da7:1916227148,a8c2828b18ec471cf7f392a7ab2c6cc8:-1833901173,666dfd0fa7e8471c45601100ad171134:1916227148,cbbb35cbb8a8471cecd9d4afdf54a7e0:891533227,ba6b310bfca8471c083b6abbc6d37596:293276809,987cfe3122e0c758148086102aeedc48:1347449293,45dbf2f92da0c7580ba4110f218617da:1739832517,e7f73ab9eb20c75839fd1c6a0552e0ea:-505746937,9d1f0ebd15a44758a391b5d588d9d84c:-1399233275,25fe4a7df4a447586add2bb954f09086:1686259800</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ecec982f2b6c475ca0e0f76a6e91bf25</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-05 08:48:37</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>2b6e727f4f674366ba0b78eb0c3071d9</sys_id>
+        <sys_metadata>e1fe4a7d2ba44758a0e0f76a6e91bf84</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_e1fe4a7d2ba44758a0e0f76a6e91bf84</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_e1fe4a7d2ba44758a0e0f76a6e91bf84">88ba375f3be44754a154031f23e45a00</sys_update_version>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-05 08:48:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Skills</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_kp101_kpmg_res_0_skills</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_kp101_kpmg_res_0.skills_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>rpcaparas@kpmg.com</sys_created_by>
+        <sys_created_on>2026-04-29 14:06:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f2caa293bec8750a154031f23e45a13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skills</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_app_module_0f2caa293bec8750a154031f23e45a13</sys_update_name>
+        <sys_updated_by>rpcaparas@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-04-29 14:06:48</sys_updated_on>
+        <timeline_page/>
+        <title>Skills</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>sys_app_module_0f2caa293bec8750a154031f23e45a13</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Skills</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_kp101_kpmg_res_0_skills</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_kp101_kpmg_res_0.skills_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>rpcaparas@kpmg.com</sys_created_by><sys_created_on>2026-04-29 14:06:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0f2caa293bec8750a154031f23e45a13</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Skills</sys_name><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>sys_app_module_0f2caa293bec8750a154031f23e45a13</sys_update_name><sys_updated_by>rpcaparas@kpmg.com</sys_updated_by><sys_updated_on>2026-04-29 14:06:48</sys_updated_on><timeline_page/><title>Skills</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-822588318</payload_hash>
+        <record_name>Skills</record_name>
+        <reverted_from/>
+        <source>4b70fd6f2b988bd0a0e0f76a6e91bfad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-06 04:04:28</sys_created_on>
+        <sys_id>8475a8f72b24039ca0e0f76a6e91bf53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dfb7567190000001</sys_recorded_at>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-06 04:04:28</sys_updated_on>
+        <type>Module</type>
+        <update_guid>cc75a8f77524039cfb0e533c269b6d52</update_guid>
+        <update_guid_history>cc75a8f77524039cfb0e533c269b6d52:0,432caa29beec8750096fe7a269aa0f17:-705769053</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Skills">94c660b32b64039ca0e0f76a6e91bfe2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rpcaparas@kpmg.com</sys_created_by>
+        <sys_created_on>2026-05-06 04:10:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2fb8dab046744498928466c1cd25b9a4</sys_id>
+        <sys_metadata>0f2caa293bec8750a154031f23e45a13</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skills</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>sys_app_module_0f2caa293bec8750a154031f23e45a13</sys_update_name>
+        <sys_update_version display_value="sys_app_module_0f2caa293bec8750a154031f23e45a13">8475a8f72b24039ca0e0f76a6e91bf53</sys_update_version>
+        <sys_updated_by>rpcaparas@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-06 04:10:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

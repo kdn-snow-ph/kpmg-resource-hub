@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="693610e52b288718a0e0f76a6e91bf3b" label="User Project Assignment" max_length="40" name="x_kp101_kpmg_res_0_user_project_assignment" type="collection">
-        <element label="User" max_length="32" name="user" reference="x_kp101_kpmg_res_0_resource_profile" type="reference"/>
+    <element db_object_id="693610e52b288718a0e0f76a6e91bf3b" label="Resource Project Assignment" max_length="40" name="x_kp101_kpmg_res_0_user_project_assignment" type="collection">
+        <element label="Resource" max_length="32" name="user" reference="x_kp101_kpmg_res_0_resource_profile" type="reference"/>
         <element label="Start date" max_length="40" name="start_date" type="glide_date"/>
         <element choice="1" label="Role" max_length="40" name="role" type="choice">
             <choice>
@@ -16,6 +16,14 @@
         <element label="Remarks" max_length="4000" name="remarks" type="string"/>
         <element label="End date" max_length="40" name="end_date" type="glide_date"/>
         <element label="Project assignment" max_length="32" name="project_assignment" reference="x_kp101_kpmg_res_0_project_assignment" type="reference"/>
+        <element choice="3" label="Deployment status" max_length="40" name="deployment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive="true" inactive_on_update="true" label="Rolled Off" sequence="3" value="rolled_off"/>
+                <element inactive_on_update="false" label="Planned" sequence="1" value="planned"/>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="project_assignment"/>
         </index>

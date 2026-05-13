@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="497aaa253bac8750a154031f23e45ae8" label="Skills" max_length="40" name="x_kp101_kpmg_res_0_skills" type="collection">
+        <element active="false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Active" max_length="40" name="active" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Category" max_length="100" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Delivery &amp; Project Execution" sequence="300" value="delivery_project_exec"/>
+                <element inactive_on_update="false" label="Platform Administration &amp; Configuration" sequence="900" value="platform_admin_config"/>
+                <element inactive_on_update="false" label="Integration &amp; Automation" sequence="600" value="integration_automation"/>
+                <element inactive_on_update="false" label="Reporting &amp; Analytics" sequence="1000" value="reporting_analytics"/>
+                <element inactive_on_update="false" label="Architecture &amp; Solution Design" sequence="100" value="arch_solution_design"/>
+                <element inactive_on_update="false" label="Development &amp; Engineering" sequence="400" value="development_engineering"/>
+                <element inactive_on_update="false" label="Leadership &amp; People Management" sequence="700" value="lead_people_management"/>
+                <element inactive_on_update="false" label="Stakeholder &amp; Business Engagement" sequence="1100" value="stakeholder_bus_engagement"/>
+                <element inactive_on_update="false" label="Governance, Risk &amp; Compliance" sequence="500" value="govern_risk_compliance"/>
+                <element inactive_on_update="false" label="Operations &amp; Support" sequence="800" value="ops_supp"/>
+                <element inactive_on_update="false" label="Core Platform &amp; Modules" sequence="200" value="core_platform_modules"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Description" max_length="200" name="description" type="string"/>
+        <element active="false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="User" max_length="32" name="user" reference="x_kp101_kpmg_res_0_resource_profile" type="reference"/>
+        <element label="Name" mandatory="true" max_length="100" name="name" primary="true" type="string"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1b1c542f3ba88754a154031f23e45ae1" label="Resource Profile Summary" max_length="40" name="x_kp101_kpmg_res_0_resource_profile_summary" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Resource" max_length="32" name="resource" reference="x_kp101_kpmg_res_0_resource_profile" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Certificates" max_length="4000" name="certificates" reference="x_kp101_kpmg_res_0_certificate" type="glide_list"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Projects" max_length="4000" name="projects" reference="x_kp101_kpmg_res_0_project_assignment" type="glide_list"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Industry Experience" max_length="4000" name="industry_experience" reference="x_kp101_kpmg_res_0_sector" type="glide_list"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Skills" max_length="4000" name="skills" reference="x_kp101_kpmg_res_0_skills" type="glide_list"/>
+        <index name="index">
+            <element name="resource"/>
+        </index>
+    </element>
+</database>

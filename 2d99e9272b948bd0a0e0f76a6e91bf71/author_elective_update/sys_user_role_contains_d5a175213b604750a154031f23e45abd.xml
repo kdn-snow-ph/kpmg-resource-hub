@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="x_kp101_kpmg_res_0.resource_profile_user" name="x_kp101_kpmg_res_0.resource_profile_user">4c4105212b640b18a0e0f76a6e91bff3</contains>
+        <role display_value="x_kp101_kpmg_res_0.resource_profile_admin" name="x_kp101_kpmg_res_0.resource_profile_admin">73c04d2d2b240b18a0e0f76a6e91bf28</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-04-29 09:51:05</sys_created_on>
+        <sys_id>d5a175213b604750a154031f23e45abd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_kp101_kpmg_res_0.resource_profile_user.x_kp101_kpmg_res_0.resource_profile_admin</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_user_role_contains_d5a175213b604750a154031f23e45abd</sys_update_name>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-04-29 09:51:05</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>sys_user_role_contains_d5a175213b604750a154031f23e45abd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="x_kp101_kpmg_res_0.resource_profile_user" name="x_kp101_kpmg_res_0.resource_profile_user">4c4105212b640b18a0e0f76a6e91bff3</contains><role display_value="x_kp101_kpmg_res_0.resource_profile_admin" name="x_kp101_kpmg_res_0.resource_profile_admin">73c04d2d2b240b18a0e0f76a6e91bf28</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>mdcadag</sys_created_by><sys_created_on>2026-04-29 09:51:05</sys_created_on><sys_id>d5a175213b604750a154031f23e45abd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_kp101_kpmg_res_0.resource_profile_user.x_kp101_kpmg_res_0.resource_profile_admin</sys_name><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>sys_user_role_contains_d5a175213b604750a154031f23e45abd</sys_update_name><sys_updated_by>mdcadag</sys_updated_by><sys_updated_on>2026-04-29 09:51:05</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-2114533178</payload_hash>
+        <record_name>x_kp101_kpmg_res_0.resource_profile_user.x_kp101_kpmg_res_0.resource_profile_admin</record_name>
+        <reverted_from/>
+        <source>4b70fd6f2b988bd0a0e0f76a6e91bfad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-04-29 09:51:06</sys_created_on>
+        <sys_id>15a1f5213b604750a154031f23e45a17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dd8a63b990000001</sys_recorded_at>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-04-29 09:51:06</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>91a1f521456047507e1a85931d936316</update_guid>
+        <update_guid_history>91a1f521456047507e1a85931d936316:-2114533178</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-13 03:56:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>9de9e40947404fbc8a405599250c6d99</sys_id>
+        <sys_metadata>d5a175213b604750a154031f23e45abd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_kp101_kpmg_res_0.resource_profile_user.x_kp101_kpmg_res_0.resource_profile_admin</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_d5a175213b604750a154031f23e45abd</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_d5a175213b604750a154031f23e45abd">15a1f5213b604750a154031f23e45a17</sys_update_version>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-13 03:56:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

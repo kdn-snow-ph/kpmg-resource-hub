@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>end_date</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-04-30 02:49:41</sys_created_on>
+        <sys_id>6bba1d713b6c0f50a154031f23e45acd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>end_date</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_ui_policy_action_6bba1d713b6c0f50a154031f23e45acd</sys_update_name>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-11 07:38:01</sys_updated_on>
+        <table>x_kp101_kpmg_res_0_user_project_assignment</table>
+        <ui_policy display_value="Make end date mandatory when start date is not empty">006a15fd3b2c0f50a154031f23e45af1</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=6bba1d713b6c0f50a154031f23e45acd"/>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>true</can_share>
+        <can_write>true</can_write>
+        <dashboard display_value="Certification and Skills Dashboard (Draft) - Copy">3d06a6872be4c71ca0e0f76a6e91bfc5</dashboard>
+        <group/>
+        <owner>true</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-04 05:30:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d06e6872be4c71ca0e0f76a6e91bf0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3d06a6872be4c71ca0e0f76a6e91bfc5</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_permission_3d06e6872be4c71ca0e0f76a6e91bf0a</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-04 05:30:51</sys_updated_on>
+        <user display_value="Justin James Gonzales">0941d9932beffe906543ffb86e91bf38</user>
+    </par_dashboard_permission>
+</record_update>

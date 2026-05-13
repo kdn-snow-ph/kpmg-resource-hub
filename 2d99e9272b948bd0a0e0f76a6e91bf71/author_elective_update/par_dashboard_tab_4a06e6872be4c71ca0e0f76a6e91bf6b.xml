@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="DELETE">
+        <active>true</active>
+        <background_color/>
+        <dashboard display_value="Certification and Skills Dashboard (Draft) - Copy">3d06a6872be4c71ca0e0f76a6e91bfc5</dashboard>
+        <name>New Tab 126</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-04 05:30:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a06e6872be4c71ca0e0f76a6e91bf6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 126</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_tab_4a06e6872be4c71ca0e0f76a6e91bf6b</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-04 05:30:52</sys_updated_on>
+    </par_dashboard_tab>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>par_dashboard_tab_4a06e6872be4c71ca0e0f76a6e91bf6b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab"><par_dashboard_tab action="INSERT_OR_UPDATE"><active>true</active><background_color/><dashboard display_value="Certification and Skills Dashboard (Draft) - Copy">3d06a6872be4c71ca0e0f76a6e91bfc5</dashboard><name>New Tab 126</name><order>0</order><sys_class_name>par_dashboard_tab</sys_class_name><sys_created_by>jdgonzales1</sys_created_by><sys_created_on>2026-05-04 05:30:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4a06e6872be4c71ca0e0f76a6e91bf6b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Tab 126</sys_name><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>par_dashboard_tab_4a06e6872be4c71ca0e0f76a6e91bf6b</sys_update_name><sys_updated_by>jdgonzales1</sys_updated_by><sys_updated_on>2026-05-04 05:30:52</sys_updated_on></par_dashboard_tab></record_update>]]></payload>
+        <payload_hash>683271378</payload_hash>
+        <record_name>New Tab 126</record_name>
+        <reverted_from/>
+        <source>53e6be342be0cf94a0e0f76a6e91bff2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-04 05:30:52</sys_created_on>
+        <sys_id>4606e6872be4c71ca0e0f76a6e91bf6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19df177c83a0000001</sys_recorded_at>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-04 05:30:52</sys_updated_on>
+        <type>PAR Dashboard Tab</type>
+        <update_guid>8206e687e7e4c71ceba03ef8711bd56e</update_guid>
+        <update_guid_history>8206e687e7e4c71ceba03ef8711bd56e:683271378</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New Tab 126">72062a872be4c71ca0e0f76a6e91bfb7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-04 05:30:55</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_tab">par_dashboard_tab</sys_db_object>
+        <sys_id>0048a09209c941da800b86c9df2e9624</sys_id>
+        <sys_metadata>4a06e6872be4c71ca0e0f76a6e91bf6b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 126</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>par_dashboard_tab_4a06e6872be4c71ca0e0f76a6e91bf6b</sys_update_name>
+        <sys_update_version display_value="par_dashboard_tab_4a06e6872be4c71ca0e0f76a6e91bf6b">4606e6872be4c71ca0e0f76a6e91bf6f</sys_update_version>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-04 05:30:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="ServiceNow Cert Report Transform Map">7e86f14f3b600b14a154031f23e45a9f</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    //Process Certificate first
+    var certName = source.u_certification;
+    var certType = source.u_certification_type;
+    certType = certType.toString().toLowerCase();
+    certType = certType.charAt(0).toUpperCase() + certType.slice(1);
+
+    // Check if certificate already exists
+    var certGR = new GlideRecord('x_kp101_kpmg_res_0_certificate');
+    certGR.addQuery('name', certName);
+    certGR.query();
+
+    if (!certGR.next()) {
+        // Create new certificate record
+        var newCert = new GlideRecord('x_kp101_kpmg_res_0_certificate');
+        newCert.initialize();
+        newCert.name = certName;
+        newCert.type = certType; // make sure field name is correct
+        var points = 0;
+        if (certType == "Micro" || certType == "Suite") {
+            points = 50;
+        } else if (certType == "Accreditation") {
+            points = 100;
+        }
+        newCert.points = points;
+        newCert.insert();
+    }
+
+
+
+
+    var userEmail = source.u_user_email;
+
+    if (!userEmail || source.u_certification_status != "current") {
+        ignore = true;
+        return;
+    }
+
+
+    var certUserGR = new GlideRecord('x_kp101_kpmg_res_0_resource_profile');
+    certUserGR.addQuery('resource_name.email', userEmail);
+    certUserGR.query();
+
+    // If no matching record → skip this row
+    if (!certUserGR.hasNext()) {
+        ignore = true;
+    }
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-04 02:08:01</sys_created_on>
+        <sys_id>f887b1473ba00b14a154031f23e45a25</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_transform_script_f887b1473ba00b14a154031f23e45a25</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-04 02:11:14</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="57fd3d0f3b640b14a154031f23e45ad7" extends="sys_import_set_row" label="Imp Tmpl X Kp101 Kpmg Res 0 Industry Experience" max_length="40" name="u_imp_tmpl_x_kp101_kpmg_res_0_industry_experience" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sector" label="Sector" max_length="40" name="u_sector" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Years of Experience" label="Years of Experience" max_length="40" name="u_years_of_experience" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Resource" label="Resource" max_length="32" name="u_resource" type="string"/>
+    </element>
+</database>

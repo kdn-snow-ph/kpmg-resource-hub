@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="68fc45882b30cb9ca0e0f76a6e91bfa5" extends="sys_import_set_row" label="Imp Tmpl X Kp101 Kpmg Res 0 Sector" max_length="40" name="u_imp_tmpl_x_kp101_kpmg_res_0_sector" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+    </element>
+</database>

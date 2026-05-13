@@ -41,7 +41,7 @@
         <update_guid_history>4c23e7bc2c648fdc723ac32e5029b3d4:492708860</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_kp101_kpmg_res_0_project_assignment.x_kp101_kpmg_res_0.user">574e44212be08718a0e0f76a6e91bf22</sys_audit_delete>
+        <sys_audit_delete display_value="">574e44212be08718a0e0f76a6e91bf22</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>mdcadag</sys_created_by>
         <sys_created_on>2026-04-29 02:37:03</sys_created_on>

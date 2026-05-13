@@ -8,10 +8,12 @@
                 <element inactive_on_update="false" label="KDN Audit" sequence="0" value="kdn_audit"/>
             </choice>
         </element>
-        <element choice="3" default="active" label="Status" max_length="40" name="status" type="choice">
+        <element choice="3" default="active" label="Project status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
-                <element inactive_on_update="false" label="Inactive" sequence="1" value="inactive"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+                <element inactive_on_update="false" label="Planned" sequence="1" value="planned"/>
             </choice>
         </element>
         <element label="Name" max_length="100" name="name" type="string"/>

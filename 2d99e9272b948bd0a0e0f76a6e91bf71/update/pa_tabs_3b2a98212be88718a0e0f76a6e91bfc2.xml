@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="New Tab 2">7f2a98212be88718a0e0f76a6e91bfbc</canvas_page>
+        <name>3b2a98212be88718a0e0f76a6e91bfc2Overview</name>
+        <page display_value="Overview">3f2adced2ba88718a0e0f76a6e91bfbd</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-04-29 03:28:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3b2a98212be88718a0e0f76a6e91bfc2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>3b2a98212be88718a0e0f76a6e91bfc2Overview</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>pa_tabs_3b2a98212be88718a0e0f76a6e91bfc2</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-04-29 03:30:23</sys_updated_on>
+    </pa_tabs>
+</record_update>

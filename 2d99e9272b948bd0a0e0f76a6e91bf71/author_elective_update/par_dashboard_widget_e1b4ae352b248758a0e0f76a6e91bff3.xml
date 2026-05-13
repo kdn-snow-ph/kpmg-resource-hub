@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">ce3f48e92be08718a0e0f76a6e91bfd4</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":false,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfaW5kdXN0cnlfZXhwZXJpZW5jZTE3Nzc4NjUwMDQ3MzY=","groupByField":"sector","isRange":false,"isChoice":true,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false}],"sortBy":null,"sortByOrder":"desc","followFilters":false,"showFilterIcon":false,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"componentId":"g58hhzmm","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","filterConfigurations":"@state.parFilters","columns":null,"table":"x_kp101_kpmg_res_0_industry_experience","groupByField":"sector","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"headerTitle":"Industry/Sector","showBorder":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Industry Experience","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_industry_experience","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfaW5kdXN0cnlfZXhwZXJpZW5jZTE3Nzc4NjUwMDQ3MzY=","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false}</component_props>
+        <h>23</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-04-30 08:12:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1b4ae352b248758a0e0f76a6e91bff3</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_widget_e1b4ae352b248758a0e0f76a6e91bff3</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-05 06:19:12</sys_updated_on>
+        <visualization/>
+        <w>40</w>
+        <widget_props/>
+        <x>4</x>
+        <y>96</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>par_dashboard_widget_e1b4ae352b248758a0e0f76a6e91bff3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">ce3f48e92be08718a0e0f76a6e91bfd4</canvas><component display_value="List">7ff373544303121093711347efb8f23c</component><component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":false,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfaW5kdXN0cnlfZXhwZXJpZW5jZTE3Nzc4NjUwMDQ3MzY=","groupByField":"sector","isRange":false,"isChoice":true,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false}],"sortBy":null,"sortByOrder":"desc","followFilters":false,"showFilterIcon":false,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"componentId":"g58hhzmm","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","filterConfigurations":"@state.parFilters","columns":null,"table":"x_kp101_kpmg_res_0_industry_experience","groupByField":"sector","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"headerTitle":"Industry/Sector","showBorder":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Industry Experience","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_industry_experience","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfaW5kdXN0cnlfZXhwZXJpZW5jZTE3Nzc4NjUwMDQ3MzY=","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false}</component_props><h>23</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ifnavarro</sys_created_by><sys_created_on>2026-04-30 08:12:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e1b4ae352b248758a0e0f76a6e91bff3</sys_id><sys_mod_count>27</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>par_dashboard_widget_e1b4ae352b248758a0e0f76a6e91bff3</sys_update_name><sys_updated_by>ifnavarro</sys_updated_by><sys_updated_on>2026-05-05 06:19:12</sys_updated_on><visualization/><w>40</w><widget_props/><x>4</x><y>96</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>885080417</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cb5a60193b684b10a154031f23e45aaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-05 06:19:12</sys_created_on>
+        <sys_id>40baf35f3be44754a154031f23e45afa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19df6ca66df0000001</sys_recorded_at>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-05 06:19:12</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>0cbaf35f37e447548346984459c056f8</update_guid>
+        <update_guid_history>0cbaf35f37e447548346984459c056f8:885080417,45f97b575fe447540826868d83676aba:-139613504,0589bb13b7e44754eb58d83257b97ce4:231884432,44729bd7c3600754eb8354bac9c239da:-1449292841,9b6e4f5710ecc35472b79a7f2cc8848b:1668524783,524c8f5354acc35484b14c02ff6773bb:-1449292841,0cd90f9ba52cc3541d8d0fe03e04507a:-754998984,0b3883cf90a80b1c1726dada0622f2f3:1315637026,e0b1cf83bfe40b1cd9a334fde96caf72:1490580470,46ba324366e00b1c9c69815a999e4b2a:-1779692905,56efae873c6cc71c6b86c7e6e7177e3b:600095001,11cf2a47366cc71c48fe53162d7302fe:1643036221,da5fea83b26cc71c9c4bf3f805ed1ccf:-1627237154,f57eaacb842cc71c6853a4d2bee5edda:1643036221,0e1a6ecbc868c71cc073eab00b89dab9:1490580470,6496260f8de4c71cea00178b7f297d7b:-1601748592,c416ee8731e4c71c90717115f355c221:957579690,686a068b8b24871cf0a4325443a6f511:1982273611,53f806030c24871c5dfc46c87d6f1295:-67114231,e0c2828b35ec471c8490d0c63f3e20c2:1465096835,6a6dfd0f4ae8471c9d470b87ff1c9108:-1528866258,87bb35cbdda8471c43dc6b91e5eebdc1:1741407117,3e6b310b1fa8471c212dc4690ab86a8f:-848117817,f828b54bf928471c65f71e0a12ad1ade:-4351275,507cfe3122e0c7589c8d1e1dd1e6fa42:736679312,0ddbf2f960a0c758863784d2a34eabd3:1605909784,a3f73ab9e620c75852f1b658da2196b2:-639669670,25b4ae35082487588b04228a59b601f5:-2053739117</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">06f918a72be8475ca0e0f76a6e91bfd2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-05 08:35:53</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>16577dd14ffc45aa89229977cee412a4</sys_id>
+        <sys_metadata>e1b4ae352b248758a0e0f76a6e91bff3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_e1b4ae352b248758a0e0f76a6e91bff3</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_e1b4ae352b248758a0e0f76a6e91bff3">40baf35f3be44754a154031f23e45afa</sys_update_version>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-05 08:35:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

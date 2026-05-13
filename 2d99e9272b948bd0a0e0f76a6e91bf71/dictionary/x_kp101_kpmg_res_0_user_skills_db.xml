@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9715c4eb2b2c075ca0e0f76a6e91bfb7" extends="sys_import_set_row" label="User skills DB" max_length="40" name="x_kp101_kpmg_res_0_user_skills_db" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Raw Skill" label="Raw Skill" max_length="109" name="u_raw_skill" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Matched Skill" label="Matched Skill" max_length="51" name="u_matched_skill" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="DELETE">
+        <active>false</active>
+        <base_dashboard/>
+        <certified>false</certified>
+        <description/>
+        <experience/>
+        <grid>48</grid>
+        <name>Certificates and Skills Dashboard</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-04-29 03:25:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e0d1523493dad7f41d66bed060e152b8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Certificates and Skills Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_e0d1523493dad7f41d66bed060e152b8</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-04-29 08:46:28</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>par_dashboard_e0d1523493dad7f41d66bed060e152b8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard"><par_dashboard action="INSERT_OR_UPDATE"><active>false</active><base_dashboard/><certified>false</certified><description/><experience/><grid>48</grid><name>Certificates and Skills Dashboard</name><sys_class_name>par_dashboard</sys_class_name><sys_created_by>ifnavarro</sys_created_by><sys_created_on>2026-04-29 03:25:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e0d1523493dad7f41d66bed060e152b8</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Certificates and Skills Dashboard</sys_name><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>par_dashboard_e0d1523493dad7f41d66bed060e152b8</sys_update_name><sys_updated_by>ifnavarro</sys_updated_by><sys_updated_on>2026-04-29 08:46:28</sys_updated_on><sys_ux_app_config/><sys_ux_app_route/><sys_ux_macroponent/><sys_ux_screen/><sys_ux_screen_type/></par_dashboard></record_update>]]></payload>
+        <payload_hash>-1994464736</payload_hash>
+        <record_name>Certificates and Skills Dashboard</record_name>
+        <reverted_from/>
+        <source>cb5a60193b684b10a154031f23e45aaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-04-29 08:46:28</sys_created_on>
+        <sys_id>ead2652d2b684b18a0e0f76a6e91bfbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dd86b10c60000001</sys_recorded_at>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-04-29 08:46:28</sys_updated_on>
+        <type>PAR Dashboard</type>
+        <update_guid>aad2652d5d684b185aa1debdf67d79ba</update_guid>
+        <update_guid_history>aad2652d5d684b185aa1debdf67d79ba:-1994464736,22d2652ddb684b18ad68683cc97bfdb6:1699217052</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Certificates and Skills Dashboard">d95569252be84b18a0e0f76a6e91bf79</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-04-29 08:57:19</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard">par_dashboard</sys_db_object>
+        <sys_id>afe12551584e4ea78c36615ac1374751</sys_id>
+        <sys_metadata>e0d1523493dad7f41d66bed060e152b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificates and Skills Dashboard</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>par_dashboard_e0d1523493dad7f41d66bed060e152b8</sys_update_name>
+        <sys_update_version display_value="par_dashboard_e0d1523493dad7f41d66bed060e152b8">ead2652d2b684b18a0e0f76a6e91bfbb</sys_update_version>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-04-29 08:57:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

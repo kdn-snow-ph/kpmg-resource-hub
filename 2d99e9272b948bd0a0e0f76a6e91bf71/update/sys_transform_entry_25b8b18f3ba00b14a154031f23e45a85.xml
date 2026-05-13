@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="ServiceNow Cert Report Transform Map">7e86f14f3b600b14a154031f23e45a9f</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+    var userEmail = source.u_user_email;
+
+    var userGR = new GlideRecord('sys_user');
+    userGR.addQuery('email', userEmail); // or 'email' if needed
+    userGR.query();
+
+    if (userGR.next()) {
+        //return userGR.sys_id; 
+        var resourceGR = new GlideRecord('x_kp101_kpmg_res_0_resource_profile');
+        resourceGR.addQuery('resource_name', userGR.sys_id);
+        resourceGR.query();
+        if (resourceGR.next()) {
+            return resourceGR.sys_id;
+        } else {
+            ignore = true;
+            return;
+        }
+    } else {
+        ignore = true;
+        return;
+    }
+
+})(source);]]></source_script>
+        <source_table>x_kp101_kpmg_res_0_servicenow_report_staging</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-04 02:13:28</sys_created_on>
+        <sys_id>25b8b18f3ba00b14a154031f23e45a85</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_transform_entry_25b8b18f3ba00b14a154031f23e45a85</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-11 13:53:38</sys_updated_on>
+        <target_field>resource</target_field>
+        <target_table>x_kp101_kpmg_res_0_user_certification</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>25b8b18f3ba00b14a154031f23e45a85</id>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-04 02:13:27</sys_created_on>
+        <sys_id>56d8b1cf3ba00b14a154031f23e45aaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-04 02:13:27</sys_updated_on>
+        <table>sys_transform_entry</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

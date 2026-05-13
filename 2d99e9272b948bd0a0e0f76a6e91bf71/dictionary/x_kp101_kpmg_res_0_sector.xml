@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4988c1082b7c8b9ca0e0f76a6e91bfa6" label="Sector" max_length="40" name="x_kp101_kpmg_res_0_sector" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+    </element>
+</database>
