@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_kp101_kpmg_res_0_user_project_assignment</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update resource status</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	if(!current.user) return;
+
+	var resource = current.user;
+
+	var profileGR = new GlideRecord('x_kp101_kpmg_res_0_resource_profile');
+	if(!profileGR.get(resource)) return;
+
+	var projectGR = new GlideRecord('x_kp101_kpmg_res_0_user_project_assignment');
+		projectGR.addQuery('user', resource);
+		projectGR.addQuery('deployment_status', 'active');
+		projectGR.query();
+
+		if(projectGR.hasNext()){
+
+			if(profileGR.deployment_status != 'deployed') {
+				profileGR.deployment_status = 'deployed';
+				profileGR.update();
+			}
+		} else {
+
+			if(profileGR.deployment_status == 'deployed'){
+				profileGR.deployment_status = 'bench_training';
+				profileGR.update();
+			}
+		}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-04-30 03:32:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a81e9f13b604f50a154031f23e45a7c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Update resource status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_script_6a81e9f13b604f50a154031f23e45a7c</sys_update_name>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-04-30 04:22:53</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=6a81e9f13b604f50a154031f23e45a7c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>sys_script_6a81e9f13b604f50a154031f23e45a7c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_kp101_kpmg_res_0_user_project_assignment&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Update resource status&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	if(!current.user) return;
+
+	var resource = current.user;
+
+	var profileGR = new GlideRecord('x_kp101_kpmg_res_0_resource_profile');
+	if(!profileGR.get(resource)) return;
+
+	var projectGR = new GlideRecord('x_kp101_kpmg_res_0_user_project_assignment');
+		projectGR.addQuery('user', resource);
+		projectGR.addQuery('deployment_status', 'active');
+		projectGR.query();
+
+		if(projectGR.hasNext()){
+
+			if(profileGR.deployment_status != 'deployed') {
+				profileGR.deployment_status = 'deployed';
+				profileGR.update();
+			}
+		} else {
+
+			if(profileGR.deployment_status == 'deployed'){
+				profileGR.deployment_status = 'bench_training';
+				profileGR.update();
+			}
+		}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mdcadag&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-30 03:32:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6a81e9f13b604f50a154031f23e45a7c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update resource status&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0"&gt;2d99e9272b948bd0a0e0f76a6e91bf71&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="KPMG Resource Hub"&gt;2d99e9272b948bd0a0e0f76a6e91bf71&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_6a81e9f13b604f50a154031f23e45a7c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mdcadag&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-30 04:22:53&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6a81e9f13b604f50a154031f23e45a7c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-851535848</payload_hash>
+        <record_name>Update resource status</record_name>
+        <reverted_from/>
+        <source>4b70fd6f2b988bd0a0e0f76a6e91bfad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-04-30 04:22:53</sys_created_on>
+        <sys_id>931031b53b6c4f50a154031f23e45a90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ddca01a1e0000001</sys_recorded_at>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-04-30 04:22:53</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>1b1031b5596c4f50abef1e7b2624068e</update_guid>
+        <update_guid_history>1b1031b5596c4f50abef1e7b2624068e:-851535848,1c1f69f96b2c4f50eda3d3f56630af1d:-1178520822,2dfc2df11de84f50317c3aead4355c7d:1818311350,1c3861fdf1a44f50f2a894aa88fed41a:1059634845,7d85a93149644f507ef27dc9897ea1d2:-1879569391,0d8469b1ec244f507c02a4e797b661bc:-889647768</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-04-30 04:25:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>012cc0c2be084d608170c1e078c4e344</sys_id>
+        <sys_metadata>6a81e9f13b604f50a154031f23e45a7c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update resource status</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent display_value="Resource Project Assignment">693610e52b288718a0e0f76a6e91bf3b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>sys_script_6a81e9f13b604f50a154031f23e45a7c</sys_update_name>
+        <sys_update_version display_value="sys_script_6a81e9f13b604f50a154031f23e45a7c">931031b53b6c4f50a154031f23e45a90</sys_update_version>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-04-30 04:25:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

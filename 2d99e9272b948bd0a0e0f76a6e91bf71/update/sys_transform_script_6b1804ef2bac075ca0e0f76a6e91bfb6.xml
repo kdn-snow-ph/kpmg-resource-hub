@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="User skills transform map">732588eb2b2c075ca0e0f76a6e91bfe2</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+if (!source.u_matched_skill || source.u_matched_skill.trim() == '') {
+   ignore = true;
+   return;
+}
+
+
+var userGR = new GlideRecord('x_kp101_kpmg_res_0_resource_profile'); 
+userGR.addQuery('resource_name.name', source.u_name);
+userGR.query();
+if (!userGR.next()) {
+   ignore = true;
+   gs.info("User not found: " + source.u_name);
+   return;
+}
+
+var skillGR = new GlideRecord('x_kp101_kpmg_res_0_skills');
+skillGR.addQuery('name', source.u_matched_skill);
+skillGR.query();
+if (!skillGR.next()) {
+   ignore = true;
+   gs.info("Skill not found: " + source.u_matched_skill);
+   return;
+}
+var dupCheck = new GlideRecord('x_kp101_kpmg_res_0_user_skill');
+dupCheck.addQuery('user', userGR.sys_id);
+dupCheck.addQuery('skill', skillGR.sys_id);
+dupCheck.query();
+if (dupCheck.hasNext()) {
+   ignore = true;
+   return;
+}
+
+target.user = userGR.sys_id;
+target.skill = skillGR.sys_id;
+
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-05 07:21:34</sys_created_on>
+        <sys_id>6b1804ef2bac075ca0e0f76a6e91bfb6</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_transform_script_6b1804ef2bac075ca0e0f76a6e91bfb6</sys_update_name>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-05 09:27:22</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

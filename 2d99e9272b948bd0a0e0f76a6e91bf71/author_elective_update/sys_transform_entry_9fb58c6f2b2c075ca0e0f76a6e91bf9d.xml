@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="User skills transform map">732588eb2b2c075ca0e0f76a6e91bfe2</map>
+        <reference_value_field/>
+        <source_field>u_name</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_kp101_kpmg_res_0_user_skills_db</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-05 07:07:29</sys_created_on>
+        <sys_id>9fb58c6f2b2c075ca0e0f76a6e91bf9d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>u_name</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_transform_entry_9fb58c6f2b2c075ca0e0f76a6e91bf9d</sys_update_name>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-05 08:43:41</sys_updated_on>
+        <target_field>user</target_field>
+        <target_table>x_kp101_kpmg_res_0_user_skill</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>sys_transform_entry_9fb58c6f2b2c075ca0e0f76a6e91bf9d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="User skills transform map"&gt;732588eb2b2c075ca0e0f76a6e91bfe2&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_name&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_kp101_kpmg_res_0_user_skills_db&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mdcadag&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-05 07:07:29&lt;/sys_created_on&gt;&lt;sys_id&gt;9fb58c6f2b2c075ca0e0f76a6e91bf9d&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_name&lt;/sys_name&gt;&lt;sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0"&gt;2d99e9272b948bd0a0e0f76a6e91bf71&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="KPMG Resource Hub"&gt;2d99e9272b948bd0a0e0f76a6e91bf71&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_9fb58c6f2b2c075ca0e0f76a6e91bf9d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mdcadag&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-05 08:43:41&lt;/sys_updated_on&gt;&lt;target_field&gt;user&lt;/target_field&gt;&lt;target_table&gt;x_kp101_kpmg_res_0_user_skill&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1993183354</payload_hash>
+        <record_name>u_name</record_name>
+        <reverted_from/>
+        <source>4b70fd6f2b988bd0a0e0f76a6e91bfad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-05 08:43:41</sys_created_on>
+        <sys_id>54cb9c2f2b2c475ca0e0f76a6e91bfcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19df74eadb40000001</sys_recorded_at>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-05 08:43:41</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>10cb9c2ff62c475cef5df4cd926746ce</update_guid>
+        <update_guid_history>10cb9c2ff62c475cef5df4cd926746ce:-1993183354,2f13d0a7e9a4475c9195ae82cf531267:-900921056,511e00eb83a0475ca10f8cb443fd1da1:-1993183354,801a88278220475c3ee86e4ba0e837ef:-900921056,d7b5c4efc92c075cdedb3615c15ac704:-1993183354</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-05 09:15:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>13d7dd2ef3d548cc857d14247fd01324</sys_id>
+        <sys_metadata>9fb58c6f2b2c075ca0e0f76a6e91bf9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_name</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_9fb58c6f2b2c075ca0e0f76a6e91bf9d</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_9fb58c6f2b2c075ca0e0f76a6e91bf9d">54cb9c2f2b2c475ca0e0f76a6e91bfcf</sys_update_version>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-05 09:15:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

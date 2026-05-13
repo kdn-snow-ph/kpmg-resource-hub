@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Skills">0b2caa293bec8750a154031f23e45a19</application>
+        <filter/>
+        <name>Skills</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_kp101_kpmg_res_0.skills_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>rpcaparas@kpmg.com</sys_created_by>
+        <sys_created_on>2026-04-29 14:06:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b2caa293bec8750a154031f23e45a44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skills</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_ui_module_0b2caa293bec8750a154031f23e45a44</sys_update_name>
+        <sys_updated_by>rpcaparas@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-04-29 14:06:48</sys_updated_on>
+        <table>x_kp101_kpmg_res_0_skills</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

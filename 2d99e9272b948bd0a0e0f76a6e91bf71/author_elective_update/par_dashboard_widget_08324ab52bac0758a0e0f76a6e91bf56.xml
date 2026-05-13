@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">ce3f48e92be08718a0e0f76a6e91bfd4</canvas>
+        <component display_value="Line">18ac962264404bcc0039359d184b15f3</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":false,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","chartVariation":"stacked","extensionType":"line","showContinuousLine":true,"showMarkers":false,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"User Certification","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_user_certification","filterQuery":"certificate.subtype=Mainline^date_taken&gt;=javascript:gs.dateGenerate('2026-03-01','00:00:00')^ORdate_renewed&gt;=javascript:gs.dateGenerate('2026-03-01','00:00:00')","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUyMDQ4NDk0Nw==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"Mainline Certificates Earned Over Time","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":true,"metrics":[{"dataSource":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUyMDQ4NDk0Nw==","id":"ZEdGaWJHVjRYMnR3TVRBeFgydHdiV2RmY21Welh6QmZkWE5sY2w5alpYSjBhV1pwWTJGMGFXOXVNVGMzTnpVeU1EUTRORGswTnc9PTE3Nzc1MjA0ODU3MzY=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"filterPerMetric":[],"sortBy":"","sortByOrder":"","trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"date_renewed","metric":"ZEdGaWJHVjRYMnR3TVRBeFgydHdiV2RmY21Welh6QmZkWE5sY2w5alpYSjBhV1pwWTJGMGFXOXVNVGMzTnpVeU1EUTRORGswTnc9PTE3Nzc1MjA0ODU3MzY="}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":false,"showFilterIcon":false,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"b420exo2","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"useCurrentDateForEnd":false,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","colors":{},"forecastConfig":{"ZEdGaWJHVjRYMnR3TVRBeFgydHdiV2RmY21Welh6QmZkWE5sY2w5alpYSjBhV1pwWTJGMGFXOXVNVGMzTnpVeU1EUTRORGswTnc9PTE3Nzc1MjA0ODU3MzY=":{"periodsToForecast":"2","forecastBasedOn":{"id":"1","value":"ALL_SCORES"},"forecastMethod":{"id":"1","value":"AUTO"}}},"headerColor":{"themeVariable":"","value":"#032d42"},"titleColor":{"themeVariable":"","value":"#93e1c6"}}</component_props>
+        <h>13</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-04-30 05:41:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>08324ab52bac0758a0e0f76a6e91bf56</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_widget_08324ab52bac0758a0e0f76a6e91bf56</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-06 02:01:28</sys_updated_on>
+        <visualization/>
+        <w>21</w>
+        <widget_props/>
+        <x>2</x>
+        <y>50</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>par_dashboard_widget_08324ab52bac0758a0e0f76a6e91bf56</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">ce3f48e92be08718a0e0f76a6e91bfd4</canvas><component display_value="Line">18ac962264404bcc0039359d184b15f3</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":false,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","chartVariation":"stacked","extensionType":"line","showContinuousLine":true,"showMarkers":false,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"User Certification","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_user_certification","filterQuery":"certificate.subtype=Mainline^date_taken&gt;=javascript:gs.dateGenerate('2026-03-01','00:00:00')^ORdate_renewed&gt;=javascript:gs.dateGenerate('2026-03-01','00:00:00')","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUyMDQ4NDk0Nw==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"Mainline Certificates Earned Over Time","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":true,"metrics":[{"dataSource":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUyMDQ4NDk0Nw==","id":"ZEdGaWJHVjRYMnR3TVRBeFgydHdiV2RmY21Welh6QmZkWE5sY2w5alpYSjBhV1pwWTJGMGFXOXVNVGMzTnpVeU1EUTRORGswTnc9PTE3Nzc1MjA0ODU3MzY=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"filterPerMetric":[],"sortBy":"","sortByOrder":"","trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"date_renewed","metric":"ZEdGaWJHVjRYMnR3TVRBeFgydHdiV2RmY21Welh6QmZkWE5sY2w5alpYSjBhV1pwWTJGMGFXOXVNVGMzTnpVeU1EUTRORGswTnc9PTE3Nzc1MjA0ODU3MzY="}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":false,"showFilterIcon":false,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"b420exo2","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"useCurrentDateForEnd":false,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","colors":{},"forecastConfig":{"ZEdGaWJHVjRYMnR3TVRBeFgydHdiV2RmY21Welh6QmZkWE5sY2w5alpYSjBhV1pwWTJGMGFXOXVNVGMzTnpVeU1EUTRORGswTnc9PTE3Nzc1MjA0ODU3MzY=":{"periodsToForecast":"2","forecastBasedOn":{"id":"1","value":"ALL_SCORES"},"forecastMethod":{"id":"1","value":"AUTO"}}},"headerColor":{"themeVariable":"","value":"#032d42"},"titleColor":{"themeVariable":"","value":"#93e1c6"}}</component_props><h>13</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ifnavarro</sys_created_by><sys_created_on>2026-04-30 05:41:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>08324ab52bac0758a0e0f76a6e91bf56</sys_id><sys_mod_count>23</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>par_dashboard_widget_08324ab52bac0758a0e0f76a6e91bf56</sys_update_name><sys_updated_by>ifnavarro</sys_updated_by><sys_updated_on>2026-05-06 02:01:28</sys_updated_on><visualization/><w>21</w><widget_props/><x>2</x><y>50</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-937448045</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cb5a60193b684b10a154031f23e45aaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-06 02:01:28</sys_created_on>
+        <sys_id>9e4948b73ba88f54a154031f23e45ab7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dfb04cb530000001</sys_recorded_at>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-06 02:01:28</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>5a4948b787a88f544da20ad2813cbcb6</update_guid>
+        <update_guid_history>5a4948b787a88f544da20ad2813cbcb6:-937448045,fb0afdabd0a44b5c361dca1ae0145f2c:-1496905515,d3c66c23a124875c2911d12206a04435:1631543565,9816686b86e0875cc237ff5e191d278c:-1791185561,f54564ef20a0875cdb176ff8ebd6a835:286151337,950328e76160875cf9e188033bd42808:-1763236505,58ec582f4f6c475c983265945c710b4c:1989018474,59f994a791e8475cfb0788ffeb624d82:-104105229,8e9bbb979f284754b098d3b7207d1d3d:-1764166414,f70b7b5328284754f99d7babfbea636f:1403586801,b8f97b57f5e44754ec9862b6e3bc284c:-1320265740,fc897b13d4e44754e55b218d0231bfd4:445458768,a23843cf56a80b1c8e7ff8544234fa2a:-448027570,d8b18f83a6e40b1c3af50108bb3cdbc6:1797551884,20bafe032ce00b1c4b37704501794636:1688387718,42ef6e87176cc71ca4de50a647ed5f45:-2004211021,49cf2a47826cc71ca5ce983273720896:-50123299,c25faa83046cc71ce99c4c52e7a461f8:2014956764,7d1a2ecb2468c71c144e87c6303c0fb6:1339992339,2a6bbdc792a8471c065f26c592ddcdfc:1467815256,c47c7e312ae0c7587d0be00742af9298:9264420,5bf7f6b9be20c758a4fe3a98bc8feff4:-1929801692,51fe4a7dada44758fd261c2c8b6b4b41:1854299438,cc324ab5e1ac0758347eae311c6cd67e:-742441938</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d4ba44733be88f54a154031f23e45a81</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-06 02:07:37</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>05b174fd6e1c48008176842d436bd664</sys_id>
+        <sys_metadata>08324ab52bac0758a0e0f76a6e91bf56</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_08324ab52bac0758a0e0f76a6e91bf56</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_08324ab52bac0758a0e0f76a6e91bf56">9e4948b73ba88f54a154031f23e45ab7</sys_update_version>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-06 02:07:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

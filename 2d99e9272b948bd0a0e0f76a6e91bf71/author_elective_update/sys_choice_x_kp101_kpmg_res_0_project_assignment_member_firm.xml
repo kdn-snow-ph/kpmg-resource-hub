@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="member_firm" table="x_kp101_kpmg_res_0_project_assignment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>member_firm</element>
+            <name>x_kp101_kpmg_res_0_project_assignment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mdcadag</sys_created_by>
+            <sys_created_on>2026-04-29 02:53:15</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>member_firm</sys_name>
+            <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+            <sys_update_name>sys_choice_x_kp101_kpmg_res_0_project_assignment_member_firm</sys_update_name>
+            <sys_updated_by>mdcadag</sys_updated_by>
+            <sys_updated_on>2026-04-29 02:53:15</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>member_firm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>KDN Audit</label>
+            <language>en</language>
+            <name>x_kp101_kpmg_res_0_project_assignment</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>mdcadag</sys_created_by>
+            <sys_created_on>2026-04-29 03:29:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdcadag</sys_updated_by>
+            <sys_updated_on>2026-04-29 03:29:25</sys_updated_on>
+            <value>kdn_audit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>member_firm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Singapore</label>
+            <language>en</language>
+            <name>x_kp101_kpmg_res_0_project_assignment</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>mdcadag</sys_created_by>
+            <sys_created_on>2026-04-29 03:29:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdcadag</sys_updated_by>
+            <sys_updated_on>2026-04-29 03:29:25</sys_updated_on>
+            <value>singapore</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>member_firm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Australia</label>
+            <language>en</language>
+            <name>x_kp101_kpmg_res_0_project_assignment</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>mdcadag</sys_created_by>
+            <sys_created_on>2026-04-29 03:29:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdcadag</sys_updated_by>
+            <sys_updated_on>2026-04-29 03:29:25</sys_updated_on>
+            <value>australia</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

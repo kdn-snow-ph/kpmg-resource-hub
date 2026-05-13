@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Recalibrate Certathon Points</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// ==========================
+// STEP 1: Recompute UC points
+// ==========================
+var util = new CertPointsUtil();
+
+var ucGR = new GlideRecord('x_kp101_kpmg_res_0_user_certification');
+ucGR.query();
+
+var ucCount = 0;
+
+while (ucGR.next()) {
+
+    var cert = ucGR.certificate.getRefRecord();
+    if (!cert) continue;
+
+    var points = util.getPoints(
+        cert,
+        ucGR.getValue('date_taken'),
+        ucGR.getValue('resource')
+    );
+
+    // Only update if changed (optimization)
+    if (ucGR.points_accrued != points) {
+        ucGR.points_accrued = points;
+        ucGR.update();
+        ucCount++;
+    }
+}
+
+gs.info('UC recalculated: ' + ucCount);
+
+
+// ==========================
+// STEP 2: Reset CU totals
+// ==========================
+var cuGR = new GlideRecord('x_kp101_kpmg_res_0_resource_profile');
+cuGR.query();
+
+while (cuGR.next()) {
+    cuGR.certification_points = 0;
+    cuGR.update();
+}
+
+gs.info('CU reset complete');
+
+
+// ==========================
+// STEP 3: Rebuild CU totals
+// ==========================
+var agg = new GlideAggregate('x_kp101_kpmg_res_0_user_certification');
+agg.addAggregate('SUM', 'points_accrued');
+agg.groupBy('resource'); // this is CU sys_id
+agg.query();
+
+var cuCount = 0;
+
+while (agg.next()) {
+
+    var cuSysId = agg.getValue('resource'); // THIS IS CU RECORD
+    var total = parseInt(agg.getAggregate('SUM', 'points_accrued'), 10) || 0;
+
+    var cu = new GlideRecord('x_kp101_kpmg_res_0_resource_profile');
+    if (cu.get(cuSysId)) {
+
+        cu.certification_points = total;
+        cu.update();
+        cuCount++;
+    }
+}
+
+gs.info('CU rebuilt: ' + cuCount);]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-07 04:12:31</sys_created_on>
+        <sys_id>397035042bf40f9ca0e0f76a6e91bfa5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Recalibrate Certathon Points</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_script_fix_397035042bf40f9ca0e0f76a6e91bfa5</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-07 04:35:45</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

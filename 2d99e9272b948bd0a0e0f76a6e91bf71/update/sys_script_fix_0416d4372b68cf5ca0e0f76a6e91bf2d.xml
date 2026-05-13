@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Flatter KPMG Tables</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// TABLES
+var RP_TABLE = 'x_kp101_kpmg_res_0_resource_profile';
+var FLAT_TABLE = 'x_kp101_kpmg_res_0_resource_profile_summary';
+
+var UC_TABLE = 'x_kp101_kpmg_res_0_user_certification';
+var US_TABLE = 'x_kp101_kpmg_res_0_user_skill';
+var UP_TABLE = 'x_kp101_kpmg_res_0_user_project_assignment';
+var IE_TABLE = 'x_kp101_kpmg_res_0_industry_experience';
+
+// FIELDS (FLAT TABLE)
+var FLAT_RESOURCE_FIELD = 'resource';
+var FLAT_RESOURCE_FIELD2 = 'user';
+var FLAT_CERT_FIELD = 'certificates';
+var FLAT_SKILL_FIELD = 'skills';
+var FLAT_PROJECT_FIELD = 'projects';
+var FLAT_SECTOR_FIELD = 'industry_experience';
+
+// FIELDS (SOURCE TABLES)
+var RESOURCE_FIELD = 'resource'; // consistent across your tables
+
+// LOOP ALL RESOURCE PROFILES
+var rp = new GlideRecord(RP_TABLE);
+rp.query();
+
+gs.info('Starting population...');
+
+while (rp.next()) {
+
+    // =====================
+    // CERTIFICATES
+    // =====================\
+	
+    var certs = [];
+    var uc = new GlideRecord(UC_TABLE);
+    uc.addQuery(RESOURCE_FIELD, rp.sys_id);
+    uc.query();
+
+    while (uc.next()) {
+        if (uc.certificate) {
+            certs.push(uc.certificate.toString());
+        }
+    }
+    certs = Array.from(new Set(certs));
+
+    // =====================
+    // SKILLS
+    // =====================
+    var skills = [];
+    var us = new GlideRecord(US_TABLE);
+    us.addQuery('user', rp.sys_id);
+    us.query();
+
+    while (us.next()) {
+        if (us.skill) {
+            skills.push(us.skill.toString());
+        }
+    }
+    skills = Array.from(new Set(skills));
+
+    // =====================
+    // PROJECTS
+    // =====================
+    var projects = [];
+    var up = new GlideRecord(UP_TABLE);
+    up.addQuery('user', rp.sys_id);
+    up.query();
+
+    while (up.next()) {
+        if (up.project_assignment) {
+            projects.push(up.project_assignment.toString());
+        }
+    }
+    projects = Array.from(new Set(projects));
+
+    // =====================
+    // INDUSTRY EXPERIENCE (SECTORS)
+    // =====================
+	
+    var sectors = [];
+    var ie = new GlideRecord(IE_TABLE);
+    ie.addQuery(RESOURCE_FIELD, rp.sys_id);
+    ie.query();
+
+    while (ie.next()) {
+        if (ie.sector) {
+            sectors.push(ie.sector.toString());
+        }
+    }
+    sectors = Array.from(new Set(sectors));
+
+    // =====================
+    // FIND OR CREATE FLAT RECORD
+    // =====================
+    var flat = new GlideRecord(FLAT_TABLE);
+    if (!flat.get(FLAT_RESOURCE_FIELD, rp.sys_id)) {
+        flat.initialize();
+        flat[FLAT_RESOURCE_FIELD] = rp.sys_id;
+    }
+
+    // =====================
+    // SET GLIDE LIST FIELDS
+    // =====================
+    flat[FLAT_CERT_FIELD] = certs.join(',');
+    flat[FLAT_SKILL_FIELD] = skills.join(',');
+    flat[FLAT_PROJECT_FIELD] = projects.join(',');
+    flat[FLAT_SECTOR_FIELD] = sectors.join(',');
+
+    flat.update();
+
+    gs.info('Processed RP: ' + rp.sys_id +
+        ' | Certs: ' + certs.length +
+        ' | Skills: ' + skills.length +
+        ' | Projects: ' + projects.length +
+        ' | Sectors: ' + sectors.length);
+}
+
+gs.info('Done.');]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-06 02:57:34</sys_created_on>
+        <sys_id>0416d4372b68cf5ca0e0f76a6e91bf2d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Flatter KPMG Tables</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_script_fix_0416d4372b68cf5ca0e0f76a6e91bf2d</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-07 03:00:29</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

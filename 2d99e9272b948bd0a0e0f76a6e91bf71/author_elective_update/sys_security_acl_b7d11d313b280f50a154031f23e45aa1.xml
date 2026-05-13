@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_kp101_kpmg_res_0_user_project_assignment</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-04-30 02:13:00</sys_created_on>
+        <sys_id>b7d11d313b280f50a154031f23e45aa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_kp101_kpmg_res_0_user_project_assignment</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_security_acl_b7d11d313b280f50a154031f23e45aa1</sys_update_name>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-04-30 02:13:00</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>sys_security_acl_b7d11d313b280f50a154031f23e45aa1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_kp101_kpmg_res_0_user_project_assignment</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>mdcadag</sys_created_by><sys_created_on>2026-04-30 02:13:00</sys_created_on><sys_id>b7d11d313b280f50a154031f23e45aa1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_kp101_kpmg_res_0_user_project_assignment</sys_name><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>sys_security_acl_b7d11d313b280f50a154031f23e45aa1</sys_update_name><sys_updated_by>mdcadag</sys_updated_by><sys_updated_on>2026-04-30 02:13:00</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1969684027</payload_hash>
+        <record_name>x_kp101_kpmg_res_0_user_project_assignment</record_name>
+        <reverted_from/>
+        <source>4b70fd6f2b988bd0a0e0f76a6e91bfad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-04-30 02:13:00</sys_created_on>
+        <sys_id>30625db53b280f50a154031f23e45aa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ddc2932ce0000001</sys_recorded_at>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-04-30 02:13:00</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>bc625db538280f50686a5060b714c99f</update_guid>
+        <update_guid_history>bc625db538280f50686a5060b714c99f:1969684027</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-13 03:27:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>95e45c3b691e43c08956a6c980099900</sys_id>
+        <sys_metadata>b7d11d313b280f50a154031f23e45aa1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_kp101_kpmg_res_0_user_project_assignment</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent display_value="x_kp101_kpmg_res_0_user_project_assignment">e93610e52b288718a0e0f76a6e91bf4b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>sys_security_acl_b7d11d313b280f50a154031f23e45aa1</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_b7d11d313b280f50a154031f23e45aa1">30625db53b280f50a154031f23e45aa1</sys_update_version>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-13 03:27:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

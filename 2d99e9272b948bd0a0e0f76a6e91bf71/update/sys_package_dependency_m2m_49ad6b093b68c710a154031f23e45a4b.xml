@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">49cda3e288122210559020d480f9d252</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-04-28 05:35:53</sys_created_on>
+        <sys_id>49ad6b093b68c710a154031f23e45a4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-04-28 05:35:53</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

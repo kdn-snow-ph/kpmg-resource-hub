@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>User Certifications</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_kp101_kpmg_res_0_user_certification</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_kp101_kpmg_res_0.user_certification_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-04-28 02:09:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>956e72cd2ba04bd4a0e0f76a6e91bf0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Certifications</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_app_module_956e72cd2ba04bd4a0e0f76a6e91bf0a</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-04-28 02:09:28</sys_updated_on>
+        <timeline_page/>
+        <title>User Certifications</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>sys_app_module_956e72cd2ba04bd4a0e0f76a6e91bf0a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>User Certifications</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_kp101_kpmg_res_0_user_certification</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_kp101_kpmg_res_0.user_certification_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>jdgonzales1</sys_created_by><sys_created_on>2026-04-28 02:09:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>956e72cd2ba04bd4a0e0f76a6e91bf0a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Certifications</sys_name><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>sys_app_module_956e72cd2ba04bd4a0e0f76a6e91bf0a</sys_update_name><sys_updated_by>jdgonzales1</sys_updated_by><sys_updated_on>2026-04-28 02:09:28</sys_updated_on><timeline_page/><title>User Certifications</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>690329888</payload_hash>
+        <record_name>User Certifications</record_name>
+        <reverted_from/>
+        <source>4b70fd6f2b988bd0a0e0f76a6e91bfad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-06 04:04:18</sys_created_on>
+        <sys_id>a165e4f72b24039ca0e0f76a6e91bf8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dfb7540bc0000001</sys_recorded_at>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-06 04:04:18</sys_updated_on>
+        <type>Module</type>
+        <update_guid>e965e4f70824039cfb11b44f3d27e08c</update_guid>
+        <update_guid_history>e965e4f70824039cfb11b44f3d27e08c:0,596e72cdb6a04bd41db8f92d10b77a0d:1086046755</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="User Certifications">5fa6e4732b64039ca0e0f76a6e91bfbc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-06 04:09:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>58178a3a94ce430dbd39fbfdabf6f471</sys_id>
+        <sys_metadata>956e72cd2ba04bd4a0e0f76a6e91bf0a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Certifications</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>sys_app_module_956e72cd2ba04bd4a0e0f76a6e91bf0a</sys_update_name>
+        <sys_update_version display_value="sys_app_module_956e72cd2ba04bd4a0e0f76a6e91bf0a">a165e4f72b24039ca0e0f76a6e91bf8d</sys_update_version>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-06 04:09:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

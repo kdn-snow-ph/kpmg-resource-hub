@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_kp101_kpmg_res_0.sn_project_delete" name="x_kp101_kpmg_res_0.sn_project_delete">7d275c4a3bf0cb90a154031f23e45a16</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-13 02:48:49</sys_created_on>
+        <sys_id>c447d08a3bf0cb90a154031f23e45a8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7d275c4a3bf0cb90a154031f23e45a16</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_embedded_help_role_c447d08a3bf0cb90a154031f23e45a8e</sys_update_name>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-13 02:48:49</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

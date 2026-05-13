@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ec1c7a052b604bd4a0e0f76a6e91bf5b" label="Certificate" max_length="40" name="x_kp101_kpmg_res_0_certificate" type="collection">
+        <element choice="1" label="Subtype" max_length="100" name="subtype" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Micro" sequence="50" value="Micro"/>
+                <element inactive_on_update="false" label="Mainline" sequence="40" value="Mainline"/>
+                <element inactive_on_update="false" label="Suite" sequence="60" value="Suite"/>
+                <element inactive_on_update="false" label="Expert" sequence="30" value="Expert"/>
+                <element inactive_on_update="false" label="Delta" sequence="20" value="Delta"/>
+                <element inactive_on_update="false" label="Accreditation" sequence="10" value="Accreditation"/>
+            </choice>
+        </element>
+        <element label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="non-AI" sequence="20" value="non-AI"/>
+                <element inactive_on_update="false" label="AI" sequence="10" value="AI"/>
+            </choice>
+        </element>
+        <element label="Points" max_length="40" name="points" type="integer"/>
+    </element>
+</database>

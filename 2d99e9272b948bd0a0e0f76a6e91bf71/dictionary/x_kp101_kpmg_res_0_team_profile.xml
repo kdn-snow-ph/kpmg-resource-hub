@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="aad2c6313be48f50a154031f23e45a50" extends="sys_import_set_row" label="Team profile" max_length="40" name="x_kp101_kpmg_res_0_team_profile" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Skills" label="Skills" max_length="460" name="u_skills" type="string"/>
+        <element attributes="import_attribute_name=ServiceNow Years of Experience" label="ServiceNow Years of Experience" max_length="15" name="u_servicenow_y__of_experience" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Certifications" label="Certifications" max_length="95" name="u_certifications" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sector/Industry Years of Experience (IT related only)" label="Sector/Industry Years of Experience (IT related only)" max_length="178" name="u_sector_indus__related_only_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Functional Consultant or Technical Developer" label="Functional Consultant or Technical Developer" max_length="40" name="u_functional_c_ical_developer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Email" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Experience Category" label="Experience Category" max_length="40" name="u_experience_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Profile Link" label="Profile Link" max_length="40" name="u_profile_link" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Role" label="Role" max_length="40" name="u_role" type="string"/>
+    </element>
+</database>

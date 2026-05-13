@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">ce3f48e92be08718a0e0f76a6e91bfd4</canvas>
+        <component display_value="Filter Group">ba8b5fa922351c2027c524c91a134bf2</component>
+        <component_props>{"groupConfiguration":{"filterId":"group-moqkmp4c","showLabel":true,"label":"Filters","layout":"horizontal","spacing":"s","showSelectedValuesInPill":true,"showBorder":true,"showRoundCorners":false,"bare":false,"showApply":true,"showClear":true,"showReset":false,"combineActions":false,"showSeparator":true,"filterMaxWidth":300,"cascadeScope":"group-moqkmp4c","filters":[{"filterName":"Managed By","filterId":"moqkmp4c","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1778032046459","datasource":{"type":"table","payload":{"table":"sys_user","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"resource_name.manager","table":"x_kp101_kpmg_res_0_resource_profile","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"user.resource_name.manager","table":"x_kp101_kpmg_res_0_user_project_assignment","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"resource.resource_name.manager","table":"x_kp101_kpmg_res_0_industry_experience","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"user.resource_name.manager","table":"x_kp101_kpmg_res_0_user_skill","primaryKey":"sys_id"}},{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_user_certification","primaryKey":"sys_id"}}],"enableClearFilter":true}],"isDashboard":false,"key":1778032046459},"filterConfigurations":"@state.parFilters","isDashboard":true,"filterComponentType":"multiselect","filterName":"Managed By","datasource":{"type":"table","payload":{"table":"sys_user","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"resource_name.manager","table":"x_kp101_kpmg_res_0_resource_profile","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"user.resource_name.manager","table":"x_kp101_kpmg_res_0_user_project_assignment","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"resource.resource_name.manager","table":"x_kp101_kpmg_res_0_industry_experience","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"user.resource_name.manager","table":"x_kp101_kpmg_res_0_user_skill","primaryKey":"sys_id"}},{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_user_certification","primaryKey":"sys_id"}}],"enableClearFilter":true,"filterId":"1jnr0j1b2689p6juat4s"}</component_props>
+        <h>5</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-04 02:24:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe6b310b2ba8471ca0e0f76a6e91bfca</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_widget_fe6b310b2ba8471ca0e0f76a6e91bfca</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-06 02:01:29</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>par_dashboard_widget_fe6b310b2ba8471ca0e0f76a6e91bfca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">ce3f48e92be08718a0e0f76a6e91bfd4</canvas><component display_value="Filter Group">ba8b5fa922351c2027c524c91a134bf2</component><component_props>{"groupConfiguration":{"filterId":"group-moqkmp4c","showLabel":true,"label":"Filters","layout":"horizontal","spacing":"s","showSelectedValuesInPill":true,"showBorder":true,"showRoundCorners":false,"bare":false,"showApply":true,"showClear":true,"showReset":false,"combineActions":false,"showSeparator":true,"filterMaxWidth":300,"cascadeScope":"group-moqkmp4c","filters":[{"filterName":"Managed By","filterId":"moqkmp4c","dateFilterView":"calendar-reldates","defaultSelectedDateRange":{"range":""},"defaultSelectedItems":[],"filterConfigurations":[],"filterComponentType":"multiselect","updated":"1778032046459","datasource":{"type":"table","payload":{"table":"sys_user","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"resource_name.manager","table":"x_kp101_kpmg_res_0_resource_profile","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"user.resource_name.manager","table":"x_kp101_kpmg_res_0_user_project_assignment","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"resource.resource_name.manager","table":"x_kp101_kpmg_res_0_industry_experience","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"user.resource_name.manager","table":"x_kp101_kpmg_res_0_user_skill","primaryKey":"sys_id"}},{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_user_certification","primaryKey":"sys_id"}}],"enableClearFilter":true}],"isDashboard":false,"key":1778032046459},"filterConfigurations":"@state.parFilters","isDashboard":true,"filterComponentType":"multiselect","filterName":"Managed By","datasource":{"type":"table","payload":{"table":"sys_user","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"resource_name.manager","table":"x_kp101_kpmg_res_0_resource_profile","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"user.resource_name.manager","table":"x_kp101_kpmg_res_0_user_project_assignment","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"resource.resource_name.manager","table":"x_kp101_kpmg_res_0_industry_experience","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"user.resource_name.manager","table":"x_kp101_kpmg_res_0_user_skill","primaryKey":"sys_id"}},{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_user_certification","primaryKey":"sys_id"}}],"enableClearFilter":true,"filterId":"1jnr0j1b2689p6juat4s"}</component_props><h>5</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ifnavarro</sys_created_by><sys_created_on>2026-05-04 02:24:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fe6b310b2ba8471ca0e0f76a6e91bfca</sys_id><sys_mod_count>36</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>par_dashboard_widget_fe6b310b2ba8471ca0e0f76a6e91bfca</sys_update_name><sys_updated_by>ifnavarro</sys_updated_by><sys_updated_on>2026-05-06 02:01:29</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-138396748</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cb5a60193b684b10a154031f23e45aaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-06 02:01:29</sys_created_on>
+        <sys_id>664988b73ba88f54a154031f23e45a58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dfb04ce4a0000001</sys_recorded_at>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-06 02:01:29</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>224988b75fa88f54b67e777584c6d757</update_guid>
+        <update_guid_history>224988b75fa88f54b67e777584c6d757:-138396748,d106396bf4244b5cfab282c127d1b7cd:-22053322,4ad435ef3ee04b5c22743d4dc5e753ed:-1385697930,e6d3f1a70fe04b5c09933f164628ffd1:1658493444,c0b2bd2f59a04b5c3ef160e30b608101:62690834,978dac6be828875cde61225b3a47e29c:-1627747654,2bc6ac230324875cfc8dd8fa3f527469:1394105436,3b66ec2f8be0875c93606bceafff7cd6:1942523797,0245a4ef2ba0875c9ac22a741274b656:-1523941190,52846c67eea0875c4334c3aba4d3ba54:504198484,a424e86364a0875cbdbb853adfb71f27:-651703020,290328e7fb60875c576a6e1c033a879b:1593876434,a4ec582fc46c475cfba3ba3fd9f428f9:1746332185,c0ba375f70e44754192d6cb335d5f725:917829876,0df97b5711e44754be60ebc4253199e6:-106864045,0d89fb1388e44754f3c540dc637da867:1615124602,4acc8b97aeacc3544bbf7dc48fd04853:721638264,d64c8f5372acc354a50e07ac76a9cfcf:-391641302,dcd90f9bc52cc354c0530565d765a5d8:-1556383819,9738c3cf1fa80b1c6ca30f99b7629cb5:557988052,e0b1cf83aee40b1cb0327bbd2d81c692:689195635,62ba3243d3e00b1c1f9c4c6516aa3d63:1713889556,6eefae87df6cc71cbade66764f8c03a5:-1228984624,9dcf6a47956cc71c0f6df006115fc81d:841651386,5a5fea83fb6cc71c461890271eba8bef:1866345307,695d2e83b32cc71c832b1ed01a475d4d:841651386,a6eb6e437fe8c71ce1309ae08a03fb6b:305512366,febaa28325a8c71c29af5e4ebb12b3c7:-471848148,205a6e4f2668c71c11f89c14070303ee:-973637374,421a6ecb8068c71c95a276b39d6315c7:-400765978,33386a0fac28c71c778d2ff3a215f186:-412641090,686a068b7524871cc18efb28f7b91c18:1637630206,dbf80603ec24871c0a434ea42083eeae:-1186279565,74c2828bb0ec471ce2b228c22c73b1e8:-373057243,ae6dfd0f92e8471cffde47d522c4243a:1014281222,07bb35cb6da8471cf8ad80bbf645e5e7:-10412699,f66b310b87a8471ce7efd052d69425d9:-206604311</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a8ba44733be88f54a154031f23e45a91</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-06 02:07:37</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>0ae5f164379b40eeb3fd804bddbbbcf1</sys_id>
+        <sys_metadata>fe6b310b2ba8471ca0e0f76a6e91bfca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_fe6b310b2ba8471ca0e0f76a6e91bfca</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_fe6b310b2ba8471ca0e0f76a6e91bfca">664988b73ba88f54a154031f23e45a58</sys_update_version>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-06 02:07:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

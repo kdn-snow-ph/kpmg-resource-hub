@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="x_kp101_kpmg_res_0.certificate_user" name="x_kp101_kpmg_res_0.certificate_user">6c6c7ac52b604bd4a0e0f76a6e91bf39</contains>
+        <role display_value="x_kp101_kpmg_res_0.certificate_admin" name="x_kp101_kpmg_res_0.certificate_admin">958df2452ba04bd4a0e0f76a6e91bf69</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-04-28 02:06:27</sys_created_on>
+        <sys_id>9dbd3ac52ba04bd4a0e0f76a6e91bf63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_kp101_kpmg_res_0.certificate_user.x_kp101_kpmg_res_0.certificate_admin</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_user_role_contains_9dbd3ac52ba04bd4a0e0f76a6e91bf63</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-04-28 02:06:27</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>sys_user_role_contains_9dbd3ac52ba04bd4a0e0f76a6e91bf63</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="x_kp101_kpmg_res_0.certificate_user" name="x_kp101_kpmg_res_0.certificate_user">6c6c7ac52b604bd4a0e0f76a6e91bf39</contains><role display_value="x_kp101_kpmg_res_0.certificate_admin" name="x_kp101_kpmg_res_0.certificate_admin">958df2452ba04bd4a0e0f76a6e91bf69</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>jdgonzales1</sys_created_by><sys_created_on>2026-04-28 02:06:27</sys_created_on><sys_id>9dbd3ac52ba04bd4a0e0f76a6e91bf63</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_kp101_kpmg_res_0.certificate_user.x_kp101_kpmg_res_0.certificate_admin</sys_name><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>sys_user_role_contains_9dbd3ac52ba04bd4a0e0f76a6e91bf63</sys_update_name><sys_updated_by>jdgonzales1</sys_updated_by><sys_updated_on>2026-04-28 02:06:27</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-1348599785</payload_hash>
+        <record_name>x_kp101_kpmg_res_0.certificate_user.x_kp101_kpmg_res_0.certificate_admin</record_name>
+        <reverted_from/>
+        <source>cd44364d2b2c0bd4a0e0f76a6e91bf31</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-04-28 02:06:27</sys_created_on>
+        <sys_id>9dbd3ac52ba04bd4a0e0f76a6e91bf6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dd1d67b1a0000001</sys_recorded_at>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-04-28 02:06:27</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>1dbd3ac544a04bd40e2af412b026a96b</update_guid>
+        <update_guid_history>1dbd3ac544a04bd40e2af412b026a96b:-1348599785</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-13 03:56:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>0d61bbdf9c944be682ee25649c06a064</sys_id>
+        <sys_metadata>9dbd3ac52ba04bd4a0e0f76a6e91bf63</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_kp101_kpmg_res_0.certificate_user.x_kp101_kpmg_res_0.certificate_admin</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_9dbd3ac52ba04bd4a0e0f76a6e91bf63</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_9dbd3ac52ba04bd4a0e0f76a6e91bf63">9dbd3ac52ba04bd4a0e0f76a6e91bf6c</sys_update_version>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-13 03:56:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

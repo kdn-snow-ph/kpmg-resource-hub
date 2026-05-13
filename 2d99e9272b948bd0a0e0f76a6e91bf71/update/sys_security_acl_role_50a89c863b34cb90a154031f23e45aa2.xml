@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-13 03:01:35</sys_created_on>
+        <sys_id>50a89c863b34cb90a154031f23e45aa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_kp101_kpmg_res_0.sn_project_delete</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_security_acl display_value="x_kp101_kpmg_res_0_project_assignment">009818863b34cb90a154031f23e45a87</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_50a89c863b34cb90a154031f23e45aa2</sys_update_name>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-13 03:01:35</sys_updated_on>
+        <sys_user_role display_value="x_kp101_kpmg_res_0.sn_project_delete" name="x_kp101_kpmg_res_0.sn_project_delete">7d275c4a3bf0cb90a154031f23e45a16</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

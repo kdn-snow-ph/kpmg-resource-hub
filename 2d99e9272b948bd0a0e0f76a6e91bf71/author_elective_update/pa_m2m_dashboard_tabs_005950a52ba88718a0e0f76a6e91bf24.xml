@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="DELETE">
+        <dashboard display_value="Certificates and Skills Dashboard">a1d8d0612ba88718a0e0f76a6e91bf7f</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-04-29 03:25:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>005950a52ba88718a0e0f76a6e91bf24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a1d8d0612ba88718a0e0f76a6e91bf7f</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_005950a52ba88718a0e0f76a6e91bf24</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-04-29 03:25:10</sys_updated_on>
+        <tab display_value="New Tab 1">045910a52ba88718a0e0f76a6e91bf7a</tab>
+    </pa_m2m_dashboard_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>pa_m2m_dashboard_tabs_005950a52ba88718a0e0f76a6e91bf24</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs"><pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE"><dashboard display_value="Certificates and Skills Dashboard">a1d8d0612ba88718a0e0f76a6e91bf7f</dashboard><home>false</home><homepage/><order>1</order><sys_class_name>pa_m2m_dashboard_tabs</sys_class_name><sys_created_by>ifnavarro</sys_created_by><sys_created_on>2026-04-29 03:25:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>005950a52ba88718a0e0f76a6e91bf24</sys_id><sys_mod_count>0</sys_mod_count><sys_name>a1d8d0612ba88718a0e0f76a6e91bf7f</sys_name><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>pa_m2m_dashboard_tabs_005950a52ba88718a0e0f76a6e91bf24</sys_update_name><sys_updated_by>ifnavarro</sys_updated_by><sys_updated_on>2026-04-29 03:25:10</sys_updated_on><tab display_value="New Tab 1">045910a52ba88718a0e0f76a6e91bf7a</tab></pa_m2m_dashboard_tabs></record_update>]]></payload>
+        <payload_hash>-504711989</payload_hash>
+        <record_name>a1d8d0612ba88718a0e0f76a6e91bf7f</record_name>
+        <reverted_from/>
+        <source>cb5a60193b684b10a154031f23e45aaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-04-29 03:25:10</sys_created_on>
+        <sys_id>085950a52ba88718a0e0f76a6e91bf29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dd744e8040000001</sys_recorded_at>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-04-29 03:25:10</sys_updated_on>
+        <type>Dashboard Tab</type>
+        <update_guid>845950a509a88718d29afafe01a01328</update_guid>
+        <update_guid_history>845950a509a88718d29afafe01a01328:-504711989</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c81565a12be84b18a0e0f76a6e91bfb6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-04-29 08:56:08</sys_created_on>
+        <sys_db_object display_value="" name="pa_m2m_dashboard_tabs">pa_m2m_dashboard_tabs</sys_db_object>
+        <sys_id>077743689cfe47859cc8b56fa31d6681</sys_id>
+        <sys_metadata>005950a52ba88718a0e0f76a6e91bf24</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a1d8d0612ba88718a0e0f76a6e91bf7f</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>pa_m2m_dashboard_tabs_005950a52ba88718a0e0f76a6e91bf24</sys_update_name>
+        <sys_update_version display_value="pa_m2m_dashboard_tabs_005950a52ba88718a0e0f76a6e91bf24">085950a52ba88718a0e0f76a6e91bf29</sys_update_version>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-04-29 08:56:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

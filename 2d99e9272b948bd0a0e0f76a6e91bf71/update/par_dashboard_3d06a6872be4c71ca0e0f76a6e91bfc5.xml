@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_dashboard display_value="Certification and Skills Dashboard">e89ba8113be84b10a154031f23e45a9e</base_dashboard>
+        <certified>false</certified>
+        <description>for jj</description>
+        <experience/>
+        <grid>48</grid>
+        <name>Certification and Skills Dashboard (Draft) - Copy</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-04 05:30:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d06a6872be4c71ca0e0f76a6e91bfc5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Certification and Skills Dashboard (Draft) - Copy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_3d06a6872be4c71ca0e0f76a6e91bfc5</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-04 05:30:52</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="49ad2b093b68c710a154031f23e45abb" extends="sys_import_set_row" label="Imp Tmpl X Kp101 Kpmg Res 0 Resource Profile" max_length="40" name="u_imp_tmpl_x_kp101_kpmg_res_0_resource_profile" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Resource name" label="Resource name" max_length="32" name="u_resource_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Hire Date" label="Hire Date" max_length="40" name="u_hire_date" type="glide_date"/>
+    </element>
+</database>

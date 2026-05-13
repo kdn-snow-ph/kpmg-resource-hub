@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3a04bb453b6cc710a154031f23e45a65" extends="sys_import_set_row" label="Imp Tmpl X Kp101 Kpmg Res 0 User Certification" max_length="40" name="u_imp_tmpl_x_kp101_kpmg_res_0_user_certification" type="collection">
+        <element attributes="import_attribute_name=Points Accrued" label="Points Accrued" max_length="40" name="u_points_accrued" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Resource" label="Resource" max_length="32" name="u_resource" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Taken" label="Date Taken" max_length="40" name="u_date_taken" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date Renewed" label="Date Renewed" max_length="40" name="u_date_renewed" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Certificate" label="Certificate" max_length="32" name="u_certificate" type="string"/>
+    </element>
+</database>
