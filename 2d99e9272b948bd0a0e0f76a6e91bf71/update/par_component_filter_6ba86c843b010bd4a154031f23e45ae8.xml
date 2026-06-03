@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_component_filter">
+    <par_component_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Filter">226449101138d0dff1abe0e1566c8b2a</macroponent>
+        <name>Certs</name>
+        <properties>{"filterId":"1jovmtuc8siftcqgha5s","filterComponentType":"multiselect","isShowSelectedValueInPill":true,"filterElementType":"selectors","datasource":{"type":"table","payload":{"table":"x_kp101_kpmg_res_0_certificate","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"certificates","table":"x_kp101_kpmg_res_0_resource_profile_summary","primaryKey":"sys_id"}}],"cascadingConfig":{"filtersFollowing":[],"filterM2MConfigurations":[]},"filterElementLayout":"horizontal"}</properties>
+        <requested_by/>
+        <sys_class_name>par_component_filter</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-19 09:12:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6ba86c843b010bd4a154031f23e45ae8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_component_filter_6ba86c843b010bd4a154031f23e45ae8</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-19 09:12:49</sys_updated_on>
+    </par_component_filter>
+</record_update>

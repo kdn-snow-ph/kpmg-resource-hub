@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">289bac113be84b10a154031f23e45a83</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":true,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[],"sortBy":null,"sortByOrder":"ORDERBY","followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":true,"componentId":"7rxofu7x","emptyStateIllustration":"no-activities","emptyStateHeading":"No new certifications.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no new AI micro-certification, or accreditations this week.","emptyStateAlignment":"vertical-centered","columns":"resource,certificate,date_taken,points_accrued","table":"x_kp101_kpmg_res_0_user_certification","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"showBorder":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"User Certification","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_user_certification","filterQuery":"certificate.type=AI^date_takenONLast 7 days@javascript:gs.beginningOfLast7Days()@javascript:gs.endOfLast7Days()","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUxNDU1OTcxNA==","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false,"headerTitle":"AI Certifications - Last 7 Days","headerColor":{"themeVariable":"","value":"#032d42"},"titleColor":{"themeVariable":"","value":"#93e1c6"}}</component_props>
+        <h>22</h>
+        <name>AI Certifications Obtained - This Week</name>
+        <stored_component display_value="AI Certifications Obtained - This Week">55f005d83bc18318a154031f23e45a1e</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-04 06:24:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dd42be8f2bacc71ca0e0f76a6e91bf25</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>AI Certifications Obtained - This Week</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_widget_dd42be8f2bacc71ca0e0f76a6e91bf25</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-25 08:57:22</sys_updated_on>
+        <visualization/>
+        <w>23</w>
+        <widget_props/>
+        <x>0</x>
+        <y>79</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>par_dashboard_widget_dd42be8f2bacc71ca0e0f76a6e91bf25</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">289bac113be84b10a154031f23e45a83</canvas><component display_value="List">7ff373544303121093711347efb8f23c</component><component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":true,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[],"sortBy":null,"sortByOrder":"ORDERBY","followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":true,"componentId":"7rxofu7x","emptyStateIllustration":"no-activities","emptyStateHeading":"No new certifications.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no new AI micro-certification, or accreditations this week.","emptyStateAlignment":"vertical-centered","columns":"resource,certificate,date_taken,points_accrued","table":"x_kp101_kpmg_res_0_user_certification","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"showBorder":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"User Certification","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_user_certification","filterQuery":"certificate.type=AI^date_takenONLast 7 days@javascript:gs.beginningOfLast7Days()@javascript:gs.endOfLast7Days()","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUxNDU1OTcxNA==","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false,"headerTitle":"AI Certifications - Last 7 Days","headerColor":{"themeVariable":"","value":"#032d42"},"titleColor":{"themeVariable":"","value":"#93e1c6"}}</component_props><h>22</h><name>AI Certifications Obtained - This Week</name><stored_component display_value="AI Certifications Obtained - This Week">55f005d83bc18318a154031f23e45a1e</stored_component><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ifnavarro</sys_created_by><sys_created_on>2026-05-04 06:24:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dd42be8f2bacc71ca0e0f76a6e91bf25</sys_id><sys_mod_count>27</sys_mod_count><sys_name>AI Certifications Obtained - This Week</sys_name><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>par_dashboard_widget_dd42be8f2bacc71ca0e0f76a6e91bf25</sys_update_name><sys_updated_by>ifnavarro</sys_updated_by><sys_updated_on>2026-05-25 08:57:22</sys_updated_on><visualization/><w>23</w><widget_props/><x>0</x><y>79</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>162905536</payload_hash>
+        <record_name>AI Certifications Obtained - This Week</record_name>
+        <reverted_from/>
+        <source>94ca91522bf84bd0a0e0f76a6e91bf9b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-25 08:57:22</sys_created_on>
+        <sys_id>efae1b712b4d8fd8a0e0f76a6e91bf50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e5e5a62900000001</sys_recorded_at>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-25 08:57:22</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>6bae1b71b54d8fd85d751c4cecf45a4f</update_guid>
+        <update_guid_history>6bae1b71b54d8fd85d751c4cecf45a4f:162905536,663c066c3e498f189f3381ca39579749:-1030531936,60bbcea411498f18c9921b0f41fbfb8d:230086850,e2d509d095858318f54008bbf95a78a3:1751480385,bd3f55ce79f003d085818a0718918008:0,85a5ff29d634c3903a6f84da96c71eb9:-262264884,a29033ed2c70c390e8d697bfbc53d81e:762429037,5a70bb6d1270c39079511b2edd6ad8d4:405026090,731037a9fe70c390668527cd1a08e067:1102320816,1a789a08fe308f9c2e70ac0be49435dc:-2031186279,93a941c0efbc8b9c7184e2330722de9d:-1006492358,230c157304a8439424309dbefa5b9a9f:1899346771,acdb9dff7d684394ddeb409e9693ebca:-1370926604,af0bd5bb3b6843944897bd4a5c8f7d81:1899346771,45c8547f39a0cf54ade4cf0d780547c8:-1370926604,3d989cfb3da0cf54f93f9af96b272c66:725976439,68a6dc3fd560cf54f54a6e400a8c3ed6:-1370926604,5a4948b7e0a88f548072bea038caa496:-215025100,d903e4e71960875cc9ab4d122e08a0cf:-668114010,7a112467da20875c5207fc6a522e26e4:356579911,38c0ac63e320875c1888e3c5823810cf:1381273832,052f9c2776ec475ca1406197062649bc:-1692807931,eb1ed4ab58ac475c20b272cee6ccc0c3:1577465444,1df994a78ae8475c39dba6cdc7b33362:-515658259,ab5a339b78e44754299725436c3f6b32:-642683540,7f4847033ee80b1c6c7a4edaaba155a1:1450440163,da3803cf7aa80b1c0e097c92678a54de:1444078368,4cbabe033ee00b1cf24643c6cff3cdd1:-157520299,5542be8f9dacc71cc87486c03c89d334:1347028568</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AI Certifications Obtained - This Week">ca226b502b554390a0e0f76a6e91bf59</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-06-02 03:37:21</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>5437087e584f49799d7fb7b89613e201</sys_id>
+        <sys_metadata>dd42be8f2bacc71ca0e0f76a6e91bf25</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AI Certifications Obtained - This Week</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_dd42be8f2bacc71ca0e0f76a6e91bf25</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_dd42be8f2bacc71ca0e0f76a6e91bf25">efae1b712b4d8fd8a0e0f76a6e91bf50</sys_update_version>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-06-02 03:37:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

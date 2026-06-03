@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">289bac113be84b10a154031f23e45a83</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"metrics":[{"dataSource":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfcmVzb3VyY2VfcHJvZmlsZTE3Nzc1MTY3MTcwMzA=","id":"ZEdGaWJHVjRYMnR3TVRBeFgydHdiV2RmY21Welh6QmZjbVZ6YjNWeVkyVmZjSEp2Wm1sc1pURTNOemMxTVRZM01UY3dNekE9MTc3NzUxNjcxNzYzMg==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":true,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[],"sortBy":null,"sortByOrder":"desc","followFilters":false,"showFilterIcon":false,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"componentId":"dx5pv52g","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"All resources has obtained their CSA mainline certification or has taken their CIS- Delta exams.","emptyStateAlignment":"vertical-centered","columns":"resource_name,hire_date,deployment_status","table":"x_kp101_kpmg_res_0_resource_profile","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"headerTitle":"Resources without CIS - DF","showBorder":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Resource Profile","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_resource_profile","filterQuery":"^RLQUERYx_kp101_kpmg_res_0_user_certification.resource,=0^certificate=91627b853b2cc710a154031f23e45aac^ENDRLQUERY","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfcmVzb3VyY2VfcHJvZmlsZTE3Nzc1MTY3MTcwMzA=","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false,"headerColor":{"themeVariable":"","value":"#032d42"},"titleColor":{"themeVariable":"","value":"#93e1c6"}}</component_props>
+        <h>21</h>
+        <name>List of Resorces Without CIS-DF</name>
+        <stored_component display_value="List of Resources Without CIS-DF">73adf0103b818318a154031f23e45ad2</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-04-30 03:10:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>598f553d2b24c358a0e0f76a6e91bfbc</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>List of Resorces Without CIS-DF</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_widget_598f553d2b24c358a0e0f76a6e91bfbc</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-20 05:58:44</sys_updated_on>
+        <visualization/>
+        <w>23</w>
+        <widget_props/>
+        <x>24</x>
+        <y>54</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>par_dashboard_widget_598f553d2b24c358a0e0f76a6e91bfbc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">289bac113be84b10a154031f23e45a83</canvas><component display_value="List">7ff373544303121093711347efb8f23c</component><component_props>{"metrics":[{"dataSource":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfcmVzb3VyY2VfcHJvZmlsZTE3Nzc1MTY3MTcwMzA=","id":"ZEdGaWJHVjRYMnR3TVRBeFgydHdiV2RmY21Welh6QmZjbVZ6YjNWeVkyVmZjSEp2Wm1sc1pURTNOemMxTVRZM01UY3dNekE9MTc3NzUxNjcxNzYzMg==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":true,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[],"sortBy":null,"sortByOrder":"desc","followFilters":false,"showFilterIcon":false,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"componentId":"dx5pv52g","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"All resources has obtained their CSA mainline certification or has taken their CIS- Delta exams.","emptyStateAlignment":"vertical-centered","columns":"resource_name,hire_date,deployment_status","table":"x_kp101_kpmg_res_0_resource_profile","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"headerTitle":"Resources without CIS - DF","showBorder":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Resource Profile","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_resource_profile","filterQuery":"^RLQUERYx_kp101_kpmg_res_0_user_certification.resource,=0^certificate=91627b853b2cc710a154031f23e45aac^ENDRLQUERY","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfcmVzb3VyY2VfcHJvZmlsZTE3Nzc1MTY3MTcwMzA=","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false,"headerColor":{"themeVariable":"","value":"#032d42"},"titleColor":{"themeVariable":"","value":"#93e1c6"}}</component_props><h>21</h><name>List of Resorces Without CIS-DF</name><stored_component display_value="List of Resources Without CIS-DF">73adf0103b818318a154031f23e45ad2</stored_component><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ifnavarro</sys_created_by><sys_created_on>2026-04-30 03:10:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>598f553d2b24c358a0e0f76a6e91bfbc</sys_id><sys_mod_count>43</sys_mod_count><sys_name>List of Resorces Without CIS-DF</sys_name><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>par_dashboard_widget_598f553d2b24c358a0e0f76a6e91bfbc</sys_update_name><sys_updated_by>ifnavarro</sys_updated_by><sys_updated_on>2026-05-20 05:58:44</sys_updated_on><visualization/><w>23</w><widget_props/><x>24</x><y>54</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1726294776</payload_hash>
+        <record_name>List of Resorces Without CIS-DF</record_name>
+        <reverted_from/>
+        <source>94ca91522bf84bd0a0e0f76a6e91bf9b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-20 05:58:44</sys_created_on>
+        <sys_id>1ad509d03b858318a154031f23e45a50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e43f70c680000001</sys_recorded_at>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-20 05:58:44</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>d6d509d0df858318f5a6a9128b1b0f4f</update_guid>
+        <update_guid_history>d6d509d0df858318f5a6a9128b1b0f4f:1726294776,dd3f15ceaff003d0e10896f24b99b010:0,89a5ff296834c39076c9b8b646500d73:455758297,ee90ffadb970c390f791c49d7f390e8d:1480452218,ca70bb6dfe70c39071dae0763680935c:1493985019,7f1037a97f70c390370a955b3c15281f:-524299424,21789a08cc308f9c881cc5616bdee339:-123083494,07a901c0e0bc8b9c0bfeef6ee69141f9:2119155158,b804b533f3a48394fc74f2e2eeb607b6:1094461237,2f4ea5f354e0839426537a76c44c5a1e:-844604875,14fd59ffe1a84394f1235e8750215173:-1288505549,9f0c157308a84394cc70bcad23b4793f:1080928436,14db9dffa668439497ea33dbba102b7e:926870845,df0bd5bb2b6843941534878704d3d953:-97823076,8dc8547fd2a0cf54d7ba050917f998a1:-666264904,75989cfbd4a0cf546e9a852ddb231b21:-1104274407,28a6dc3f9160cf5460051f8e86b118dd:-1110165578,46d010f767ac8f540e7a3bddb837258a:666277694,18ba447359e88f5460c027a4f4abce42:-1165670368,1a4948b788a88f540be546cd735bc2d0:-969478756,370afdabdba44b5c2c9eb4ccb3185c46:-1686724713,97c66c236324875c66c004a62a168499:1169917270,6766ec2f47e0875c3baa8fcf576a7ea9:2042155440,c645a4eff9a0875c682706e7c7570c5c:-1424309547,92842c67f9a0875c30dc6065a4f3e3c3:-1010678155,990328e70160875cd2581903a3706615:821269907,29f994a79ae8475c8d03ee9c50c290ce:-1228117935,f0f97b5783e447549de152a94f49456d:-1064841104,b089bb1364e44754c24b2da7a8b39940:657147543,88d90f9bb52cc354dcebe150e09c311b:-236338795,7e3843cf47a80b1c9175b08b59bdd1df:-1523044653,68b18f836ae40b1c59ad056372154ae7:-1326853041,f0bafe036de00b1ccd700cf5ca92e468:-302159120,deef6e879a6cc71c3459ce46cf04c977:1049933996,49cf2a47896cc71c1979f70eafea7bb0:-1174397290,865fea83306cc71ce7e4a057d9499469:-149703369,fd1a2ecb5768c71c701d0cba068457e9:-1174397290,b6bb35cb34a8471cc59afa91a0387368:1071182164,aa6bfdc7b3a8471cc53b89664461ba99:591327218,187cbe3154e0c7588010c013894b4341:-2126226488,78dbf2f91ba0c758bdccf4b66f89ad43:1492694250,abf73ab9b920c758c584baf41d2c482d:-752885204,d9fe4a7d1ea447581bcdeb4ba1fcb747:-1646371542,80324ab5daac075829cb3d4b8223d81a:-1954751372,198f553d2824c358a872664fd57c43be:-6200029</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="List of Resorces Without CIS-DF">a122e7502b554390a0e0f76a6e91bfa6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-06-02 03:37:20</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>9fc491a077fc47bca8b22d40d0f89724</sys_id>
+        <sys_metadata>598f553d2b24c358a0e0f76a6e91bfbc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List of Resorces Without CIS-DF</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_598f553d2b24c358a0e0f76a6e91bfbc</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_598f553d2b24c358a0e0f76a6e91bfbc">1ad509d03b858318a154031f23e45a50</sys_update_version>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-06-02 03:37:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

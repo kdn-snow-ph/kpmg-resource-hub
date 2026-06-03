@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Certification and Skiils Dashboard default">57016a9c2b498718a0e0f76a6e91bf73</macroponent>
+        <name>position/now_default/items</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return [
+	{
+		"id": "Associate",
+		"label": "Associate"
+	},
+	{
+		"id": "Consultant",
+		"label": "Consultant"
+	},
+	{
+		"id": "Senior Consultant",
+		"label": "Senior Consultant"
+	},
+	{
+		"id": "Junior Lead Consultant",
+		"label": "Junior Lead Consultant"
+	},
+	{
+		"id": "Lead Consultant",
+		"label": "Lead Consultant"
+	},
+	{
+		"id": "Senior Lead Consultant",
+		"label": "Senior Lead Consultant"
+	}
+];
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-05-21 09:24:19</sys_created_on>
+        <sys_id>8a6cb2a82bc50358a0e0f76a6e91bfc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>position/now_default/items</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_ux_client_script_8a6cb2a82bc50358a0e0f76a6e91bfc7</sys_update_name>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-21 09:24:19</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

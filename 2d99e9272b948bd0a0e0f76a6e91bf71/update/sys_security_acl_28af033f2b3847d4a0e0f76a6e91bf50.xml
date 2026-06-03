@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Allow write for all fields in x_kp101_kpmg_res_0_user_project_assignment, for users with role x_kp101_kpmg_res_0.user_proj_write, and if the ACL script returns true.</description>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_kp101_kpmg_res_0_user_project_assignment.*</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[// ACL Script for x_kp101_kpmg_res_0_user_project_assignment
+// Purpose: Allow write if the current user matches the resource name; otherwise, deny
+
+(function() {
+	// Server-side ACL script
+
+	// Explicit error handling for missing record or field
+	if (!current || !current.isValidRecord()) {
+		gs.info('ACL: Invalid or missing current record for user project assignment', 'x_kp101_kpmg_res_0_user_project_assignment');
+		return false;
+	}
+
+	// Get the resource name from the record
+	var resource = current.user.resource_name.sys_id;
+	if (!resource) {
+		gs.info('ACL: user field is empty on user project assignment ' + current.getUniqueValue(), 'x_kp101_kpmg_res_0_user_project_assignment');
+		return false;
+	}
+
+	// Compare with current user's display name (case-insensitive)
+	var loggedUserID = gs.getUserID();
+	if (!loggedUserID) {
+		gs.info('ACL: Unable to retrieve current user ID', 'x_kp101_kpmg_res_0_user_project_assignment');
+		return false;
+	}
+
+	// Validate user membership
+	if(gs.getUser().isMemberOf('Resource Hub Managers') ||gs.getUser().isMemberOf('Resource Hub Admins')){
+		// Allow write
+		return true;
+	}
+
+	// Trim and compare names for robustness
+	if (resource == loggedUserID) {
+		// Allow write
+		return true;
+	}
+	// Deny if not matching
+	return false;
+})();]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-19 02:53:36</sys_created_on>
+        <sys_id>28af033f2b3847d4a0e0f76a6e91bf50</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_kp101_kpmg_res_0_user_project_assignment.*</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_security_acl_28af033f2b3847d4a0e0f76a6e91bf50</sys_update_name>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 10:57:32</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

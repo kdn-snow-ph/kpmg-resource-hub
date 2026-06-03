@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Allow write for all fields in x_kp101_kpmg_res_0_resource_profile, for users with role x_kp101_kpmg_res_0.resource_profile_write, and if the ACL script returns true.</description>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_kp101_kpmg_res_0_resource_profile.*</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[// ACL Script for x_kp101_kpmg_res_0_resource_profile table
+// Purpose: Allow write if the current user matches the resource name; otherwise, deny
+
+(function() {
+// Server-side ACL script
+
+// Explicit error handling for missing record or field
+if (!current || !current.isValidRecord()) {
+	gs.info('ACL: Invalid or missing current record for resource profile', 'x_kp101_kpmg_res_0_resource_profile');
+	return false;
+}
+
+// Get the resource name from the record
+var resourceName = current.resource_name.name;
+if (!resourceName) {
+	gs.info('ACL: resource_name field is empty on resource profile ' + current.getUniqueValue(), 'x_kp101_kpmg_res_0_resource_profile');
+	return false;
+}
+
+// Compare with current user's display name (case-insensitive)
+var userDisplayName = gs.getUserDisplayName();
+if (!userDisplayName) {
+	gs.info('ACL: Unable to retrieve current user display name', 'x_kp101_kpmg_res_0_resource_profile');
+	return false;
+}
+
+// Validate user roles
+	if(gs.getUser().isMemberOf('Resource Hub Managers') ||gs.getUser().isMemberOf('Resource Hub Admins')){
+		gs.info("USER IS MEMBER OF GROUP");
+		return true;
+	}
+
+	// Trim and compare names for robustness
+if (resourceName.toString().trim().toLowerCase() === userDisplayName.trim().toLowerCase()) {
+	gs.info("USER SAME AS RESOURCE NAME")
+	// Allow write
+	return true;
+}
+
+
+	
+
+
+// Deny if not matching
+return false;
+})();]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-19 01:48:18</sys_created_on>
+        <sys_id>5d02cffb2b3047d4a0e0f76a6e91bf38</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>x_kp101_kpmg_res_0_resource_profile.*</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_security_acl_5d02cffb2b3047d4a0e0f76a6e91bf38</sys_update_name>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 10:53:27</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

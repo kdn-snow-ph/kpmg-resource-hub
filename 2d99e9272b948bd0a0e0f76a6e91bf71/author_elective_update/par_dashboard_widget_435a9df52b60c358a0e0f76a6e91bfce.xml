@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">289bac113be84b10a154031f23e45a83</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":true,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":true,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[],"sortBy":null,"sortByOrder":"ORDERBY","followFilters":false,"showFilterIcon":false,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":true,"componentId":"7rxofu7x","emptyStateIllustration":"no-activities","emptyStateHeading":"No new certifications.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no new CAD certifications this week.","emptyStateAlignment":"vertical-centered","columns":"resource,certificate,date_taken,points_accrued","table":"x_kp101_kpmg_res_0_user_certification","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"showBorder":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"User Certification","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_user_certification","filterQuery":"certificate=91627b853b2cc710a154031f23e45aa1^date_takenONLast 7 days@javascript:gs.beginningOfLast7Days()@javascript:gs.endOfLast7Days()","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUxNDU1OTcxNA==","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false,"headerTitle":"CAD - Last 7 days","headerColor":{"themeVariable":"","value":"#032d42"},"titleColor":{"themeVariable":"","value":"#93e1c6"}}</component_props>
+        <h>21</h>
+        <name>CAD Certs Obtained - This Week</name>
+        <stored_component display_value="CAD Certs Obtained - This Week">00a045183bc18318a154031f23e45a6e</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-04-30 02:47:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>435a9df52b60c358a0e0f76a6e91bfce</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>CAD Certs Obtained - This Week</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_widget_435a9df52b60c358a0e0f76a6e91bfce</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-21 05:44:42</sys_updated_on>
+        <visualization/>
+        <w>15</w>
+        <widget_props/>
+        <x>0</x>
+        <y>33</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>par_dashboard_widget_435a9df52b60c358a0e0f76a6e91bfce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">289bac113be84b10a154031f23e45a83</canvas><component display_value="List">7ff373544303121093711347efb8f23c</component><component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":true,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":true,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[],"sortBy":null,"sortByOrder":"ORDERBY","followFilters":false,"showFilterIcon":false,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":true,"componentId":"7rxofu7x","emptyStateIllustration":"no-activities","emptyStateHeading":"No new certifications.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no new CAD certifications this week.","emptyStateAlignment":"vertical-centered","columns":"resource,certificate,date_taken,points_accrued","table":"x_kp101_kpmg_res_0_user_certification","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"showBorder":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"User Certification","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_user_certification","filterQuery":"certificate=91627b853b2cc710a154031f23e45aa1^date_takenONLast 7 days@javascript:gs.beginningOfLast7Days()@javascript:gs.endOfLast7Days()","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUxNDU1OTcxNA==","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false,"headerTitle":"CAD - Last 7 days","headerColor":{"themeVariable":"","value":"#032d42"},"titleColor":{"themeVariable":"","value":"#93e1c6"}}</component_props><h>21</h><name>CAD Certs Obtained - This Week</name><stored_component display_value="CAD Certs Obtained - This Week">00a045183bc18318a154031f23e45a6e</stored_component><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ifnavarro</sys_created_by><sys_created_on>2026-04-30 02:47:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>435a9df52b60c358a0e0f76a6e91bfce</sys_id><sys_mod_count>24</sys_mod_count><sys_name>CAD Certs Obtained - This Week</sys_name><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>par_dashboard_widget_435a9df52b60c358a0e0f76a6e91bfce</sys_update_name><sys_updated_by>ifnavarro</sys_updated_by><sys_updated_on>2026-05-21 05:44:42</sys_updated_on><visualization/><w>15</w><widget_props/><x>0</x><y>33</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-177172865</payload_hash>
+        <record_name>CAD Certs Obtained - This Week</record_name>
+        <reverted_from/>
+        <source>94ca91522bf84bd0a0e0f76a6e91bf9b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-21 05:44:42</sys_created_on>
+        <sys_id>aa3cc26c3b498f18a154031f23e45ad9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e491090010000001</sys_recorded_at>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-21 05:44:42</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>663cc26c89498f180a8a48276497e5d8</update_guid>
+        <update_guid_history>663cc26c89498f180a8a48276497e5d8:-177172865,dadb4268a2498f18d65d598c22aede09:1160602828,ecbb8ea43f498f18a5ee81af5429c6dd:-795730325,dad509d06d858318085a9aa4ae923148:94747263,513fd1ce20f003d0e66b28afed90d7e9:0,45a5ff294f34c39098113ca55fb0e554:1692490229,4e70bb6d9170c3904caecc488e457d30:789274390,ff10f3a96a70c390892a6be8344af9ff:1898089589,25785a08d6308f9cac76d88549631ef4:-1736268496,cba901c05bbc8b9cb7a19ac341bce1f2:-1054164556,d4a6dc3fd360cf54b9b6d3694fa3cc4c:-1259763916,164948b784a88f54123d193bd397221e:1449883601,b61124679d20875c070956036b888f8c:-85912607,68c0ac632820875c865681338aa5de1f:938781314,e71ed4ab0bac475c75bfc4b017adad8f:-1110606528,59f994a7efe8475cd0b8fd2c475eca21:1134972926,e35aff5b3ae44754219cd20b253791f9:64432957,0a38cf8f15a80b1c8436fd9cee07f8fc:2113820799,2baabe03b1e00b1c144149dbed788b9f:-854679082,19427e8fbbacc71c188598fa9225dbf4:757566141,b828b54be928471c0c42dd6adcb0f754:1157537844,17b8fab18760c7588332d1ddeab1243f:1431741200,a9b4ae355a2487581a94b599661f6cdf:-1474218875,91fe4a7db9a44758503d1ff4827d8e03:706376550,e857ceb5ed60475853d4038c420d5e8b:1300939191,035a9df56c60c358ece3abda41e0fdd0:-1093755212</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CAD Certs Obtained - This Week">6922e7502b554390a0e0f76a6e91bf54</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-06-02 03:37:19</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>1170250e169c41a58184a2ab7b4607c1</sys_id>
+        <sys_metadata>435a9df52b60c358a0e0f76a6e91bfce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAD Certs Obtained - This Week</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_435a9df52b60c358a0e0f76a6e91bfce</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_435a9df52b60c358a0e0f76a6e91bfce">aa3cc26c3b498f18a154031f23e45ad9</sys_update_version>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-06-02 03:37:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>KPMG Resource Profile Hub</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-05-20 10:07:50</sys_created_on>
+        <sys_id>88debd142bc54718a0e0f76a6e91bf70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KPMG Resource Profile Hub</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_88debd142bc54718a0e0f76a6e91bf70</sys_update_name>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-20 10:07:50</sys_updated_on>
+    </sys_ux_list_menu_config>
+</record_update>

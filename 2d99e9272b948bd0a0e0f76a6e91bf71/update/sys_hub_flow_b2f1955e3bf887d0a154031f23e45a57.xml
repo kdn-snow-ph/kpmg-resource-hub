@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,intermediateFlowVersion=1.3,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=439821000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview>Create Resource Profile from HR Profile</display_name_after_preview>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source>text2flow</generation_source>
+        <internal_name>create_resource_profile_from_hr_profile3ef</internal_name>
+        <label_cache>[{"name":"Created_1.current.user.sys_id","label":"Trigger - Record Created➛HR Profile Record➛User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"0ff1595e-20f8-87d0-9091-629a961b301b":["conditions"]}},{"name":"Created_1.current.user","label":"Trigger - Record Created➛HR Profile Record➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sn_hr_core_profile","column_name":"user","usedInstances":{"c3f1595e-d4f8-87d0-5960-5fbe54c51a64":["resource_name"]}},{"name":"0ff1595e-20f8-87d0-9091-629a961b301b.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"c7f1595e-acf8-87d0-b39c-69f1c6950b1e":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"Created_1.current","label":"Trigger - Record Created➛HR Profile Record","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"0ff1595e-20f8-87d0-9091-629a961b301b":["conditions"]},"attributes":{"":""}},{"name":"Created_1.current.user.name","label":"Trigger - Record Created➛HR Profile Record➛User➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"c3f1595e-d4f8-87d0-5960-5fbe54c51a64":["resource_name"]}}]</label_cache>
+        <master_snapshot>a5673a2b3bf84b94a154031f23e45a9a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Create Resource Profile from HR Profile</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>dacf133b2b3487d4a0e0f76a6e91bf89</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-14 01:43:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2f1955e3bf887d0a154031f23e45a57</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>Create Resource Profile from HR Profile</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_hub_flow_b2f1955e3bf887d0a154031f23e45a57</sys_update_name>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:54:20</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>32cf173b2b3487d4a0e0f76a6e91bfe9</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b2f1955e3bf887d0a154031f23e45a57"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b2f1955e3bf887d0a154031f23e45a57"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sn_hr_core_profile">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-19 03:54:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dacf133b2b3487d4a0e0f76a6e91bf89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:54:20</sys_updated_on>
+        <table>sn_hr_core_profile</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>b2f1955e3bf887d0a154031f23e45a57</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-19 03:54:20</sys_created_on>
+        <sys_id>9ecf133b2b3487d4a0e0f76a6e91bf8a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:54:20</sys_updated_on>
+        <trigger display_value="">dacf133b2b3487d4a0e0f76a6e91bf89</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b2f1955e3bf887d0a154031f23e45a57^sys_idNOT IN9ecf133b2b3487d4a0e0f76a6e91bf8a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b2f1955e3bf887d0a154031f23e45a57"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b2f1955e3bf887d0a154031f23e45a57^sys_idNOT INf6f1955e3bf887d0a154031f23e45a58"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b2f1955e3bf887d0a154031f23e45a57</id>
+        <name>Create Resource Profile from HR Profile3ef</name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-14 01:43:54</sys_created_on>
+        <sys_id>f6f1955e3bf887d0a154031f23e45a58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-14 01:43:54</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f6f1955e3bf887d0a154031f23e45a58"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b2f1955e3bf887d0a154031f23e45a57^sys_idNOT IN4bf1595e3bf887d0a154031f23e45a87,dff1595e3bf887d0a154031f23e45a8f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Resource Profile from HR Profile">b2f1955e3bf887d0a154031f23e45a57</model>
+        <model_id>b2f1955e3bf887d0a154031f23e45a57</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b2f1955e3bf887d0a154031f23e45a57</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-14 01:43:55</sys_created_on>
+        <sys_id>4bf1595e3bf887d0a154031f23e45a87</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-18 06:19:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4bf1595e3bf887d0a154031f23e45a87"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Resource Profile from HR Profile">b2f1955e3bf887d0a154031f23e45a57</model>
+        <model_id>b2f1955e3bf887d0a154031f23e45a57</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b2f1955e3bf887d0a154031f23e45a57</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-14 01:43:55</sys_created_on>
+        <sys_id>dff1595e3bf887d0a154031f23e45a8f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-18 06:19:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dff1595e3bf887d0a154031f23e45a8f"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=b2f1955e3bf887d0a154031f23e45a57"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b2f1955e3bf887d0a154031f23e45a57"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=b2f1955e3bf887d0a154031f23e45a57^sys_idNOT IN01f0ce523bb80bd0a154031f23e45a4e"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Resource Profile from HR Profile">b2f1955e3bf887d0a154031f23e45a57</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-14 05:09:07</sys_created_on>
+        <sys_id>01f0ce523bb80bd0a154031f23e45a4e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-18 06:35:37</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VYW2/bNhT+K4KeNiADdLHjOG9tkqIBumaz3fUhyARKIm1iNOlRlFK3yH/foS62LNGOHSud8xSIpM/5zsfvXJj7HzZDIWb2pT1BIcP2mU25wpIjNlkuMCwrvRxwNNd7c8RjpIRc2pdKpvjMJlLMJ3i+YEjBYYJYAotCxljal+6ZnSGW4vEyuY3BEvw+N1PatMtt+E54MJNBJCQOFlIQmm/GNAGzy7/KMx9H1h+rvWhGWSwxty/vH87sBZJgV2mfPxpbVDuOSISGHnYi3/U9z3G8i54bnvuh68U+wo4DBpskNIAqAxfrKPE3hXmM4xUBLZokRvEdZ8vViRmwXFAyR98S+h2sXzj6HMGAPcLF3uozKMkolqOZoBG+WygqeLFS4Cw2BUvn/HOBX9OICUqZqmiElTQBe3ihIWsQJSIynonHUeXwA+V5dOUmExFiqy+klKRhqnCiCYcrAeqDgptEpDJHP7q5uhtdB1/fTa4+3oyC0c14Mrq9mtxc2095XMG/qbZYICyxBEU4T6u7/0Ax0xcIiCUcTCJJF+pdpGhWie3pbC3gK8FjmnPSEnFUbSWbIq5i36Vix9mq46jmsdLy3zd/tsVbLB6m2vNzhGKMtqg2JDXV1iM3QFMGEurR7dJvubKPgHuO8z9JuKxFL1XwI+IqCZQIUBwHNZYg4cGwDlHEmF2v/cE6nU5B9JQvUpU8K+kitqdnFSxTDj8IVvfR1nFO24q/TzQBNPeQgxU3JWDyqbQ4SrkluBWlEkhRFtyrVVm3clRaC+R2jqYls2SMGY5UTQzkS1L/+p0mCeXTGvqV83yl7Z0t6xCqknqM04cuk7hNetaIp5HMB2ey6xISYuI5A53HruOHxHUGTh+R2HecyKtlchvMVpSqIYlXyejD8jnJxcj2uP0mxSV4p54Ne2k32xR+RYKWSFk2rrqB5nYEzdPQGuXPP6j+rWRZLF9vqnNXaB13fhRnCH4RVzHu09n3qICEiUeorC+ofgQmyKkUKY+bVUjbtCj83TjRUd0LUfTPbrfrE9Yv5bX9emo1cE17JVzElx1UP5+44RD3sANFz4d6F/aHwzBCHiGD8wH23Eb1W8MwYnsTVe+Za89MutlWAY3KzUyCP6D2HQGwVQcPBnh8BSyFaax/xd7bqHSPM8wD/bgJmK5lrYI3ZTTG1V632d5yna3z+9iMJxfDqO8OBtEAXi2Q8aSHQ+T2vD4aDs79i34j41tQdsFUBmZ+ylsmWSZB+Q41VYMvxdZpPc1fU7YJVkq3o8O7dH4eFQ5q/VJfiZUXFCEtTad1uz5ojTF0v/w121nXFmrW6tfg+j2sb7jW091nwX8zwOny9cRhvN+Hmi1QTm2caIgk22T96CcV7l30h8Q3lxgyNJWYNZjtME9+vNhTCtlWUZnmjH1TLzNm8NbB4AXJ1JBJfWLYMdJ0RYrbOSne65HiHz1GVbm49R35ErBvqIXlc8XL+5jgOBDEWKcpscp/EeLYCpeWmmEgk8GkDK4s7bfLzlGMvK1GBstWObF016M0zc2wr4UFG5b8KYG/TqNqSKHbFzCOB6jf97fMw8PmC9gE6Bm8J9+2DpZIZlLczt51mN2mTWP3qmXQpiL27EudRm1uTsdFbWxPz0V9fOPZ9X43oDjRlvLwH7nfeAA9HwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=b2f1955e3bf887d0a154031f23e45a57^sys_idNOT IN13f1595e3bf887d0a154031f23e45ab0,13f1595e3bf887d0a154031f23e45ad6,17f1595e3bf887d0a154031f23e45ad0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>check first if the resource is not yet in the resource profile table</comment>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Resource Profile from HR Profile">b2f1955e3bf887d0a154031f23e45a57</flow>
+        <generation_source>text2flow</generation_source>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-14 01:43:55</sys_created_on>
+        <sys_id>13f1595e3bf887d0a154031f23e45ab0</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>fbmalicdem@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-20 01:57:03</sys_updated_on>
+        <ui_id>0ff1595e-20f8-87d0-9091-629a961b301b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VXTW/jNhD9K4LOjitZ/sytcGBgge2m2KS5bBcEJVI2sTSpJakkjpH/3qFEya6t2FZjFyl6sSFyRL6ZeW9m9G3tM+Jf+wMSTNLJZDAeBUEUBcFwGCU4jONomMRBHId+xxd4ScFSS2WQWWUUlh4xz+s1rBNYIkxnHK8e3A72jPReYD1ZME4UFf71t+8dP8MKTjNU+dfrna1T4XAcUw6md3C3d1/iaYBY/F3DHZIl1fNn9+q0WpSKWChRx6fPhgpCAUOKuaYdf4kFwUaqVb2iKCa3gm8WFkwYOM23xs+avcB9Uc/apRS8Smi5Vz8iF6JyOb3BBt8ZlScmV860BKshHuvazTqQDTF38IPXzsb+xdrjXXtCt18IXyHehKY452b6z+4M297Zs3eWDt5mhknIuh/ZvOCYV+5Lni/FlzKXfo3woYFs5c7NG5zLNQSbZjahNkMuXendQj59rbIxY6LA5Ta5TDCvn7AxisW5sXFZ+ylBKaOcICY4E/YmSJulD+V0CTegJc4yJuYoU/KRFaeCL8vunMNDN+XyycaCzUUXJ9bzLhALd2ewflMsP2DFbBR+g2Pg5Y69cAGvuvuQThTLDHpiZE7N5vbKikjzhPmPpn3HOFQlqnDPf+34eqWnHGu9CTbQFP3MbQzK0LvooSJRxSsFil/Bg0fqAmU5UMg2PChbTHYkWiZ6iy/79aN15TgBQhWFW8tIL169hcqVjjLnhcXfy8fMbnhfyo2K3mcrIePgPCWkSeL7EmylwH1pWaq9Q1kXFFCTYtsTv4zNMfZPDjatyYZnLEVLiCfLOEWKJsAdjbCiKJW5IKh0bksWNtgpU9o4432ZfKWQeuFJ4JRnFtQrrL3auqWEjvtRSehT6lWOuNu0B454hSNe7Ug7t9u07P7Z9NY/k9427XCGGS+yoQ3NttJJlZLqjbZ9JJEHGHFiTz8RVHhWUO9v+k0SaGz+R7CeeSS4TOE6f2NOKI77PTwcRWEYBGFARsF4NArHwzgd4lE/3WgUIS0SmCXg5BSoAsejihpVnsP9+uNGjXZ15gRQFQNvpPgzD4LeyHgWFaTXq1Adx+3qSSwlp1jsFJR7QP7LrJiHaroOPlxR+Vea+HvFkLP73UiXS42xvlTPz9kfgv3M6SdLsTENeuOQJFfjUTi66qdkeDUheHCFJ/FgFBGa9NNLzMFkcHAI3ZoEEikIs37pLYEpqmWugCHWqAvYECOW/hFZr6dAO0MJCrtJriBDpgtZVM7o9XVfmu87rJ2iT/C7UvR02/GmYFRTwO7a56YDqq51RuEG/yXpfsj5+0JjNjk4nuL+hk/lcRtdPaMfWRiE8LucwxyhUYBqdYDLKSus90br0sL7vbZoKYrjeCtR3DvAO/idFIrHpg/R4rWdD9Hg//kh+jEHOgDEODAElSksCQVHPqKE57rYUFho9wV0vn70/S9kx2il3xUAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=13f1595e3bf887d0a154031f23e45ab0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>log the error</comment>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Resource Profile from HR Profile">b2f1955e3bf887d0a154031f23e45a57</flow>
+        <generation_source>text2flow</generation_source>
+        <order>6</order>
+        <parent_ui_id>07f1595e-84f8-87d0-7037-b6eb6a97c268</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-14 01:43:55</sys_created_on>
+        <sys_id>13f1595e3bf887d0a154031f23e45ad6</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>fbmalicdem@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-20 01:57:03</sys_updated_on>
+        <ui_id>03f1595e-65f8-87d0-4341-40adcc2eca80</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VU70/bMBD9Vyx/hBIaSsconxAMbRI/pFViHyiKHOfSenPszHYKXdX/fWfHKYUhRCW+TapU+eXse+/u3d0tqSjoiA5znuacfxoO0n5/gL+8TIvjtH8MfPj5qDiiPapYBRgp9TSTMAeJ0JzJxmNClRqPhbC1ZIvbiH5rUT4TsjCg6OjuvkdrZvAdB4aOli8+vZeIZDlmH9HLyOIVYm5Re4jPtOAQz5fx2lkHalN4Gv0ehUcHqgDMXzJpoUcrpgrmtFmsEQOsuFHyCZgJ5fA16oMfrfiD+Q77Pq4EVMSh/bY+ZrE4LVyeM8fGzjTcNSaGtmQt1mK5lri3R661ArK3t1HtDeqr3lNsLPeLnsTIdDPyBzNKqOlG8AMiT8EHm8FfjNFmIxTiOcYOVti5AkrWSHe2vYL03QoOtlEw2ELBoVfQFv+mdkKjG2nqPcNy2bVGy6ZS163P6Frv7Qv7t+j5q1PQWLQA1N5m3jfRROV4ph++dx65ECowih+l5kyuT8w5I/LG+fouKUio8KGsYnWNhchqo+ciXEayVTKVeEhKqR8wqRVTlTDupSXoapZcIH4e4FtmhJd5hc/g5VWP2oU9k8zaJ7Fo4ex345m00qOGLBQqXOFG1O4UE8wh0vXlD+N8MHhrnGH4fHwrsJZN4blTXmyVrTfKOyh0Trla53+VVNwqFhsRvLe5VcYd2Bn7w7bKwXD4MWvltUH91/pbOf9/MjaWFTrMM930Bh7fCqb7OxO1s3PKseiWeJb7p4E28bRJY1EpcTMgZZEFROc/gbuEjMMDpGqsIwawqYowEmYjIf7FG282opoqxz9hiS5LC47kC7KbEqFIWH3kK/pO+hRjaIsVyMyZkL5ERIfWWxKtRJoaidUGqfo7E5pMKGElDlhHz1+HR1bVEkbIxhA708Zh4TmZNDhgRReYYGenUzAJbwwawSUh0Hcu6MKsJ/6tqGz9igf3J2qi4odJu8K9IGSlG8MB+elSIHmOIxQqOUKWu+vEWZplUutfWVNnBjgOZRLWftexE7pare7/AjIhz4H+CAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=13f1595e3bf887d0a154031f23e45ad6"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>create a record in x_kp101_kpmg_res_0_resource_profile table</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Resource Profile from HR Profile">b2f1955e3bf887d0a154031f23e45a57</flow>
+        <generation_source>text2flow</generation_source>
+        <order>3</order>
+        <parent_ui_id>c7f1595e-acf8-87d0-b39c-69f1c6950b1e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-14 01:43:55</sys_created_on>
+        <sys_id>17f1595e3bf887d0a154031f23e45ad0</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>fbmalicdem@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-20 01:57:03</sys_updated_on>
+        <ui_id>c3f1595e-d4f8-87d0-5960-5fbe54c51a64</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VTy27bMBD8FYNnQaAs10h8Kxz4lCZFEviSpgRFrmyiFKXy4Vg1/O9dPW2kCdoC7SEXQTv74M6Q83ggSpIFmUugl5fJXKRJmk4pnV7MkmyeZslUphySjETE8AKwcsd1AIdx+4OABVcGK4A1BV8Cpak8HJYWuAfJklgEa8H4ODiwx+NXCZUu6wIR5jz3wXUdGRixZd5yZZTZ4HSpXKV5vf6vh4it0hIbyeLxKSIVtzjcgyWLw4vUn2qkeQYaS1cKtHSviObrqok9FMjOA+tE7PDrvvmhT07WfbK0slkqiQjsPRgJuE3OtYOIFNxI7ktbk4W3AQGURN4aXY8VW2U8DiVN7d6pH3j8jFLaVOaABAV02TFkvfQdnF9xz+9xtvDB9qViWyqBdFppJOQ8aL88x7qC28qr0nQtnmd66C51KMxNJwwZBww3jQjeIsMrbJg2u3fE8vtt+Xw3LLlSptWkJ6lLwfUYce+tyoJv1jkQ0NC+hIJXFV47q2y5U20zrlLEG41BnOvyGc90amNiLpq9Y9SVxyvEr1p4za1qSHzCMdh8jIir3VJz505UUEP2PTSbdMR6CqxVoZWgfb9ts7Cq8h/xqB30ix+jwYwJ0A9vPjSYnd7V2cyTIffsW5XQBL/FhqFxGGWjfZB8rjT8arC7vmLyeaz4S3f8funBHQ/tY3idxGCQl9j1ee/kpkv0xqD/yhgX78kWPY1374u33PD0Ez2yzo+cBgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=17f1595e3bf887d0a154031f23e45ad0"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b2f1955e3bf887d0a154031f23e45a57"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=b2f1955e3bf887d0a154031f23e45a57^sys_idNOT IN17f1595e3bf887d0a154031f23e45ab3,1ff1595e3bf887d0a154031f23e45ad2,9bf1595e3bf887d0a154031f23e45ad1"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d3f1595e3bf887d0a154031f23e45ab2</block>
+        <comment>if the resource is not found</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Resource Profile from HR Profile">b2f1955e3bf887d0a154031f23e45a57</flow>
+        <flow_variables_assigned/>
+        <generation_source>text2flow</generation_source>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-14 01:43:55</sys_created_on>
+        <sys_id>17f1595e3bf887d0a154031f23e45ab3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:54:14</sys_updated_on>
+        <ui_id>c7f1595e-acf8-87d0-b39c-69f1c6950b1e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K8PPjpHsOovzVjYKg22FtfRlK+ZakhMxWfIkOWkW8t935Y8krCkbZY97s87Vvfeco4P3kel823l3b66dkysdLb8+xpHUAcPvfaShEdEyYkZz6aXRZQ/E0QZUFwr4yaVrFeweTghbS8WtGKe1YLHHCxst97+V/K4VpYJKKGy881bqFbZLjqeaQE0LRlmWzrOUkHRxRat5VtGUZyAgw3tT47uJ3JuPPRK/yDrsQ9xNm4zlgRYlcSSevNBc4OoalBNx1IDm4I3dHRErgN9qdQLWUvtBcQNPTv7E2Wmeh4u1QI1stON4LEerJpeMZOK2DQQHxEOlJguN6hr9edARTBY1dMqfmdw5nCfaQDqwGCnVd2uz/TItvJG6FzgWlWGgjifwaEPVeeHCwwglGhxUNtC2aE7ZWrORfTNyaZKVwkNSK7PFpSEpCbBAPEGPILlB/H0PP4CVQcUnHIPNA80KnGRlnyoc5y1KOPS2lD+6QGgQOEopBzfwgmNWtv4a92zEyPoQP4/kWRr3e1LXNC9yMUtJvZgt3nIyK0hBZ/O0gGJOq4zQKnEefOcOh28dIRmnzzP86jn/IvkF5HVOSX45+VfzS8m/kPmX457+Ie7hgf4y7YSQ/3E/j7t05RDbUVu//NVpfwzRHja4ITdcMOmQyH3APkz/6VDYYQAkO4e2xn4PEk7Y4RcUQixM8QUAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">17f1595e3bf887d0a154031f23e45ad2</block>
+        <comment>if an error occurs during Resource Profile creation</comment>
+        <connected_to>8ff1595e-4ef8-87d0-b273-9fab2c9cce65</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Resource Profile from HR Profile">b2f1955e3bf887d0a154031f23e45a57</flow>
+        <flow_variables_assigned/>
+        <generation_source>text2flow</generation_source>
+        <logic_definition display_value="Catch">35d60003e6022010a5e40cdd1254dd21</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>c7f1595e-acf8-87d0-b39c-69f1c6950b1e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-14 01:43:55</sys_created_on>
+        <sys_id>1ff1595e3bf887d0a154031f23e45ad2</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:54:14</sys_updated_on>
+        <ui_id>07f1595e-84f8-87d0-7037-b6eb6a97c268</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YbW+jOBD+KyfUjy0HDXlRvlXtRerp2kiXtF+OChk8JN5zMAsmbTfKf98xNgRI293uZiudLlIUwcwwHs/zzIxhY4lCpoXM5+Iiz9kiscb/PJxaLFEyvN5YCVmBNbaCIJdEFnkQWKfWmvBCCTe+tYYsZyLxrbFvubbjW6e+FYlVyuFpGn6CSKJmo0QU9NVJtK4uyoc+kTWxOUkW9kxmLFmUHk7Wpc63tlu8W0Gek8UPPr/tBjSLlrAi2seEi8crUPuGbDy5uricX09vZ/OL+d2sFbdvXScSFpCZ/VGwT2IGnAYxiUDm2njG1DI3JJ0oYfnYxvd9q2Dz5xT+IiFwdTtWf5U/X3nEvwwIDUTCn2uLmPAcav2SJbJW1VLtuZazjlMKMSm4DEq89p/mrYgu1VYrFYkkohpAloks0BSpDWVW7AxXJKFEiuy1uEVGdUClzm089xRwSBZyWSs9R/1v8dfCHPO6A9aIfzb7xuNBk5+3fb4r9zdmt784/edvp9+pAVAIvFEb9onEnX9X9nNRZBFc0/0MvCtBF2VCfpuVPejwaSrYXcI+F804iden3sDtnQ1Jv3/meR6chU5/eDYaDGgcxuE5ocMOFdocM+2vMolEUCZN9dPaptNyKlvgsIJEBiuSpsipIM3EmjWBxIZmLziK7BhRCmgJk63TYeNOib1D755kjIQlNuk7Go4G7m4/MR2LVg28r2JEO0Ntrvbe4uqg3yFrDrhJzr4QlYGJyFZEc/DP2fQWTXBmUZannDzfH0fXcXQdR9dxdB1H13F0/UdGV7RknGaQlO9jjOL0QqF5L1MNvfFG1rbGN7k8ylgqFQfXqC/zVAmR/BjAnkfTp37GKZqkJEN3EjIUtDdQtr+y1BBWpW0wEBcz0wXXfKFEUK+KA9tsM7hvhNONvmBX+iyglkUPrF6xZDnfC6RKUKW51DlvIyC7zkpOWGP31IInCQkFWsdW13QtUZSeIqNrgWKhXhU5lLMv6NtzlF0MuJHI7Ly+DczxpkJLsAimqcqflkhVRkYpeLFKbnXw6mCkm9n9Lp9GctU+MaGiyHEhSNVmVHQm1Hi2FI9/V5FMWFLu2yi5iAiv74jESRMWEnINDMYffC6UgV7XuA502Iqc32CLnoYfSJa8WrDFlTqMLlVu6mLaqy7ZcWj4cn5Avjj/O8Y8dIDRk6wCJhqOqNfrQT+k4bnjOuHABYIXveHIjYax0wDuD0UkM7R36LW+ghkARbVEVfAq6weCcPRxEB4WKVOmzfS0C7cGpnm4QHn7WIH61w4UZef90aOE9R2956VOoTqSCRQS5Y42xqS7/5ZZ9p9uS3ltNHa5O8eHf5+oZSv+Ujp03NEwinoDUPzt9/u9cOg5hHoOpTRs8HcX3l68hrehEBxI8muI+zGzyn219ZjEf/jAepE0D4ojmn65xplCxNS3h7mSXVcf25XiGeFiUVP0KLJ/Fb93su1XOH7tILYXAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">93f1595e3bf887d0a154031f23e45ad1</block>
+        <comment>Error in resource profile creation</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Resource Profile from HR Profile">b2f1955e3bf887d0a154031f23e45a57</flow>
+        <flow_variables_assigned/>
+        <generation_source>text2flow</generation_source>
+        <logic_definition display_value="Try">07223332de022010ec58424b73829721</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>c7f1595e-acf8-87d0-b39c-69f1c6950b1e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-14 01:43:55</sys_created_on>
+        <sys_id>9bf1595e3bf887d0a154031f23e45ad1</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:54:14</sys_updated_on>
+        <ui_id>8ff1595e-4ef8-87d0-b273-9fab2c9cce65</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b2f1955e3bf887d0a154031f23e45a57"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b2f1955e3bf887d0a154031f23e45a57"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b2f1955e3bf887d0a154031f23e45a57</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-14 01:43:55</sys_created_on>
+        <sys_id>57f1595e3bf887d0a154031f23e45a8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-14 01:43:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b2f1955e3bf887d0a154031f23e45a57</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-14 01:43:55</sys_created_on>
+        <sys_id>5ff1595e3bf887d0a154031f23e45a93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-14 01:43:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b2f1955e3bf887d0a154031f23e45a57"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b2f1955e3bf887d0a154031f23e45a57"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,intermediateFlowVersion=1.3,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>create_resource_profile_from_hr_profile3ef</internal_name>
+        <label_cache>[{"name":"Created_1.current.user.sys_id","label":"Trigger - Record Created➛HR Profile Record➛User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"0ff1595e-20f8-87d0-9091-629a961b301b":["conditions"]}},{"name":"Created_1.current.user","label":"Trigger - Record Created➛HR Profile Record➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sn_hr_core_profile","column_name":"user","usedInstances":{"c3f1595e-d4f8-87d0-5960-5fbe54c51a64":["resource_name"]}},{"name":"0ff1595e-20f8-87d0-9091-629a961b301b.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"c7f1595e-acf8-87d0-b39c-69f1c6950b1e":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"Created_1.current","label":"Trigger - Record Created➛HR Profile Record","reference":"sn_hr_core_profile","reference_display":"HR Profile","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"0ff1595e-20f8-87d0-9091-629a961b301b":["conditions"]},"attributes":{"":""}},{"name":"Created_1.current.user.name","label":"Trigger - Record Created➛HR Profile Record➛User➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"c3f1595e-d4f8-87d0-5960-5fbe54c51a64":["resource_name"]}}]</label_cache>
+        <master>true</master>
+        <name>Create Resource Profile from HR Profile</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create Resource Profile from HR Profile">b2f1955e3bf887d0a154031f23e45a57</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-18 06:19:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5673a2b3bf84b94a154031f23e45a9a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:54:19</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a5673a2b3bf84b94a154031f23e45a9a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a5673a2b3bf84b94a154031f23e45a9a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a5673a2b3bf84b94a154031f23e45a9a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a5673a2b3bf84b94a154031f23e45a9a^sys_idNOT IN6d673a2b3bf84b94a154031f23e45a9b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a5673a2b3bf84b94a154031f23e45a9a</id>
+        <name>Create Resource Profile from HR Profile</name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-18 06:19:24</sys_created_on>
+        <sys_id>6d673a2b3bf84b94a154031f23e45a9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-18 06:19:24</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6d673a2b3bf84b94a154031f23e45a9b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a5673a2b3bf84b94a154031f23e45a9a^sys_idNOT INad673a2b3bf84b94a154031f23e45a9d,b9677a2b3bf84b94a154031f23e45a49"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Resource Profile from HR Profile">a5673a2b3bf84b94a154031f23e45a9a</model>
+        <model_id>a5673a2b3bf84b94a154031f23e45a9a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_a5673a2b3bf84b94a154031f23e45a9a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-18 06:19:24</sys_created_on>
+        <sys_id>ad673a2b3bf84b94a154031f23e45a9d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:54:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ad673a2b3bf84b94a154031f23e45a9d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Resource Profile from HR Profile">a5673a2b3bf84b94a154031f23e45a9a</model>
+        <model_id>a5673a2b3bf84b94a154031f23e45a9a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_a5673a2b3bf84b94a154031f23e45a9a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-18 06:19:24</sys_created_on>
+        <sys_id>b9677a2b3bf84b94a154031f23e45a49</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:54:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b9677a2b3bf84b94a154031f23e45a49"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=a5673a2b3bf84b94a154031f23e45a9a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a5673a2b3bf84b94a154031f23e45a9a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=a5673a2b3bf84b94a154031f23e45a9a^sys_idNOT IN3567ba2b3bf84b94a154031f23e45a66"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Resource Profile from HR Profile">a5673a2b3bf84b94a154031f23e45a9a</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-18 06:19:25</sys_created_on>
+        <sys_id>3567ba2b3bf84b94a154031f23e45a66</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-18 06:35:40</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VYW2/bNhT+K4KeNiADdLHjOG9tkqIBumaz3fUhyARKIm1iNOlRlFK3yH/foS62LNGOHSud8xSIpM/5zsfvXJj7HzZDIWb2pT1BIcP2mU25wpIjNlkuMCwrvRxwNNd7c8RjpIRc2pdKpvjMJlLMJ3i+YEjBYYJYAotCxljal+6ZnSGW4vEyuY3BEvw+N1PatMtt+E54MJNBJCQOFlIQmm/GNAGzy7/KMx9H1h+rvWhGWSwxty/vH87sBZJgV2mfPxpbVDuOSISGHnYi3/U9z3G8i54bnvuh68U+wo4DBpskNIAqAxfrKPE3hXmM4xUBLZokRvEdZ8vViRmwXFAyR98S+h2sXzj6HMGAPcLF3uozKMkolqOZoBG+WygqeLFS4Cw2BUvn/HOBX9OICUqZqmiElTQBe3ihIWsQJSIynonHUeXwA+V5dOUmExFiqy+klKRhqnCiCYcrAeqDgptEpDJHP7q5uhtdB1/fTa4+3oyC0c14Mrq9mtxc2095XMG/qbZYICyxBEU4T6u7/0Ax0xcIiCUcTCJJF+pdpGhWie3pbC3gK8FjmnPSEnFUbSWbIq5i36Vix9mq46jmsdLy3zd/tsVbLB6m2vNzhGKMtqg2JDXV1iM3QFMGEurR7dJvubKPgHuO8z9JuKxFL1XwI+IqCZQIUBwHNZYg4cGwDlHEmF2v/cE6nU5B9JQvUpU8K+kitqdnFSxTDj8IVvfR1nFO24q/TzQBNPeQgxU3JWDyqbQ4SrkluBWlEkhRFtyrVVm3clRaC+R2jqYls2SMGY5UTQzkS1L/+p0mCeXTGvqV83yl7Z0t6xCqknqM04cuk7hNetaIp5HMB2ey6xISYuI5A53HruOHxHUGTh+R2HecyKtlchvMVpSqIYlXyejD8jnJxcj2uP0mxSV4p54Ne2k32xR+RYKWSFk2rrqB5nYEzdPQGuXPP6j+rWRZLF9vqnNXaB13fhRnCH4RVzHu09n3qICEiUeorC+ofgQmyKkUKY+bVUjbtCj83TjRUd0LUfTPbrfrE9Yv5bX9emo1cE17JVzElx1UP5+44RD3sANFz4d6F/aHwzBCHiGD8wH23Eb1W8MwYnsTVe+Za89MutlWAY3KzUyCP6D2HQGwVQcPBnh8BSyFaax/xd7bqHSPM8wD/bgJmK5lrYI3ZTTG1V632d5yna3z+9iMJxfDqO8OBtEAXi2Q8aSHQ+T2vD4aDs79i34j41tQdsFUBmZ+ylsmWSZB+Q41VYMvxdZpPc1fU7YJVkq3o8O7dH4eFQ5q/VJfiZUXFCEtTad1uz5ojTF0v/w121nXFmrW6tfg+j2sb7jW091nwX8zwOny9cRhvN+Hmi1QTm2caIgk22T96CcV7l30h8Q3lxgyNJWYNZjtME9+vNhTCtlWUZnmjH1TLzNm8NbB4AXJ1JBJfWLYMdJ0RYrbOSne65HiHz1GVbm49R35ErBvqIXlc8XL+5jgOBDEWKcpscp/EeLYCpeWmmEgk8GkDK4s7bfLzlGMvK1GBstWObF016M0zc2wr4UFG5b8KYG/TqNqSKHbFzCOB6jf97fMw8PmC9gE6Bm8J9+2DpZIZlLczt51mN2mTWP3qmXQpiL27EudRm1uTsdFbWxPz0V9fOPZ9X43oDjRlvLwH7nfeAA9HwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=a5673a2b3bf84b94a154031f23e45a9a^sys_idNOT IN3167ba2b3bf84b94a154031f23e45a2f,3567ba2b3bf84b94a154031f23e45a31,f167ba2b3bf84b94a154031f23e45a2c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment>create a record in x_kp101_kpmg_res_0_resource_profile table</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Resource Profile from HR Profile">a5673a2b3bf84b94a154031f23e45a9a</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>c7f1595e-acf8-87d0-b39c-69f1c6950b1e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-18 06:19:25</sys_created_on>
+        <sys_id>3167ba2b3bf84b94a154031f23e45a2f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:54:19</sys_updated_on>
+        <ui_id>c3f1595e-d4f8-87d0-5960-5fbe54c51a64</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VTy27bMBD8FYNnQaAs10h8Kxz4lCZFEviSpgRFrmyiFKXy4Vg1/O9dPW2kCdoC7SEXQTv74M6Q83ggSpIFmUugl5fJXKRJmk4pnV7MkmyeZslUphySjETE8AKwcsd1AIdx+4OABVcGK4A1BV8Cpak8HJYWuAfJklgEa8H4ODiwx+NXCZUu6wIR5jz3wXUdGRixZd5yZZTZ4HSpXKV5vf6vh4it0hIbyeLxKSIVtzjcgyWLw4vUn2qkeQYaS1cKtHSviObrqok9FMjOA+tE7PDrvvmhT07WfbK0slkqiQjsPRgJuE3OtYOIFNxI7ktbk4W3AQGURN4aXY8VW2U8DiVN7d6pH3j8jFLaVOaABAV02TFkvfQdnF9xz+9xtvDB9qViWyqBdFppJOQ8aL88x7qC28qr0nQtnmd66C51KMxNJwwZBww3jQjeIsMrbJg2u3fE8vtt+Xw3LLlSptWkJ6lLwfUYce+tyoJv1jkQ0NC+hIJXFV47q2y5U20zrlLEG41BnOvyGc90amNiLpq9Y9SVxyvEr1p4za1qSHzCMdh8jIir3VJz505UUEP2PTSbdMR6CqxVoZWgfb9ts7Cq8h/xqB30ix+jwYwJ0A9vPjSYnd7V2cyTIffsW5XQBL/FhqFxGGWjfZB8rjT8arC7vmLyeaz4S3f8funBHQ/tY3idxGCQl9j1ee/kpkv0xqD/yhgX78kWPY1374u33PD0Ez2yzo+cBgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3167ba2b3bf84b94a154031f23e45a2f"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment>log the error</comment>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Resource Profile from HR Profile">a5673a2b3bf84b94a154031f23e45a9a</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>07f1595e-84f8-87d0-7037-b6eb6a97c268</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-18 06:19:25</sys_created_on>
+        <sys_id>3567ba2b3bf84b94a154031f23e45a31</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-18 06:19:25</sys_updated_on>
+        <ui_id>03f1595e-65f8-87d0-4341-40adcc2eca80</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VU70/bMBD9Vyx/hBIaSsconxAMbRI/pFViHyiKHOfSenPszHYKXdX/fWfHKYUhRCW+TapU+eXse+/u3d0tqSjoiA5znuacfxoO0n5/gL+8TIvjtH8MfPj5qDiiPapYBRgp9TSTMAeJ0JzJxmNClRqPhbC1ZIvbiH5rUT4TsjCg6OjuvkdrZvAdB4aOli8+vZeIZDlmH9HLyOIVYm5Re4jPtOAQz5fx2lkHalN4Gv0ehUcHqgDMXzJpoUcrpgrmtFmsEQOsuFHyCZgJ5fA16oMfrfiD+Q77Pq4EVMSh/bY+ZrE4LVyeM8fGzjTcNSaGtmQt1mK5lri3R661ArK3t1HtDeqr3lNsLPeLnsTIdDPyBzNKqOlG8AMiT8EHm8FfjNFmIxTiOcYOVti5AkrWSHe2vYL03QoOtlEw2ELBoVfQFv+mdkKjG2nqPcNy2bVGy6ZS163P6Frv7Qv7t+j5q1PQWLQA1N5m3jfRROV4ph++dx65ECowih+l5kyuT8w5I/LG+fouKUio8KGsYnWNhchqo+ciXEayVTKVeEhKqR8wqRVTlTDupSXoapZcIH4e4FtmhJd5hc/g5VWP2oU9k8zaJ7Fo4ex345m00qOGLBQqXOFG1O4UE8wh0vXlD+N8MHhrnGH4fHwrsJZN4blTXmyVrTfKOyh0Trla53+VVNwqFhsRvLe5VcYd2Bn7w7bKwXD4MWvltUH91/pbOf9/MjaWFTrMM930Bh7fCqb7OxO1s3PKseiWeJb7p4E28bRJY1EpcTMgZZEFROc/gbuEjMMDpGqsIwawqYowEmYjIf7FG282opoqxz9hiS5LC47kC7KbEqFIWH3kK/pO+hRjaIsVyMyZkL5ERIfWWxKtRJoaidUGqfo7E5pMKGElDlhHz1+HR1bVEkbIxhA708Zh4TmZNDhgRReYYGenUzAJbwwawSUh0Hcu6MKsJ/6tqGz9igf3J2qi4odJu8K9IGSlG8MB+elSIHmOIxQqOUKWu+vEWZplUutfWVNnBjgOZRLWftexE7pare7/AjIhz4H+CAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3567ba2b3bf84b94a154031f23e45a31"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>check first if the resource is not yet in the resource profile table</comment>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Resource Profile from HR Profile">a5673a2b3bf84b94a154031f23e45a9a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-18 06:19:25</sys_created_on>
+        <sys_id>f167ba2b3bf84b94a154031f23e45a2c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:37:32</sys_updated_on>
+        <ui_id>0ff1595e-20f8-87d0-9091-629a961b301b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VXTW/jNhD9K4LOjitZ/sytcGBgge2m2KS5bBcEJVI2sTSpJakkjpH/3qFEya6t2FZjFyl6sSFyRL6ZeW9m9G3tM+Jf+wMSTNLJZDAeBUEUBcFwGCU4jONomMRBHId+xxd4ScFSS2WQWWUUlh4xz+s1rBNYIkxnHK8e3A72jPReYD1ZME4UFf71t+8dP8MKTjNU+dfrna1T4XAcUw6md3C3d1/iaYBY/F3DHZIl1fNn9+q0WpSKWChRx6fPhgpCAUOKuaYdf4kFwUaqVb2iKCa3gm8WFkwYOM23xs+avcB9Uc/apRS8Smi5Vz8iF6JyOb3BBt8ZlScmV860BKshHuvazTqQDTF38IPXzsb+xdrjXXtCt18IXyHehKY452b6z+4M297Zs3eWDt5mhknIuh/ZvOCYV+5Lni/FlzKXfo3woYFs5c7NG5zLNQSbZjahNkMuXendQj59rbIxY6LA5Ta5TDCvn7AxisW5sXFZ+ylBKaOcICY4E/YmSJulD+V0CTegJc4yJuYoU/KRFaeCL8vunMNDN+XyycaCzUUXJ9bzLhALd2ewflMsP2DFbBR+g2Pg5Y69cAGvuvuQThTLDHpiZE7N5vbKikjzhPmPpn3HOFQlqnDPf+34eqWnHGu9CTbQFP3MbQzK0LvooSJRxSsFil/Bg0fqAmU5UMg2PChbTHYkWiZ6iy/79aN15TgBQhWFW8tIL169hcqVjjLnhcXfy8fMbnhfyo2K3mcrIePgPCWkSeL7EmylwH1pWaq9Q1kXFFCTYtsTv4zNMfZPDjatyYZnLEVLiCfLOEWKJsAdjbCiKJW5IKh0bksWNtgpU9o4432ZfKWQeuFJ4JRnFtQrrL3auqWEjvtRSehT6lWOuNu0B454hSNe7Ug7t9u07P7Z9NY/k9427XCGGS+yoQ3NttJJlZLqjbZ9JJEHGHFiTz8RVHhWUO9v+k0SaGz+R7CeeSS4TOE6f2NOKI77PTwcRWEYBGFARsF4NArHwzgd4lE/3WgUIS0SmCXg5BSoAsejihpVnsP9+uNGjXZ15gRQFQNvpPgzD4LeyHgWFaTXq1Adx+3qSSwlp1jsFJR7QP7LrJiHaroOPlxR+Vea+HvFkLP73UiXS42xvlTPz9kfgv3M6SdLsTENeuOQJFfjUTi66qdkeDUheHCFJ/FgFBGa9NNLzMFkcHAI3ZoEEikIs37pLYEpqmWugCHWqAvYECOW/hFZr6dAO0MJCrtJriBDpgtZVM7o9XVfmu87rJ2iT/C7UvR02/GmYFRTwO7a56YDqq51RuEG/yXpfsj5+0JjNjk4nuL+hk/lcRtdPaMfWRiE8LucwxyhUYBqdYDLKSus90br0sL7vbZoKYrjeCtR3DvAO/idFIrHpg/R4rWdD9Hg//kh+jEHOgDEODAElSksCQVHPqKE57rYUFho9wV0vn70/S9kx2il3xUAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f167ba2b3bf84b94a154031f23e45a2c"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=a5673a2b3bf84b94a154031f23e45a9a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=a5673a2b3bf84b94a154031f23e45a9a^sys_idNOT IN71677a2b3bf84b94a154031f23e45ae9,75677a2b3bf84b94a154031f23e45ae6,b967ba2b3bf84b94a154031f23e45a28"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">93f1595e3bf887d0a154031f23e45ad1</block>
+        <comment>Error in resource profile creation</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Resource Profile from HR Profile">a5673a2b3bf84b94a154031f23e45a9a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Try">07223332de022010ec58424b73829721</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>c7f1595e-acf8-87d0-b39c-69f1c6950b1e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-18 06:19:25</sys_created_on>
+        <sys_id>71677a2b3bf84b94a154031f23e45ae9</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:54:19</sys_updated_on>
+        <ui_id>8ff1595e-4ef8-87d0-b273-9fab2c9cce65</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d3f1595e3bf887d0a154031f23e45ab2</block>
+        <comment>if the resource is not found</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Resource Profile from HR Profile">a5673a2b3bf84b94a154031f23e45a9a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-18 06:19:25</sys_created_on>
+        <sys_id>75677a2b3bf84b94a154031f23e45ae6</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:54:19</sys_updated_on>
+        <ui_id>c7f1595e-acf8-87d0-b39c-69f1c6950b1e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V0W6bMBT9lcnPBBkoWchblarSpG6V1qovW4UutmmsGcywnTRD+fddAyHRmmnrtse94WPf63OO7xEd0c42zpp7fWmMfKrJ8tNjQGTtMfzuSA2VIEvCdM2llbrOeyAgG1DOb+Anl6ZRsHs4ImwtFW/F2K2BFmusaMmy+2FLciwoKZRRxiKWxPMkpjReXETFPCmimCcgIMGGCgqh8OjqQOPNTY8EP+Vnd43HjW1l/TSub8YudwdQt9yzimhAxLMVNRfIpwRlREAqqDlY3e4mpBXAb2t1BNaytoPgCp6N/IYXxmnqD5YCJbLRjWmZj04NcHkFFpCKY9a1k3FaMmEGc7gowSm7OsWGA7eNlzqUWCjUoVorV9UfBkfI1ODkYZxBEqLxSj31UUd5t9bbjweW17LuXRk3lWagphVY9K5w1vPpiFCiwkZ5BU2DjuZNqzeyL0YuVfikcBGWSm/xUj9dITBPPERjIbxG/KqHH6CVXsV7bIPFA80CjGR5P4nYDm0SZB8QszMrBcYcRaK7+VfnKQ6SR3H54I8vYa1s7CXevBGjjn3wcrBPZrrraFlGaZaKWUzLxWzxltNZRrNoNo8zyOZRkdCoCI0F68x+/9lRmvDoZRL+uM/r8pNBWqYRTc/n52J+Lj9nkvPK0MS/CI1/sd/MDKX0f2j+OjTS5MOoj9r6y/9hZh59QIY7J6+ZNEjt3mPvDv8Mv7HD4ZLsFNrq9osXdcT23wH+h/wufQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">17f1595e3bf887d0a154031f23e45ad2</block>
+        <comment>if an error occurs during Resource Profile creation</comment>
+        <connected_to>8ff1595e-4ef8-87d0-b273-9fab2c9cce65</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Resource Profile from HR Profile">a5673a2b3bf84b94a154031f23e45a9a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Catch">35d60003e6022010a5e40cdd1254dd21</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>c7f1595e-acf8-87d0-b39c-69f1c6950b1e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-18 06:19:25</sys_created_on>
+        <sys_id>b967ba2b3bf84b94a154031f23e45a28</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:54:19</sys_updated_on>
+        <ui_id>07f1595e-84f8-87d0-7037-b6eb6a97c268</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1ZbU/jOBD+K6eIj6WX0jfUbwiuEqeFSteyXy4ocmKneNd1srZTYFH/+45jx80LoIMrOk6KhKpkxnZmnufxTEyevDRXWa7kKj2Tkq65N/v7tudRrm1w/eRxtCHezAtDqZDKZRh6PW+LWK6NT4G3JULSlAfeLPAGfT/weoEXp5uMkYdF9I3ECjxP2oSJuTqKt+VFMekb2qI+Q3zdXypB+bpY4Whb+AJvt4O7DZESrd85f9cMaBnfkQ0ya8xZen9BdN5EzOYXZ+ery8X1cnW2ulnW4g68S67ImgibHyb9o4QShsMExURJM3hJ9WOuUDbXxmLaUxAEXk5Xjxn5giLC9O1M/5TrBXpF+BEE4TDl7NGNSBCTxPnvKFfO5axmZWenjUUxSVDOVFjw1Z7NahGd61RLF4oVsBoSIVIRGom4gUrk+4EbxDFSqXgp7lRgE1DhG1TmPYSM8LW6c86Rr3938FfjHHDdE2vN/xZ9u+JBwZf1Nd+E/ZXN9oPhP3kdft8RoBl4ZW/0jxRk/o/Ql2kuYnKJ2wi8CaCzApDflkUNOjxMOb3h9EdejRONxng0GQyPp2g8Ph6NRuQ48sfT49PJBCdREp0gPG1Ioa4xW/7KIXEaFqDpeurGNEpOOZYwsiFchRuUZaCpMBPpllaJhILWXzMw9RNgKcQFTX0DRx8yRf09e1+RoCgquMneUHAMcTdtYBojanvgbTsmrSNU1+rwNa1Oxg2xSgJJMvoTaQTmqdggo8E/l4trGAI9C1OZMfT4tWtdXevqWlfXurrW1bWu/0nriu8ow4Lw6nlMF3JwZUjAvSIClOwVhaUQMQCmDRVuYYqt2zDrGfGBX8sOCpg73bWbJlhkLGimtKa3YClwL43wxF2vKOSCI/aF8u9mSiV8OFrm9MIsqkODAdRFVWiMtYKl2CxTes5N5nUc1HOLtRMvePJmg55HHhThmGCXg9tnzqJltgCVOYNWhokFeJX0Jzxx5OtxCYH0YouQuw0tesacXIC2oXjnscoFKZFJaUykAcbcLDJNjXErrX07MmX5hl+bnDUxpgJViLGWixZjuYRISKaz1eHbXJLlXXr/VxnqnPICGOtkaYyYu0MK2kOUKx2oZlg+ynOGpNxHAymHP3I9xURiHxaaRHbPqmbXc1q2nfGNcjaN8JOpWZZB1cTsQm1q+cpl3oJCPbNgK3Wr55MD6tnvFP1eRd82BFyr211x7orzp5RyV2i7Qvtp1XlrqYynp3g0HJJxhKMTf+BHkwFBcDGcng7iaeJXqP5Dy9Met/Z8175fWMrNS3yD8kVpLMuR5ulApJ8eknTL2vkBhXBYvm0ZqQJdLywO6uoBE+z1oyX4XzpUFi3mvcdJ7yNeZQnXD8CVb2SDdj0sKmazwL305lDuAIyn/uB0GsfDCdE7YDweD6PpyEd45GOMo8oO2AfRisoqP0pTRhBvSH8Fcf0+1xl9jPwP2I8PLf7Bi2XQkvXfl8IX3zm3VtYOmpjq/2uvtO2y/JCrHY8gBxpXTfep+K73zd62+wWC1hMwEh4AAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a5673a2b3bf84b94a154031f23e45a9a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a5673a2b3bf84b94a154031f23e45a9a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a5673a2b3bf84b94a154031f23e45a9a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-18 06:19:24</sys_created_on>
+        <sys_id>7d673a2b3bf84b94a154031f23e45aee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-18 06:19:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a5673a2b3bf84b94a154031f23e45a9a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-18 06:19:25</sys_created_on>
+        <sys_id>f9677a2b3bf84b94a154031f23e45a51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-18 06:19:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a5673a2b3bf84b94a154031f23e45a9a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a5673a2b3bf84b94a154031f23e45a9a"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>b2f1955e3bf887d0a154031f23e45a57</sys_id>
+        <latest_snapshot>a5673a2b3bf84b94a154031f23e45a9a</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch7a-03-24-2026_04-08-2026_0745.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b2f1955e3bf887d0a154031f23e45a57^sys_idNOT IN4e67fa2b3bf84b94a154031f23e45a9e"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"4e67fa2b3bf84b94a154031f23e45a9e","name":"plan","plan_signature":null}}</plan>
+        <plan_id>b2f1955e3bf887d0a154031f23e45a57</plan_id>
+        <snapshot>ed8ec01c2b814318a0e0f76a6e91bf50</snapshot>
+        <sys_created_by>mdcadag</sys_created_by>
+        <sys_created_on>2026-05-18 06:19:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4e67fa2b3bf84b94a154031f23e45a9e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>mdcadag</sys_updated_by>
+        <sys_updated_on>2026-05-19 03:54:20</sys_updated_on>
+        <trigger display_value="">dacf133b2b3487d4a0e0f76a6e91bf89</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b2f1955e3bf887d0a154031f23e45a57"/>
+</record_update>

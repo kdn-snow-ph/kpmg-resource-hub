@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">289bac113be84b10a154031f23e45a83</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"metrics":[{"dataSource":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfcmVzb3VyY2VfcHJvZmlsZTE3Nzc1MTY3MTcwMzA=","id":"ZEdGaWJHVjRYMnR3TVRBeFgydHdiV2RmY21Welh6QmZjbVZ6YjNWeVkyVmZjSEp2Wm1sc1pURTNOemMxTVRZM01UY3dNekE9MTc3NzUxNjcxNzYzMg==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":true,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[],"sortBy":null,"sortByOrder":"desc","followFilters":false,"showFilterIcon":false,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":true,"componentId":"dx5pv52g","emptyStateIllustration":"completed-tasks","emptyStateHeading":"All users has a CAD certification","emptyStateHeadingLevel":3,"emptyStateContent":"All resources has obtained their CAD mainline certification or has taken their CAD - Delta exams.","emptyStateAlignment":"vertical-centered","columns":"resource_name,hire_date,deployment_status","table":"x_kp101_kpmg_res_0_resource_profile","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"headerTitle":"Resources without CAD","showBorder":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Resource Profile","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_resource_profile","filterQuery":"^RLQUERYx_kp101_kpmg_res_0_user_certification.resource,=0^certificate=91627b853b2cc710a154031f23e45aa1^ENDRLQUERY","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfcmVzb3VyY2VfcHJvZmlsZTE3Nzc1MTY3MTcwMzA=","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false,"headerColor":{"themeVariable":"","value":"#032d42"},"titleColor":{"themeVariable":"","value":"#93e1c6"}}</component_props>
+        <h>21</h>
+        <name>List of Resorces Without CAD</name>
+        <stored_component display_value="List of Resources Without CAD">6b9df4dc3b418318a154031f23e45aeb</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-04-30 03:10:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>958f553d2b24c358a0e0f76a6e91bfb7</sys_id>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name>List of Resorces Without CAD</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_widget_958f553d2b24c358a0e0f76a6e91bfb7</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-20 05:58:44</sys_updated_on>
+        <visualization/>
+        <w>23</w>
+        <widget_props/>
+        <x>1</x>
+        <y>54</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>par_dashboard_widget_958f553d2b24c358a0e0f76a6e91bfb7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">289bac113be84b10a154031f23e45a83</canvas><component display_value="List">7ff373544303121093711347efb8f23c</component><component_props>{"metrics":[{"dataSource":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfcmVzb3VyY2VfcHJvZmlsZTE3Nzc1MTY3MTcwMzA=","id":"ZEdGaWJHVjRYMnR3TVRBeFgydHdiV2RmY21Welh6QmZjbVZ6YjNWeVkyVmZjSEp2Wm1sc1pURTNOemMxTVRZM01UY3dNekE9MTc3NzUxNjcxNzYzMg==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":true,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[],"sortBy":null,"sortByOrder":"desc","followFilters":false,"showFilterIcon":false,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":true,"componentId":"dx5pv52g","emptyStateIllustration":"completed-tasks","emptyStateHeading":"All users has a CAD certification","emptyStateHeadingLevel":3,"emptyStateContent":"All resources has obtained their CAD mainline certification or has taken their CAD - Delta exams.","emptyStateAlignment":"vertical-centered","columns":"resource_name,hire_date,deployment_status","table":"x_kp101_kpmg_res_0_resource_profile","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"headerTitle":"Resources without CAD","showBorder":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Resource Profile","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_resource_profile","filterQuery":"^RLQUERYx_kp101_kpmg_res_0_user_certification.resource,=0^certificate=91627b853b2cc710a154031f23e45aa1^ENDRLQUERY","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfcmVzb3VyY2VfcHJvZmlsZTE3Nzc1MTY3MTcwMzA=","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false,"headerColor":{"themeVariable":"","value":"#032d42"},"titleColor":{"themeVariable":"","value":"#93e1c6"}}</component_props><h>21</h><name>List of Resorces Without CAD</name><stored_component display_value="List of Resources Without CAD">6b9df4dc3b418318a154031f23e45aeb</stored_component><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ifnavarro</sys_created_by><sys_created_on>2026-04-30 03:10:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>958f553d2b24c358a0e0f76a6e91bfb7</sys_id><sys_mod_count>45</sys_mod_count><sys_name>List of Resorces Without CAD</sys_name><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>par_dashboard_widget_958f553d2b24c358a0e0f76a6e91bfb7</sys_update_name><sys_updated_by>ifnavarro</sys_updated_by><sys_updated_on>2026-05-20 05:58:44</sys_updated_on><visualization/><w>23</w><widget_props/><x>1</x><y>54</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1830493769</payload_hash>
+        <record_name>List of Resorces Without CAD</record_name>
+        <reverted_from/>
+        <source>94ca91522bf84bd0a0e0f76a6e91bf9b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-20 05:58:44</sys_created_on>
+        <sys_id>2ed509d03b858318a154031f23e45a96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e43f70d580000001</sys_recorded_at>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-20 05:58:44</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>ead509d08385831837d062e1522b6c95</update_guid>
+        <update_guid_history>ead509d08385831837d062e1522b6c95:-1830493769,653f15cee4f003d03dd5ca3fad5441bd:0,cda5ff299334c390d57e28953c93dba5:52955669,2690ffad8570c390f0912ecc599bcad9:1077649590,0670bb6d0970c39008eef6e6be66eb8f:-182969196,731037a9f470c390895eab762a69df46:362194996,bd789a083e308f9c3928370f0e7d2a77:818912120,cfa941c080bc8b9c56e208a62fc50912:-1233816524,7404b53349a48394ece73da81d113bbd:2036456851,f88fad3f5de08394b09a411fd2eef365:97390739,674ea5f34ce0839471ba42000b687925:83857938,d8fd59ff54a843940e3dacdfbf68c079:2009391249,6b0c157334a84394405d8d2cb23bc059:83857938,14db9dff30684394b144310dbaad7f92:-70199653,ab0bd5bb3d684394c9d365a98b8e0161:-1094893574,45c8547fb5a0cf54e437d793a09df6bb:-141104362,f9989cfb5da0cf542198c2083e6c2c6d:-1928500151,d2d010f7f6ac8f541c963b51274e6897:1299066203,98dcc8772b2c8f548cec80d50ab2dc9f:-532881859,94ba4473f9e88f5456e1e469d295454f:-1012736805,124948b7eba88f54c0035f09415b4ff7:-336690247,7b0afdaba2a44b5c83f962587d969d6c:-1192068378,6bc66c236324875ca2bafbd3de8c57d2:1664573605,6366ec2ffee0875c9937b930f21537c3:790244740,314564ef24a0875c3b8538076411448e:-929653212,12846c6745a0875cadc212c30c95f81b:-516021820,d10328e71560875cc15c5b1751bf6a42:1315926242,d0ec582f226c475cfff5fcf9c2782a6e:-733461600,2df9d4a745e8475c43ba088b63ec3d0d:1205604512,f4f97b578fe447542efe8d7d0a39b893:175249151,3489bb130fe4475402d0bf217cb8fc66:1897237798,44d90f9b612cc3544acbe33024a3d93b:1003751460,363843cf91a80b1c6fde0619b25e34e6:1867276456,acb1cf8361e40b1c3311ea67bf8ff606:2063468068,89bafe0364e00b1c7d28377927190d6e:-1206805307,96ef6e87026cc71c4d7ad5464024d08b:145287809,11cf2a47526cc71c2429bfea3a1761c4:-2079043477,5a5fea83576cc71c8f590f1a02e433ae:-1054349556,061a6ecb6668c71cad416f17d366af16:-2079043477,febb35cbefa8471c2bcdb82e870b927b:166535977,be6bfdc7fea8471c8bdbb29220813dd8:-313318969,dc7cbe3170e0c7588b0bd1cc5ea3ba47:-442667211,d1fe4a7d83a4475809f0826e311ec267:37187735,3857ceb58360475868c90614b8e304be:-1753466157,08324ab501ac07585760be5b1db39d2d:-859979819,d5a8adf92f2cc35850e35e3ac54f47b7:-1810806373,d58f553d9c24c35838492a4181bfcaba:1590674585</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="List of Resorces Without CAD">b9222b502b554390a0e0f76a6e91bf5d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-06-02 03:37:20</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>078c3cf5e72c42ed890f604176c6d959</sys_id>
+        <sys_metadata>958f553d2b24c358a0e0f76a6e91bfb7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List of Resorces Without CAD</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_958f553d2b24c358a0e0f76a6e91bfb7</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_958f553d2b24c358a0e0f76a6e91bfb7">2ed509d03b858318a154031f23e45a96</sys_update_version>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-06-02 03:37:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

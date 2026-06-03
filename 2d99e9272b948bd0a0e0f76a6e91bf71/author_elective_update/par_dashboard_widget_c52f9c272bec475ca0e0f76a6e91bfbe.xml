@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">289bac113be84b10a154031f23e45a83</canvas>
+        <component display_value="Rich text">2d56f06d55f46bbd4e79b5e624beb940</component>
+        <component_props>{"html":"&lt;div style=\"background-color: #032d42; padding: 5px; border-radius: 4px;\"&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt; color: rgb(147, 225, 198);\"&gt;&lt;strong&gt;AI Certifications&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;","showBorder":true,"bareBorder":false}</component_props>
+        <h>4</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-05 08:58:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c52f9c272bec475ca0e0f76a6e91bfbe</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_widget_c52f9c272bec475ca0e0f76a6e91bfbe</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-12 05:43:30</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>75</y>
+    </par_dashboard_widget>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>par_dashboard_widget_c52f9c272bec475ca0e0f76a6e91bfbe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">289bac113be84b10a154031f23e45a83</canvas>
+        <component display_value="Rich text">2d56f06d55f46bbd4e79b5e624beb940</component>
+        <component_props>{"html":"&lt;div style=\"background-color: #032d42; padding: 5px; border-radius: 4px;\"&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt; color: rgb(147, 225, 198);\"&gt;&lt;strong&gt;AI Certifications&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;","showBorder":true,"bareBorder":false}</component_props>
+        <h>4</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-05 08:58:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c52f9c272bec475ca0e0f76a6e91bfbe</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_widget_c52f9c272bec475ca0e0f76a6e91bfbe</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-12 05:43:30</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>75</y>
+    </par_dashboard_widget>
+</record_update>]]></payload>
+        <payload_hash>71060570</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f3de95ca2bf003d0a0e0f76a6e91bf1d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-05-13 08:03:13</sys_created_on>
+        <sys_id>ad3f15ce2bf003d0a0e0f76a6e91bfd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e205c80860000001</sys_recorded_at>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-13 08:03:13</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>e53f15ceaef003d098fe4b2e208c26d5</update_guid>
+        <update_guid_history>e53f15ceaef003d098fe4b2e208c26d5:0,09a5ff298734c3905962e5c8098b56ac:1376794612,4e70bb6d6c70c3908b1d76d1c81b5595:-1893478763,bb1037a9a170c39046726432bd80794c:-1196184037,c6789a089b308f9c287a1f6a575e917e:155909079,dfa941c027bc8b9c441dbde3df85cc25:1180603000,a30c1573c2a84394b53e3a6b79784060:1376794612,d8db9dffac68439458715788a9e08898:-1893478763,e30bd5bb1368439430c0b6fd11dcec68:1376794612,8dc8547fd5a0cf54a037f411b159b7c1:-1893478763,75989cfb2ca0cf54abd7cb61d4718560:-1828494734,eca6dc3fb560cf54ba9d1307f8bed697:-1893478763,5a4948b70da88f5428f4addd50100257:-737577259,8103e4e7c860875c02fe0596b39266c9:-894414047,7e112467ed20875c070f77be2ece0dbe:-1797629886,64c0ac632920875c4bbaade57757cc9d:-772935965,092f9c270bec475c598a20c4ecc783da:-338335013</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">f5222b502b554390a0e0f76a6e91bf87</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-06-02 03:37:21</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>4804527e80f94fec9704092ebc82d404</sys_id>
+        <sys_metadata>c52f9c272bec475ca0e0f76a6e91bfbe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_c52f9c272bec475ca0e0f76a6e91bfbe</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_c52f9c272bec475ca0e0f76a6e91bfbe">ad3f15ce2bf003d0a0e0f76a6e91bfd5</sys_update_version>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-06-02 03:37:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

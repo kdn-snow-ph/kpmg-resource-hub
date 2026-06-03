@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata">
     <par_dashboard_user_metadata action="INSERT_OR_UPDATE">
-        <background_color>--now-color_background--tertiary</background_color>
+        <background_color/>
         <cache_expiration_time>24</cache_expiration_time>
         <card_bg_image/>
         <created_by_user display_value="Isabel Navarro">073ab6552be736506543ffb86e91bf61</created_by_user>
@@ -20,7 +20,7 @@
         <include_trends>true</include_trends>
         <include_widget_notification>true</include_widget_notification>
         <last_deactivated_on/>
-        <last_updated_on>2026-05-12 05:43:31</last_updated_on>
+        <last_updated_on>2026-06-02 06:28:27</last_updated_on>
         <po_project_id_list>[]</po_project_id_list>
         <refresh_information>false</refresh_information>
         <refresh_interval/>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>649b6c113be84b10a154031f23e45ae2</sys_id>
-        <sys_mod_count>749</sys_mod_count>
+        <sys_mod_count>121</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
@@ -41,7 +41,7 @@
         <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
         <sys_update_name>par_dashboard_user_metadata_649b6c113be84b10a154031f23e45ae2</sys_update_name>
         <sys_updated_by>ifnavarro</sys_updated_by>
-        <sys_updated_on>2026-05-12 05:43:31</sys_updated_on>
+        <sys_updated_on>2026-06-02 06:28:27</sys_updated_on>
         <updated_by_user display_value="Isabel Navarro">073ab6552be736506543ffb86e91bf61</updated_by_user>
         <use_custom_tab_colors>false</use_custom_tab_colors>
         <widgets_margin>$now-global-space--sm</widgets_margin>

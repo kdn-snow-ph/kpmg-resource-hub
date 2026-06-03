@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_component_filter">
+    <par_component_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Filter">226449101138d0dff1abe0e1566c8b2a</macroponent>
+        <name>Manager Filter (Overview)</name>
+        <properties>{"filterId":"1jntgcmg13ene1ln2b14","filterName":"Managed by","filterComponentType":"multiselect","datasource":{"type":"table","payload":{"table":"sys_user","primaryKey":"sys_id"},"encodedQuery":"nameINNikka Andrea Adamos,Noelle Shierene Cervantes,Tin Uy,Rusty Luisaga,Dalton Ray Claudio"},"targets":[{"type":"table","payload":{"field":"resource_name.manager","table":"x_kp101_kpmg_res_0_resource_profile","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"user.resource_name.manager","table":"x_kp101_kpmg_res_0_user_project_assignment","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"resource.resource_name.manager","table":"x_kp101_kpmg_res_0_industry_experience","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"user.resource_name.manager","table":"x_kp101_kpmg_res_0_user_skill","primaryKey":"sys_id"}},{"type":"table","payload":{"field":"resource.resource_name.manager","table":"x_kp101_kpmg_res_0_user_certification","primaryKey":"sys_id"}}],"defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"isDashboard":true,"isGroup":false,"value":[]}</properties>
+        <requested_by/>
+        <sys_class_name>par_component_filter</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-20 05:38:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e85181183bc18318a154031f23e45ad5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager Filter (Overview)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_component_filter_e85181183bc18318a154031f23e45ad5</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-20 05:38:57</sys_updated_on>
+    </par_component_filter>
+</record_update>

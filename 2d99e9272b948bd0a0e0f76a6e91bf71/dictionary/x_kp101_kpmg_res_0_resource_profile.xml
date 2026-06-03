@@ -11,7 +11,7 @@
         <element default="true" label="Active" max_length="255" name="active" type="boolean"/>
         <element label="ServiceNow experience" max_length="255" name="sn_experience" type="integer"/>
         <element label="Certification points" max_length="40" name="certification_points" read_only="true" type="integer"/>
-        <element display="true" label="Resource name" mandatory="true" max_length="32" name="resource_name" read_only="true" reference="sys_user" type="reference"/>
+        <element display="true" label="Resource name" mandatory="true" max_length="32" name="resource_name" reference="sys_user" reference_qual="user_nameISNOTEMPTY^active=true^nameISNOTEMPTY^EQ" reference_qual_condition="user_nameISNOTEMPTY^active=true^nameISNOTEMPTY^EQ" type="reference"/>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element label="Profile link" max_length="1024" name="profile_link" type="url"/>
         <element label="Hire date" max_length="40" name="hire_date" type="glide_date"/>

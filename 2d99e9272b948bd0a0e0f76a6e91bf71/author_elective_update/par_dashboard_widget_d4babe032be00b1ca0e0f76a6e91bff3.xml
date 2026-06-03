@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">289bac113be84b10a154031f23e45a83</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":true,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[],"sortBy":null,"sortByOrder":"ORDERBY","followFilters":false,"showFilterIcon":false,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":true,"componentId":"7rxofu7x","emptyStateIllustration":"no-activities","emptyStateHeading":"No new certifications.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no new CIS-DF certifications this week.","emptyStateAlignment":"vertical-centered","columns":"resource,certificate,date_taken,points_accrued","table":"x_kp101_kpmg_res_0_user_certification","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"showBorder":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"User Certification","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_user_certification","filterQuery":"certificate=91627b853b2cc710a154031f23e45aac^date_takenONLast 7 days@javascript:gs.beginningOfLast7Days()@javascript:gs.endOfLast7Days()","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUxNDU1OTcxNA==","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false,"headerTitle":"CIS-DF - Last 7 days","headerColor":{"themeVariable":"","value":"#032d42"},"titleColor":{"themeVariable":"","value":"#93e1c6"}}</component_props>
+        <h>21</h>
+        <name>CIS-DF Certs Obtained - This Week</name>
+        <stored_component display_value="CIS-DF Certs Obtained - This Week">71b085583bc18318a154031f23e45a7f</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-04 07:01:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d4babe032be00b1ca0e0f76a6e91bff3</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>CIS-DF Certs Obtained - This Week</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_widget_d4babe032be00b1ca0e0f76a6e91bff3</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-21 05:43:03</sys_updated_on>
+        <visualization/>
+        <w>17</w>
+        <widget_props/>
+        <x>15</x>
+        <y>33</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>par_dashboard_widget_d4babe032be00b1ca0e0f76a6e91bff3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">289bac113be84b10a154031f23e45a83</canvas><component display_value="List">7ff373544303121093711347efb8f23c</component><component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":true,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[],"sortBy":null,"sortByOrder":"ORDERBY","followFilters":false,"showFilterIcon":false,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":true,"componentId":"7rxofu7x","emptyStateIllustration":"no-activities","emptyStateHeading":"No new certifications.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no new CIS-DF certifications this week.","emptyStateAlignment":"vertical-centered","columns":"resource,certificate,date_taken,points_accrued","table":"x_kp101_kpmg_res_0_user_certification","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"showBorder":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"User Certification","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_user_certification","filterQuery":"certificate=91627b853b2cc710a154031f23e45aac^date_takenONLast 7 days@javascript:gs.beginningOfLast7Days()@javascript:gs.endOfLast7Days()","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUxNDU1OTcxNA==","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false,"headerTitle":"CIS-DF - Last 7 days","headerColor":{"themeVariable":"","value":"#032d42"},"titleColor":{"themeVariable":"","value":"#93e1c6"}}</component_props><h>21</h><name>CIS-DF Certs Obtained - This Week</name><stored_component display_value="CIS-DF Certs Obtained - This Week">71b085583bc18318a154031f23e45a7f</stored_component><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ifnavarro</sys_created_by><sys_created_on>2026-05-04 07:01:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d4babe032be00b1ca0e0f76a6e91bff3</sys_id><sys_mod_count>17</sys_mod_count><sys_name>CIS-DF Certs Obtained - This Week</sys_name><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>par_dashboard_widget_d4babe032be00b1ca0e0f76a6e91bff3</sys_update_name><sys_updated_by>ifnavarro</sys_updated_by><sys_updated_on>2026-05-21 05:43:03</sys_updated_on><visualization/><w>17</w><widget_props/><x>15</x><y>33</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-453879825</payload_hash>
+        <record_name>CIS-DF Certs Obtained - This Week</record_name>
+        <reverted_from/>
+        <source>94ca91522bf84bd0a0e0f76a6e91bf9b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-21 05:43:03</sys_created_on>
+        <sys_id>1edb42683b498f18a154031f23e45a11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e490f0cde0000001</sys_recorded_at>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-21 05:43:03</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>d6db426838498f181ae096495f033f10</update_guid>
+        <update_guid_history>d6db426838498f181ae096495f033f10:-453879825,a4bbcea4ef498f18ac921709a3a15286:-419841509,e6d509d08d8583183d7e1dfc24feb09c:1824194567,ad3f55ceb5f003d066731e185af27f02:0,cda5ff29dc34c39026366ebe4c68acb2:1540732140,0670bb6dce70c39097df16065cde4db5:-689155093,731037a95370c3908d0548206cabe660:1666746091,0e789a08b5308f9c3df3e6ee4ee980b0:1004498531,f058dec4d0308f9c02f675e846d04297:674884191,5ba941c0f8bc8b9caec11c278917ad96:-1429830355,a4a6dc3fe560cf5461d5a3a4cbf2129e:-1555844306,de4948b75fa88f54ebe6d7ed4ca65f8f:838850097,b21124671920875cbd6fec11e42fdede:-570824539,2cc0ac63e220875c72301258c5f71ea3:453869382,271ed4ab5aac475c6dfc4d6ed7850cbd:-1595518460,91f994a771e8475cebbeacc0ed0c375c:650060994,e35a339b7ce44754f81f09b7850e2c2c:-2141802013,da3803cff8a80b1c515820e315314ad7:-92414171,9cbabe035ae00b1c33fb89548de6abf5:1217246335</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CIS-DF Certs Obtained - This Week">0a226b502b554390a0e0f76a6e91bf25</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-06-02 03:37:21</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>86cc0e2b59dc41b890b5609a848c52a4</sys_id>
+        <sys_metadata>d4babe032be00b1ca0e0f76a6e91bff3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CIS-DF Certs Obtained - This Week</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_d4babe032be00b1ca0e0f76a6e91bff3</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_d4babe032be00b1ca0e0f76a6e91bff3">1edb42683b498f18a154031f23e45a11</sys_update_version>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-06-02 03:37:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

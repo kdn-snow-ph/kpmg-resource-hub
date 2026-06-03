@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Certification and Skiils Dashboard default">57016a9c2b498718a0e0f76a6e91bf73</macroponent>
+        <name>project_name/now_default/items</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return [
+	{
+		"id": "l1",
+		"label": "List item 1"
+	},
+	{
+		"id": "l2",
+		"label": "List item 2"
+	},
+	{
+		"id": "l3",
+		"label": "List item 3"
+	},
+	{
+		"id": "l4",
+		"label": "List item 4"
+	},
+	{
+		"id": "l5",
+		"label": "List item 5"
+	},
+	{
+		"id": "l6",
+		"label": "List item 6"
+	}
+];
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-05-21 09:35:52</sys_created_on>
+        <sys_id>4e6cb2a82bc50358a0e0f76a6e91bfc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>project_name/now_default/items</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_ux_client_script_4e6cb2a82bc50358a0e0f76a6e91bfc7</sys_update_name>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-21 09:35:52</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>sys_ux_client_script_4e6cb2a82bc50358a0e0f76a6e91bfc7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Certification and Skiils Dashboard default"&gt;57016a9c2b498718a0e0f76a6e91bf73&lt;/macroponent&gt;&lt;name&gt;project_name/now_default/items&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return [
+	{
+		"id": "l1",
+		"label": "List item 1"
+	},
+	{
+		"id": "l2",
+		"label": "List item 2"
+	},
+	{
+		"id": "l3",
+		"label": "List item 3"
+	},
+	{
+		"id": "l4",
+		"label": "List item 4"
+	},
+	{
+		"id": "l5",
+		"label": "List item 5"
+	},
+	{
+		"id": "l6",
+		"label": "List item 6"
+	}
+];
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mmhernandez4@kpmg.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-21 09:35:52&lt;/sys_created_on&gt;&lt;sys_id&gt;4e6cb2a82bc50358a0e0f76a6e91bfc7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;project_name/now_default/items&lt;/sys_name&gt;&lt;sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0"&gt;2d99e9272b948bd0a0e0f76a6e91bf71&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="KPMG Resource Hub"&gt;2d99e9272b948bd0a0e0f76a6e91bf71&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_4e6cb2a82bc50358a0e0f76a6e91bfc7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mmhernandez4@kpmg.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-21 09:35:52&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-771547651</payload_hash>
+        <record_name>project_name/now_default/items</record_name>
+        <reverted_from/>
+        <source>b4ba1d062b7003d0a0e0f76a6e91bf9f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-05-21 09:35:52</sys_created_on>
+        <sys_id>682107282b890358a0e0f76a6e91bf7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e49e432fe0000001</sys_recorded_at>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-21 09:35:52</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>e4210728c0890358efa461bedde33c7d</update_guid>
+        <update_guid_history>e4210728c0890358efa461bedde33c7d:-771547651</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-05-21 09:53:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0238f564d3154c50801aac4666d95900</sys_id>
+        <sys_metadata>4e6cb2a82bc50358a0e0f76a6e91bfc7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>project_name/now_default/items</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_4e6cb2a82bc50358a0e0f76a6e91bfc7</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_4e6cb2a82bc50358a0e0f76a6e91bfc7">682107282b890358a0e0f76a6e91bf7e</sys_update_version>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-21 09:53:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

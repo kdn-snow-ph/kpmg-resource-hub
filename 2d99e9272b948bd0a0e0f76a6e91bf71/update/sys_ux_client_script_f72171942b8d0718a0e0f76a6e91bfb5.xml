@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Resources Hub default">90da59582b010718a0e0f76a6e91bf52</macroponent>
+        <name>Filter by status</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    var status = 'bench_idea_innovation,bench_training,deployed,on_leave';
+    if (event.payload.value.toString() == '') {
+        api.setState('depStatusFilterParam', 'bench_idea_innovation,bench_training,deployed,on_leave');
+        api.data.resource_profile_table.refresh();
+    } else {
+        api.setState('depStatusFilterParam', event.payload.value);
+        api.data.resource_profile_table.refresh();
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-05-20 09:48:20</sys_created_on>
+        <sys_id>f72171942b8d0718a0e0f76a6e91bfb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Filter by status</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_ux_client_script_f72171942b8d0718a0e0f76a6e91bfb5</sys_update_name>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-20 09:48:20</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
