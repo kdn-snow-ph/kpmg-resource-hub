@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_kp101_kpmg_res_0_user_project_assignment</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_kp101_kpmg_res_0_user_project_assignment">deployment_statusCHANGESTOcompleted^EQ<item display_value="Completed" endquery="false" field="deployment_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="completed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Auto Set Deployment Status Based on Proj</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var resourceProfile = current.user;
+
+    if (!resourceProfile)
+        return;
+
+    // Check if user still has active/deployed assignments
+    var activeGR = new GlideRecord('x_kp101_kpmg_res_0_user_project_assignment');
+    activeGR.addQuery('user', resourceProfile);
+    activeGR.addQuery('deployment_status', 'IN', 'active,planned');
+    activeGR.query();
+
+    var rpGR = new GlideRecord('x_kp101_kpmg_res_0_resource_profile');
+
+    if (rpGR.get(resourceProfile)) {
+
+        if (activeGR.hasNext()) {
+            rpGR.resource_status = 'deployed';
+        } 
+		
+
+        rpGR.update();
+    }
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-05-18 06:27:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>44e8bee33b7c4b94a154031f23e45afb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Auto Set Deployment Status Based on Proj</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_script_44e8bee33b7c4b94a154031f23e45afb</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-18 06:46:02</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=44e8bee33b7c4b94a154031f23e45afb"/>
+</record_update>

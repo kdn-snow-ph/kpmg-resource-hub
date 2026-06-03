@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="KPMG ServiceNow Resource Hub">4c7a99542b010718a0e0f76a6e91bf92</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>New record</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>new-record</route_type>
+        <screen_type display_value="New record">b88435bd3bc14fd8a154031f23e45a14</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-05-25 01:13:29</sys_created_on>
+        <sys_id>bc8435bd3bc14fd8a154031f23e45a1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New record</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_ux_app_route_bc8435bd3bc14fd8a154031f23e45a1b</sys_update_name>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-25 01:13:29</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=bc8435bd3bc14fd8a154031f23e45a1b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>sys_ux_app_route_bc8435bd3bc14fd8a154031f23e45a1b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="KPMG ServiceNow Resource Hub">4c7a99542b010718a0e0f76a6e91bf92</app_config><description/><extension_point/><fields/><icon/><interoperable>false</interoperable><name>New record</name><optional_parameters/><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>new-record</route_type><screen_type display_value="New record">b88435bd3bc14fd8a154031f23e45a14</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>mmhernandez4@kpmg.com</sys_created_by><sys_created_on>2026-05-25 01:13:29</sys_created_on><sys_id>bc8435bd3bc14fd8a154031f23e45a1b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New record</sys_name><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>sys_ux_app_route_bc8435bd3bc14fd8a154031f23e45a1b</sys_update_name><sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by><sys_updated_on>2026-05-25 01:13:29</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=bc8435bd3bc14fd8a154031f23e45a1b"/></record_update>]]></payload>
+        <payload_hash>1449803149</payload_hash>
+        <record_name>New record</record_name>
+        <reverted_from/>
+        <source>b4ba1d062b7003d0a0e0f76a6e91bf9f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-05-25 01:13:29</sys_created_on>
+        <sys_id>388435bd3bc14fd8a154031f23e45a22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e5cb1b2710000001</sys_recorded_at>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-25 01:13:29</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>748435bd31c14fd8f600c0a15ee8dc21</update_guid>
+        <update_guid_history>748435bd31c14fd8f600c0a15ee8dc21:1449803149</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-05-25 01:16:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>05e6d5c921774ec680aaad5cebb21ac9</sys_id>
+        <sys_metadata>bc8435bd3bc14fd8a154031f23e45a1b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New record</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_bc8435bd3bc14fd8a154031f23e45a1b</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_bc8435bd3bc14fd8a154031f23e45a1b">388435bd3bc14fd8a154031f23e45a22</sys_update_version>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-25 01:16:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">289bac113be84b10a154031f23e45a83</canvas>
+        <component display_value="Horizontal bar">85855283b7e03010097cb81cde11a91d</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","chartVariation":"stacked","yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":true,"xAxisMaxLabelSize":200,"showClosestSeriesOnHover":true,"xAxisTruncationType":"end","yAxisStyle":"default","showLegend":false,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":true,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"yAxisHidden":false,"xAxisHidden":false,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"User Certification","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_user_certification","filterQuery":"certificate.type=AI^date_taken&gt;=javascript:gs.dateGenerate('2026-03-01','00:00:00')","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUzMTU2MTAwNw==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"AI Accreditations and Micro-certifications","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUzMTU2MTAwNw==","id":"ZEdGaWJHVjRYMnR3TVRBeFgydHdiV2RmY21Welh6QmZkWE5sY2w5alpYSjBhV1pwWTJGMGFXOXVNVGMzTnpVek1UVTJNVEF3Tnc9PTE3Nzc1MzE1NjQ3NTM=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUzMTU2MTAwNw==","groupByField":"certificate","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"1ju832mi","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","colors":{},"titleColor":{"themeVariable":"","value":"#93e1c6"},"headerColor":{"themeVariable":"","value":"#032d42"}}</component_props>
+        <h>22</h>
+        <name>AI Accreditations and Micro-certificates Graph</name>
+        <stored_component display_value="AI Accreditations and Micro-certificates Graph">5111811c3bc18318a154031f23e45a3a</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-04-30 08:12:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6db4ae352b248758a0e0f76a6e91bfe1</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>AI Accreditations and Micro-certificates Graph</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>par_dashboard_widget_6db4ae352b248758a0e0f76a6e91bfe1</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-21 05:44:42</sys_updated_on>
+        <visualization/>
+        <w>25</w>
+        <widget_props/>
+        <x>23</x>
+        <y>79</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>par_dashboard_widget_6db4ae352b248758a0e0f76a6e91bfe1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">289bac113be84b10a154031f23e45a83</canvas><component display_value="Horizontal bar">85855283b7e03010097cb81cde11a91d</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","chartVariation":"stacked","yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":true,"xAxisMaxLabelSize":200,"showClosestSeriesOnHover":true,"xAxisTruncationType":"end","yAxisStyle":"default","showLegend":false,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":true,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"yAxisHidden":false,"xAxisHidden":false,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"User Certification","sourceType":"table","tableOrViewName":"x_kp101_kpmg_res_0_user_certification","filterQuery":"certificate.type=AI^date_taken&gt;=javascript:gs.dateGenerate('2026-03-01','00:00:00')","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUzMTU2MTAwNw==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"AI Accreditations and Micro-certifications","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUzMTU2MTAwNw==","id":"ZEdGaWJHVjRYMnR3TVRBeFgydHdiV2RmY21Welh6QmZkWE5sY2w5alpYSjBhV1pwWTJGMGFXOXVNVGMzTnpVek1UVTJNVEF3Tnc9PTE3Nzc1MzE1NjQ3NTM=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4X2twMTAxX2twbWdfcmVzXzBfdXNlcl9jZXJ0aWZpY2F0aW9uMTc3NzUzMTU2MTAwNw==","groupByField":"certificate","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"1ju832mi","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","colors":{},"titleColor":{"themeVariable":"","value":"#93e1c6"},"headerColor":{"themeVariable":"","value":"#032d42"}}</component_props><h>22</h><name>AI Accreditations and Micro-certificates Graph</name><stored_component display_value="AI Accreditations and Micro-certificates Graph">5111811c3bc18318a154031f23e45a3a</stored_component><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ifnavarro</sys_created_by><sys_created_on>2026-04-30 08:12:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6db4ae352b248758a0e0f76a6e91bfe1</sys_id><sys_mod_count>27</sys_mod_count><sys_name>AI Accreditations and Micro-certificates Graph</sys_name><sys_overrides/><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>par_dashboard_widget_6db4ae352b248758a0e0f76a6e91bfe1</sys_update_name><sys_updated_by>ifnavarro</sys_updated_by><sys_updated_on>2026-05-21 05:44:42</sys_updated_on><visualization/><w>25</w><widget_props/><x>23</x><y>79</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-477671128</payload_hash>
+        <record_name>AI Accreditations and Micro-certificates Graph</record_name>
+        <reverted_from/>
+        <source>94ca91522bf84bd0a0e0f76a6e91bf9b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-21 05:44:42</sys_created_on>
+        <sys_id>e63cc26c3b498f18a154031f23e45ae0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e491090560000001</sys_recorded_at>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-21 05:44:42</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>a23cc26c18498f184be1fb70fcdf29df</update_guid>
+        <update_guid_history>a23cc26c18498f184be1fb70fcdf29df:-477671128,9ad509d00885831827314e6b74c0477b:-491203929,dd3f15ce9ff003d0d59a8a6918ec2f16:0,c1a5ff297c34c390d9a0ca8467117c7a:-1684908653,ea90ffadf670c390714a02fefc9576d2:-660214732,0670bb6d0670c3908dd862fa3181a563:-646681931,b71037a96370c3900579b19205040e26:50612795,79789a08fd308f9c249099026d1d2f3f:1402705911,0ba941c017bc8b9c06198b962bc4060c:-1867567464,d70c157381a843942afa0b96d38c3b46:709785750,5cdb9dff71684394886099395e12898b:1734479671,db0bd5bbe26843948897adeaa8d8e85a:709785750,8dc8547fc8a0cf54b3282f8ea42e22b4:1734479671,3d989cfba7a0cf5451c722920b018059:-1790676844,18a6dc3ffc60cf54c3fcde79cb786c78:1734479671,124948b733a88f542a90669da01d8725:-1404586121,8103e4e7c560875c9c7a5b9a84cda69d:1066173917,361124677220875c6302770d261e6cb8:2090867838,a4c0ac63d020875cb31168463b7bba26:-1179405537,b02f9c27e8ec475c7f6c5fbd3e3fd8b5:55012797,e71ed4ab96ac475c0c72fef346b603a2:-969681124,19f994a73ee8475c0773fee1179d6228:1232162469,2f5aff5b0fe44754799f2008406208ff:54745158,823803cffea80b1c6caae3eb24d9985a:-2147098435,73aabe031de00b1c535d5d37290b28a6:1820469666,1d42be8fa0acc71c4cdbf8fa10df7f07:-969948763,f7386a0f9828c71c13650bde7056447e:641355839,7028b54bc028471c55731c7dda34d48e:-1880005608,21b4ae356224875835f5be83bcfc75e5:-424213077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AI Accreditations and Micro-certificates Graph">e122e7502b554390a0e0f76a6e91bff3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-06-02 03:37:20</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>189835f3de34409883ef8aceea929040</sys_id>
+        <sys_metadata>6db4ae352b248758a0e0f76a6e91bfe1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AI Accreditations and Micro-certificates Graph</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_6db4ae352b248758a0e0f76a6e91bfe1</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_6db4ae352b248758a0e0f76a6e91bfe1">e63cc26c3b498f18a154031f23e45ae0</sys_update_version>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-06-02 03:37:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

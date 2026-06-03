@@ -15,7 +15,8 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_kp101_kpmg_res_0_user_project_assignment">deployment_statusVALCHANGES^EQ<item display_value="-- None --" endquery="false" field="deployment_status" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+        <filter_condition table="x_kp101_kpmg_res_0_user_project_assignment">deployment_statusCHANGESTOcompleted^ORdeployment_statusCHANGESTOactive^EQ<item display_value="Completed" endquery="false" field="deployment_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="completed"/>
+            <item display_value="Active" endquery="false" field="deployment_status" goto="false" newquery="false" operator="CHANGESTO" or="true" value="active"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
@@ -29,33 +30,46 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-	if(!current.user) return;
+    if (!current.user) return;
 
-	var resource = current.user;
+    var resource = current.user;
 
-	var profileGR = new GlideRecord('x_kp101_kpmg_res_0_resource_profile');
-	if(!profileGR.get(resource)) return;
+    var profileGR = new GlideRecord('x_kp101_kpmg_res_0_resource_profile');
+    if (!profileGR.get(resource)) return;
 
-	var projectGR = new GlideRecord('x_kp101_kpmg_res_0_user_project_assignment');
-		projectGR.addQuery('user', resource);
-		projectGR.addQuery('deployment_status', 'active');
-		projectGR.query();
+    if (current.deployment_status == "completed") {
+		var gdt = new GlideDateTime();
+        current.end_date = gdt.getValue();
+		current.update();
+        var projectGR = new GlideRecord('x_kp101_kpmg_res_0_user_project_assignment');
+        projectGR.addQuery('user', resource);
+        projectGR.addQuery('deployment_status', 'active');
+        projectGR.query();
 
-		if(projectGR.hasNext()){
+        if (projectGR.hasNext()) {
 
-			if(profileGR.deployment_status != 'deployed') {
-				profileGR.deployment_status = 'deployed';
-				profileGR.update();
-			}
-		} else {
+            if (profileGR.deployment_status != 'deployed') {
+                profileGR.deployment_status = 'deployed';
+                profileGR.update();
+            }
+        } else {
+			
+            if (profileGR.deployment_status == 'deployed') {
+                profileGR.deployment_status = 'bench_training';
+                profileGR.update();
+            }
+        }
+    } else {
+        profileGR.deployment_status = 'deployed';
+        profileGR.update();
+        current.end_date = '';
 
-			if(profileGR.deployment_status == 'deployed'){
-				profileGR.deployment_status = 'bench_training';
-				profileGR.update();
-			}
-		}
+        var gdt = new GlideDateTime();
+        current.start_date = gdt.getValue();
+		current.update();
+    }
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -64,15 +78,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0890f1793b6c4f50a154031f23e45ab1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Update resource deployment status</sys_name>
         <sys_overrides/>
         <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
         <sys_policy/>
         <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
         <sys_update_name>sys_script_0890f1793b6c4f50a154031f23e45ab1</sys_update_name>
-        <sys_updated_by>mdcadag</sys_updated_by>
-        <sys_updated_on>2026-04-30 04:25:42</sys_updated_on>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-05-18 07:13:09</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

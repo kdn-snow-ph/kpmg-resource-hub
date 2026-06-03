@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_toolbar</name>
+        <page display_value="KPMG ServiceNow Resource Hub">047ad1942b010718a0e0f76a6e91bf1b</page>
+        <required_translations>[ {
+  "message" : "Home",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "List",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-05-20 08:55:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>585e21dc2b0d0718a0e0f76a6e91bfdf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_ux_page_property_585e21dc2b0d0718a0e0f76a6e91bfdf</sys_update_name>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-25 08:10:25</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_kp101_kpmg_res_0.047ad1942b010718a0e0f76a6e91bf1b.root.global.chrome_toolbar</unique_name>
+        <value>[
+    {
+        "id": "resources-hub",
+        "label": {
+            "translatable": true,
+            "message": "Home"
+        },
+        "icon": "home-outline",
+        "routeInfo": {
+            "route": "resources-hub"
+        },
+        "group": "top",
+        "order": 100,
+        "badge": {},
+        "presence": {},
+        "availability": {},
+        "viewportInfo": {}
+    },
+    {
+        "id": "resource-hub-tables",
+        "label": {
+            "translatable": true,
+            "message": "List"
+        },
+        "icon": "list-fill",
+        "routeInfo": {
+            "route": "resource-hub-tables"
+        },
+        "group": "top",
+        "order": 100,
+        "badge": {},
+        "presence": {},
+        "availability": {},
+        "viewportInfo": {}
+    }
+]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=585e21dc2b0d0718a0e0f76a6e91bfdf"/>
+</record_update>

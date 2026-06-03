@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>test</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>test-1016371277</route_type>
+        <screen_type display_value="test">50f7ee483b490fd4a154031f23e45a90</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-19 18:28:50</sys_created_on>
+        <sys_id>a4f722883b490fd4a154031f23e45a26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_ux_app_route_a4f722883b490fd4a154031f23e45a26</sys_update_name>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-19 18:28:50</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=a4f722883b490fd4a154031f23e45a26"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>sys_ux_app_route_a4f722883b490fd4a154031f23e45a26</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config><description/><extension_point/><fields/><icon/><interoperable>false</interoperable><name>test</name><optional_parameters/><order>0</order><parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>test-1016371277</route_type><screen_type display_value="test">50f7ee483b490fd4a154031f23e45a90</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>ifnavarro</sys_created_by><sys_created_on>2026-05-19 18:28:50</sys_created_on><sys_id>a4f722883b490fd4a154031f23e45a26</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test</sys_name><sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package><sys_policy/><sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope><sys_update_name>sys_ux_app_route_a4f722883b490fd4a154031f23e45a26</sys_update_name><sys_updated_by>ifnavarro</sys_updated_by><sys_updated_on>2026-05-19 18:28:50</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=a4f722883b490fd4a154031f23e45a26"/></record_update>]]></payload>
+        <payload_hash>-66160349</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>94ca91522bf84bd0a0e0f76a6e91bf9b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-19 18:28:50</sys_created_on>
+        <sys_id>2cf722883b490fd4a154031f23e45a2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e417f6e640000001</sys_recorded_at>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-19 18:28:50</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>68f7228866490fd4c801c83facaf0d2a</update_guid>
+        <update_guid_history>68f7228866490fd4c801c83facaf0d2a:-66160349</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ifnavarro</sys_created_by>
+        <sys_created_on>2026-05-19 18:29:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>59e8eb9de40d4aa08ce65804ea02efa4</sys_id>
+        <sys_metadata>a4f722883b490fd4a154031f23e45a26</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_a4f722883b490fd4a154031f23e45a26</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_a4f722883b490fd4a154031f23e45a26">2cf722883b490fd4a154031f23e45a2b</sys_update_version>
+        <sys_updated_by>ifnavarro</sys_updated_by>
+        <sys_updated_on>2026-05-19 18:29:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
