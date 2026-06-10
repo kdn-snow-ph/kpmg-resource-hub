@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_kp101_kpmg_res_0_resource_profile</basic_apply_to>
+        <basic_query_from>x_kp101_kpmg_res_0_skills</basic_query_from>
+        <insert_callback/>
+        <name>User Skills 2 </name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	var users =[];
+	var skills = [];
+	var gr = new GlideRecord('x_kp101_kpmg_res_0_user_skill');
+	gr.addQuery('user', current.resource_name.sys_id);
+	//gr.addQuery('skill', parent.sys_id);
+	gr.query();
+	if(gr.next()){
+		users.push(gr.user);
+	//	skills.push(gr.skill);
+	}
+	
+	current.addEncodedQuery("resource_name.sys_idLIKE"+users.toString());
+
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-06-05 04:12:55</sys_created_on>
+        <sys_id>293e325d3bd14714a154031f23e45a08</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>User Skills 2 </sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_relationship_293e325d3bd14714a154031f23e45a08</sys_update_name>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-06-05 04:31:41</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=293e325d3bd14714a154031f23e45a08"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>sys_relationship_293e325d3bd14714a154031f23e45a08</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_kp101_kpmg_res_0_resource_profile&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;x_kp101_kpmg_res_0_skills&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;User Skills 2 &lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	var users =[];
+	var skills = [];
+	var gr = new GlideRecord('x_kp101_kpmg_res_0_user_skill');
+	gr.addQuery('user', current.resource_name.sys_id);
+	//gr.addQuery('skill', parent.sys_id);
+	gr.query();
+	if(gr.next()){
+		users.push(gr.user);
+	//	skills.push(gr.skill);
+	}
+	
+	current.addEncodedQuery("resource_name.sys_idLIKE"+users.toString());
+
+
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mmhernandez4@kpmg.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-05 04:12:55&lt;/sys_created_on&gt;&lt;sys_id&gt;293e325d3bd14714a154031f23e45a08&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;User Skills 2 &lt;/sys_name&gt;&lt;sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0"&gt;2d99e9272b948bd0a0e0f76a6e91bf71&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="KPMG Resource Hub"&gt;2d99e9272b948bd0a0e0f76a6e91bf71&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_293e325d3bd14714a154031f23e45a08&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mmhernandez4@kpmg.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-05 04:31:41&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=293e325d3bd14714a154031f23e45a08"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-939157524</payload_hash>
+        <record_name>User Skills 2 </record_name>
+        <reverted_from/>
+        <source>b4ba1d062b7003d0a0e0f76a6e91bf9f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-06-05 04:31:41</sys_created_on>
+        <sys_id>0f5b43593b1d4714a154031f23e45a07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e960d185a0000001</sys_recorded_at>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-06-05 04:31:41</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>c75b4359fa1d4714fc423d921e858606</update_guid>
+        <update_guid_history>c75b4359fa1d4714fc423d921e858606:-939157524,831b8315d81d4714dc2d376629dd81af:1204238926,f42a0319c0d94714fb96b5f0f762821a:-1472562033,76894b1901d947147f1cac106d0e96dd:798172626,410947d1acd947144b42d9fea2f0f4ce:-343311238,54f70799cb99471479b45378cb243b6d:463432151,1c17c3dd25594714c019585af3ef9b7b:-1878828603</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-06-05 04:37:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>4c76a810399c4a849b2cd10663406b01</sys_id>
+        <sys_metadata>293e325d3bd14714a154031f23e45a08</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Skills 2 </sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent display_value="Resource Profile">1681352b2bd88bd0a0e0f76a6e91bf6c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>sys_relationship_293e325d3bd14714a154031f23e45a08</sys_update_name>
+        <sys_update_version display_value="sys_relationship_293e325d3bd14714a154031f23e45a08">0f5b43593b1d4714a154031f23e45a07</sys_update_version>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-06-05 04:37:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

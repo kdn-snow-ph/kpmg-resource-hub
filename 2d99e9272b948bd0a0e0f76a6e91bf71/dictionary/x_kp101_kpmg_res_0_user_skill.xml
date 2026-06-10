@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="7163b93d3bac4f50a154031f23e45a25" label="User Skill" max_length="40" name="x_kp101_kpmg_res_0_user_skill" type="collection">
-        <element active="false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Active" max_length="40" name="active" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Resource" mandatory="true" max_length="32" name="user" reference="x_kp101_kpmg_res_0_resource_profile" reference_floats="true" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Skill" max_length="32" name="skill" reference="x_kp101_kpmg_res_0_skills" type="reference"/>
+        <element active="false" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Resource" mandatory="true" max_length="32" name="user" reference="x_kp101_kpmg_res_0_resource_profile" reference_floats="true" type="reference"/>
+        <element display="true" label="Skill" max_length="32" name="skill" reference="x_kp101_kpmg_res_0_skills" type="reference"/>
         <index name="index">
             <element name="skill"/>
         </index>
