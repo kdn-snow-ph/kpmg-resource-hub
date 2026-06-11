@@ -1324,8 +1324,13 @@
                                                                             "value": null
                                                                         },
                                                                         "params": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": null
+                                                                            "container": {
+                                                                                "selectedTab": {
+                                                                                    "type": "JSON_LITERAL",
+                                                                                    "value": "1"
+                                                                                }
+                                                                            },
+                                                                            "type": "MAP_CONTAINER"
                                                                         },
                                                                         "passiveNavigation": {
                                                                             "type": "JSON_LITERAL",
@@ -1373,6 +1378,23 @@
                                                     "targets": [
                                                         {
                                                             "broker": null,
+                                                            "clientScript": {
+                                                                "payload": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": {}
+                                                                },
+                                                                "sysId": "df4e4bcd2b554fd0a0e0f76a6e91bf0c"
+                                                            },
+                                                            "clientTransformScript": "",
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": null,
+                                                            "operation": null,
+                                                            "targetId": "XdvRmgDggDkzPjjVIEuGZPmiiddh",
+                                                            "type": "CLIENT_SCRIPT"
+                                                        },
+                                                        {
+                                                            "broker": null,
                                                             "clientScript": null,
                                                             "clientTransformScript": "",
                                                             "conditional": null,
@@ -1390,26 +1412,18 @@
                                                                                 "sysId": {
                                                                                     "binding": {
                                                                                         "address": [
-                                                                                            "record",
-                                                                                            "popoverNavigation",
-                                                                                            "payload",
-                                                                                            "fields",
                                                                                             "sysId"
                                                                                         ]
                                                                                     },
-                                                                                    "type": "DATA_OUTPUT_BINDING"
+                                                                                    "type": "STATE_BINDING"
                                                                                 },
                                                                                 "table": {
                                                                                     "binding": {
                                                                                         "address": [
-                                                                                            "record",
-                                                                                            "popoverNavigation",
-                                                                                            "payload",
-                                                                                            "fields",
                                                                                             "table"
                                                                                         ]
                                                                                     },
-                                                                                    "type": "DATA_OUTPUT_BINDING"
+                                                                                    "type": "STATE_BINDING"
                                                                                 }
                                                                             },
                                                                             "type": "MAP_CONTAINER"
@@ -1452,7 +1466,7 @@
                                                                 "sysId": "afa9a7393b89431ca154031f23e45af1"
                                                             },
                                                             "operation": null,
-                                                            "targetId": "XebbyseehhaajjDaatGeeddGECureNjylF",
+                                                            "targetId": "RJsjhhvhhrBkiiiijjggEPzWjjEccUVd",
                                                             "type": "EVENT"
                                                         }
                                                     ]
@@ -1469,10 +1483,18 @@
                                             "overrides": null,
                                             "preset": {
                                                 "controllerElementId": "record",
-                                                "disabledEventTargetIds": [],
+                                                "disabledEventTargetIds": [
+                                                    "clswbodrpabbbaahvvvbmxhhvbvhajjee",
+                                                    "clccsjjjpaayaaffoaaddbahgcfxhhevz"
+                                                ],
                                                 "id": "4e106040332f87d1ac089faa2f01a491"
                                             },
-                                            "propertyValues": {},
+                                            "propertyValues": {
+                                                "hideDeclarativeActions": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                }
+                                            },
                                             "slot": null,
                                             "styles": {}
                                         }
@@ -5584,14 +5606,14 @@
         <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
         <sys_created_on>2026-05-20 10:21:24</sys_created_on>
         <sys_id>b1f14a9c2b094718a0e0f76a6e91bffb</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Data  record default</sys_name>
         <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
         <sys_policy/>
         <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
         <sys_update_name>sys_ux_macroponent_b1f14a9c2b094718a0e0f76a6e91bffb</sys_update_name>
         <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
-        <sys_updated_on>2026-05-27 03:33:00</sys_updated_on>
+        <sys_updated_on>2026-06-04 12:52:10</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=b1f14a9c2b094718a0e0f76a6e91bffb"/>
 </record_update>

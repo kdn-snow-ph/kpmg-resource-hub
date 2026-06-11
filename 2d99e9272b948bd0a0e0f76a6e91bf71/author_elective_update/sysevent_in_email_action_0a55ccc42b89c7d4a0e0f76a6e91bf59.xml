@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="DELETE">
+        <action>record_action</action>
+        <active>false</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">subject=New test email^EQ<item endquery="false" field="subject" goto="false" newquery="false" operator="=" or="false" value="New test email"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>Testing Inbound MH</name>
+        <order>50</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction( /*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+
+    try {
+        // Get the first attachment from the email
+        gs.info("Email object " + sys_email.sys_id);
+		
+        var attachment = new GlideRecord('sys_attachment');
+        attachment.addQuery('table_sys_id', sys_email.sys_id);
+        attachment.query();
+
+        if (!attachment.next()) {
+            gs.info("No attachment found in inbound email.");
+            return;
+        } else {
+            gs.info(attachment.file_name);
+
+        }
+
+        var ds = new GlideRecord('sys_data_source');
+        ds.initialize();
+        ds.name = 'Certs Import ' + new GlideDateTime();
+        ds.import_set_table_name = 'x_kp101_kpmg_res_0_servicenow_report_staging';
+        ds.format = 'Excel';
+        ds.header_row = 1;
+        ds.sheet_number = 1;
+        var dsSysId = ds.insert();
+
+        // Copy attachment from email to data source
+        GlideSysAttachment.copy(
+            'sys_email',
+            sys_email.sys_id,
+            'sys_data_source',
+            dsSysId
+        );
+
+        // Load Import Set
+        var loader = new GlideImportSetLoader();
+        var importSetRec = loader.getImportSetGr(ds);
+
+        loader.loadImportSetTable(importSetRec, ds);
+
+        importSetRec.state = 'loaded';
+        importSetRec.update();
+
+        // Run transform map
+        var transformWorker = new GlideImportSetTransformerWorker(
+            importSetRec.sys_id,
+            "7e86f14f3b600b14a154031f23e45a9f"
+        );
+
+        transformWorker.setBackground(true);
+        transformWorker.start();
+
+        gs.info("Import completed");
+
+    } catch (ex) {
+        gs.error("Error processing inbound email import: " + ex.message, "InboundImport");
+    }
+
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-05-19 06:48:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a55ccc42b89c7d4a0e0f76a6e91bf59</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Testing Inbound MH</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sysevent_in_email_action_0a55ccc42b89c7d4a0e0f76a6e91bf59</sys_update_name>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-19 14:36:54</sys_updated_on>
+        <table>sys_email</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</application>
+        <file_path/>
+        <instance_id>946576e12bb6a6581c84f9f66e91bf80</instance_id>
+        <instance_name>kpmgdeliverynetdemo02</instance_name>
+        <name>sysevent_in_email_action_0a55ccc42b89c7d4a0e0f76a6e91bf59</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_in_email_action"&gt;&lt;sysevent_in_email_action action="INSERT_OR_UPDATE"&gt;&lt;action&gt;record_action&lt;/action&gt;&lt;active&gt;false&lt;/active&gt;&lt;assignment_operator/&gt;&lt;condition_script/&gt;&lt;description/&gt;&lt;event_name&gt;email.read&lt;/event_name&gt;&lt;filter_condition table="sys_email"&gt;subject=New test email^EQ&lt;item endquery="false" field="subject" goto="false" newquery="false" operator="=" or="false" value="New test email"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;from/&gt;&lt;name&gt;Testing Inbound MH&lt;/name&gt;&lt;order&gt;50&lt;/order&gt;&lt;reply_email/&gt;&lt;required_roles/&gt;&lt;script&gt;&lt;![CDATA[(function runAction( /*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+
+    try {
+        // Get the first attachment from the email
+        gs.info("Email object " + sys_email.sys_id);
+		
+        var attachment = new GlideRecord('sys_attachment');
+        attachment.addQuery('table_sys_id', sys_email.sys_id);
+        attachment.query();
+
+        if (!attachment.next()) {
+            gs.info("No attachment found in inbound email.");
+            return;
+        } else {
+            gs.info(attachment.file_name);
+
+        }
+
+        var ds = new GlideRecord('sys_data_source');
+        ds.initialize();
+        ds.name = 'Certs Import ' + new GlideDateTime();
+        ds.import_set_table_name = 'x_kp101_kpmg_res_0_servicenow_report_staging';
+        ds.format = 'Excel';
+        ds.header_row = 1;
+        ds.sheet_number = 1;
+        var dsSysId = ds.insert();
+
+        // Copy attachment from email to data source
+        GlideSysAttachment.copy(
+            'sys_email',
+            sys_email.sys_id,
+            'sys_data_source',
+            dsSysId
+        );
+
+        // Load Import Set
+        var loader = new GlideImportSetLoader();
+        var importSetRec = loader.getImportSetGr(ds);
+
+        loader.loadImportSetTable(importSetRec, ds);
+
+        importSetRec.state = 'loaded';
+        importSetRec.update();
+
+        // Run transform map
+        var transformWorker = new GlideImportSetTransformerWorker(
+            importSetRec.sys_id,
+            "7e86f14f3b600b14a154031f23e45a9f"
+        );
+
+        transformWorker.setBackground(true);
+        transformWorker.start();
+
+        gs.info("Import completed");
+
+    } catch (ex) {
+        gs.error("Error processing inbound email import: " + ex.message, "InboundImport");
+    }
+
+})(current, event, email, logger, classifier);]]&gt;&lt;/script&gt;&lt;stop_processing&gt;true&lt;/stop_processing&gt;&lt;sys_class_name&gt;sysevent_in_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mmhernandez4@kpmg.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-19 06:48:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0a55ccc42b89c7d4a0e0f76a6e91bf59&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Testing Inbound MH&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0"&gt;2d99e9272b948bd0a0e0f76a6e91bf71&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="KPMG Resource Hub"&gt;2d99e9272b948bd0a0e0f76a6e91bf71&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_in_email_action_0a55ccc42b89c7d4a0e0f76a6e91bf59&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mmhernandez4@kpmg.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-19 14:36:54&lt;/sys_updated_on&gt;&lt;table&gt;sys_email&lt;/table&gt;&lt;template/&gt;&lt;type&gt;new&lt;/type&gt;&lt;/sysevent_in_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>470768827</payload_hash>
+        <record_name>Testing Inbound MH</record_name>
+        <reverted_from/>
+        <source>b4ba1d062b7003d0a0e0f76a6e91bf9f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-05-19 14:36:54</sys_created_on>
+        <sys_id>b2d2b1c02b89cbd4a0e0f76a6e91bf45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e40ab17300000001</sys_recorded_at>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-05-19 14:36:54</sys_updated_on>
+        <type>Inbound Email Actions</type>
+        <update_guid>7ad2b1c0f689cbd49fc354240c5ad443</update_guid>
+        <update_guid_history>7ad2b1c0f689cbd49fc354240c5ad443:470768827,eec8704038894bd44b5b0c5b59c27260:986279158,f0d57c80cb094bd41c32f5c73a334683:-409975950,4823f44490854bd4d54119440fdfd07e:-1646088270,78b1b0c40c454bd4bfe5458a991272ac:-302548846,e2ffecc441054bd4bb132c9e89bfa1ea:-26499072,818f240482054bd48be66caa0a6e914f:391209844,8b0fac00c3054bd40c02a5bb8577ca17:-303896334,e38b64c89a414bd4d240cc438d350401:-1194019987,b65420445b0d0bd46c89ad9383c71011:-303896334,4d1460401c0d0bd46f3e4217db612fe0:-516628722,673edc04d1090bd41c3dec88c3b215c1:-1780563458,f29d144c3ac50bd4d8e3b99d05c4a022:-1318260956,348bd0c4bb850bd46a1cef2e265a6bee:-711539256,56e88844650dc7d4531a74e2562b4e48:169555521,f687844c73c9c7d4311813decdb50884:744854144</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mmhernandez4@kpmg.com</sys_created_by>
+        <sys_created_on>2026-06-03 05:08:10</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_in_email_action">sysevent_in_email_action</sys_db_object>
+        <sys_id>c8fa08af0a8c48f49f4c0d54c66073e4</sys_id>
+        <sys_metadata>0a55ccc42b89c7d4a0e0f76a6e91bf59</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Testing Inbound MH</sys_name>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_parent display_value="Sys Email">736da72288122210559020d480f9d202</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_scope_delete display_value="">4daef79b8d264ba69e2f28f7f2350401</sys_scope_delete>
+        <sys_update_name>sysevent_in_email_action_0a55ccc42b89c7d4a0e0f76a6e91bf59</sys_update_name>
+        <sys_update_version display_value="sysevent_in_email_action_0a55ccc42b89c7d4a0e0f76a6e91bf59">b2d2b1c02b89cbd4a0e0f76a6e91bf45</sys_update_version>
+        <sys_updated_by>mmhernandez4@kpmg.com</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:08:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

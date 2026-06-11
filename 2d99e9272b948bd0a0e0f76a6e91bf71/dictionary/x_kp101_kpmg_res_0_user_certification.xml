@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="895eb68d2ba04bd4a0e0f76a6e91bfc4" label="User Certification" max_length="40" name="x_kp101_kpmg_res_0_user_certification" type="collection">
-        <element label="Certificate" mandatory="true" max_length="32" name="certificate" primary="true" reference="x_kp101_kpmg_res_0_certificate" type="reference"/>
+        <element display="true" label="Certificate" mandatory="true" max_length="32" name="certificate" primary="true" reference="x_kp101_kpmg_res_0_certificate" type="reference"/>
         <element label="Resource" mandatory="true" max_length="32" name="resource" primary="true" reference="x_kp101_kpmg_res_0_resource_profile" type="reference"/>
         <element label="Date Taken" max_length="40" name="date_taken" type="glide_date"/>
         <element label="Points Accrued" max_length="40" name="points_accrued" type="integer"/>

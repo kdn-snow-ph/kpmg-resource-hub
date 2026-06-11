@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_kp101_kpmg_res_0_resource_profile</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digest_type>single</digest_type>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_kp101_kpmg_res_0.user.reminder</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div style="background-color: #032d42; padding: 20px; border-radius: 4px 4px 0 0;">
+<h2 style="color: #ffffff; margin: 0; font-family: Arial,Helvetica,sans-serif;">Certification Reminder</h2>
+<p style="color: #c8d7df; margin: 5px 0 0 0; font-size: 14px; font-family: Arial,Helvetica,sans-serif;">Action Required</p>
+</div>
+<div style="height: 4px; background-color: #81b441;">&nbsp;</div>
+<div style="border: 1px solid #dcdcdc; padding: 20px; font-family: Arial,Helvetica,sans-serif; line-height: 1.6;">```
+<p>Hello <strong>${resource_name.name}</strong>,</p>
+<p>This is a friendly reminder that the following required certification(s) are still outstanding:</p>
+<div style="background-color: #f5f7f9; border-left: 4px solid #81B441; padding: 12px 16px; margin: 15px 0;">${event.parm2}</div>
+<p>Please complete the certification(s) at your earliest convenience to maintain compliance and ensure your skills profile remains up to date.</p>
+<p>Thank you.</p>
+```</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Certification Reminder to Users</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>resource_name</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>[Important] Certification Reminder: Complete by June 30, 2026</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:47:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>351845b02b598f90a0e0f76a6e91bff6</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Certification Reminder to Users</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sysevent_email_action_351845b02b598f90a0e0f76a6e91bff6</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-04 06:47:22</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>351845b02b598f90a0e0f76a6e91bff6</id>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:58:47</sys_created_on>
+        <sys_id>af1c8db82bd98f90a0e0f76a6e91bf46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:58:47</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

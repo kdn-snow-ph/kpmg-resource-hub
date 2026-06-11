@@ -15,7 +15,7 @@
         </element>
         <element label="Remarks" max_length="4000" name="remarks" type="string"/>
         <element label="End date" max_length="40" name="end_date" type="glide_date"/>
-        <element label="Project assignment" max_length="32" name="project_assignment" reference="x_kp101_kpmg_res_0_project_assignment" type="reference"/>
+        <element display="true" label="Project assignment" max_length="32" name="project_assignment" reference="x_kp101_kpmg_res_0_project_assignment" type="reference"/>
         <element choice="3" label="Deployment status" max_length="40" name="deployment_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
