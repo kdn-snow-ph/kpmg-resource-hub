@@ -2,7 +2,8 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,intermediateFlowVersion=1.3,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=439821000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
@@ -36,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b2f1955e3bf887d0a154031f23e45a57</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>Create Resource Profile from HR Profile</sys_name>
         <sys_overrides/>
         <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
@@ -44,11 +45,11 @@
         <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
         <sys_update_name>sys_hub_flow_b2f1955e3bf887d0a154031f23e45a57</sys_update_name>
         <sys_updated_by>mdcadag</sys_updated_by>
-        <sys_updated_on>2026-05-19 03:54:20</sys_updated_on>
+        <sys_updated_on>2026-06-19 08:25:32</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>32cf173b2b3487d4a0e0f76a6e91bfe9</version_record>
+        <version_record>f927ccca2b210798a0e0f76a6e91bff3</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b2f1955e3bf887d0a154031f23e45a57"/>
     <sys_variable_value action="delete_multiple" query="document_key=b2f1955e3bf887d0a154031f23e45a57"/>
@@ -82,15 +83,16 @@
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <data>{"run_on_extended":"false","run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any"}</data>
         <identifier>b2f1955e3bf887d0a154031f23e45a57</identifier>
+        <identifier_type>flow</identifier_type>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>mdcadag</sys_created_by>
         <sys_created_on>2026-05-19 03:54:20</sys_created_on>
         <sys_id>9ecf133b2b3487d4a0e0f76a6e91bf8a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>mdcadag</sys_updated_by>
-        <sys_updated_on>2026-05-19 03:54:20</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>mrabogado</sys_updated_by>
+        <sys_updated_on>2026-07-08 05:31:10</sys_updated_on>
         <trigger display_value="">dacf133b2b3487d4a0e0f76a6e91bf89</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b2f1955e3bf887d0a154031f23e45a57^sys_idNOT IN9ecf133b2b3487d4a0e0f76a6e91bf8a"/>
@@ -157,6 +159,7 @@
         <order>100</order>
         <primary>false</primary>
         <read_only>false</read_only>
+        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -241,6 +244,7 @@
         <order>101</order>
         <primary>false</primary>
         <read_only>false</read_only>
+        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -511,6 +515,7 @@
         <access>public</access>
         <acls/>
         <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,intermediateFlowVersion=1.3,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
@@ -615,6 +620,7 @@
         <order>100</order>
         <primary>false</primary>
         <read_only>false</read_only>
+        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -699,6 +705,7 @@
         <order>101</order>
         <primary>false</primary>
         <read_only>false</read_only>
+        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -968,7 +975,7 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>b2f1955e3bf887d0a154031f23e45a57</sys_id>
         <latest_snapshot>a5673a2b3bf84b94a154031f23e45a9a</latest_snapshot>
-        <compiler_build>glide-zurich-07-01-2025__patch7a-03-24-2026_04-08-2026_0745.zip</compiler_build>
+        <compiler_build>glide-zurich-07-01-2025__patch7b-hotfix1-05-18-2026_05-19-2026_0833.zip</compiler_build>
         <version_record/>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b2f1955e3bf887d0a154031f23e45a57^sys_idNOT IN4e67fa2b3bf84b94a154031f23e45a9e"/>
@@ -976,7 +983,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"4e67fa2b3bf84b94a154031f23e45a9e","name":"plan","plan_signature":null}}</plan>
         <plan_id>b2f1955e3bf887d0a154031f23e45a57</plan_id>
-        <snapshot>ed8ec01c2b814318a0e0f76a6e91bf50</snapshot>
+        <snapshot>e400ab9a2b9d8750a0e0f76a6e91bf43</snapshot>
         <sys_created_by>mdcadag</sys_created_by>
         <sys_created_on>2026-05-18 06:19:26</sys_created_on>
         <sys_domain>global</sys_domain>
