@@ -2,9 +2,10 @@
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">f42267502b554390a0e0f76a6e91bf80</canvas>
         <component display_value="Rich text">2d56f06d55f46bbd4e79b5e624beb940</component>
-        <component_props>{"html":"&lt;div style=\"background-color: #032d42; padding: 5px; border-radius: 4px;\"&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt; color: rgb(147, 225, 198);\"&gt;&lt;strong&gt;AI Certifications&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;","showBorder":true,"bareBorder":false}</component_props>
+        <component_props>{"html":"&lt;html&gt;\n &lt;head&gt;&lt;/head&gt;\n &lt;body&gt;\n  &lt;div style=\"background-color: #032d42; padding: 5px; border-radius: 4px;\"&gt;\n   &lt;p&gt;&lt;span style=\"font-size: 18pt; color: rgb(147, 225, 198);\"&gt;&lt;strong&gt;AI Certifications&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n  &lt;/div&gt;\n &lt;/body&gt;\n&lt;/html&gt;","showBorder":true,"bareBorder":false}</component_props>
         <h>4</h>
         <name/>
+        <required_translations>[{"comment":"","message":"AI Certifications","code":"PAR_DASHBOARD.f42267502b554390a0e0f76a6e91bf80.dd22a7502b554390a0e0f76a6e91bfa1"}]</required_translations>
         <stored_component/>
         <sys_class_name>par_dashboard_widget</sys_class_name>
         <sys_created_by>ifnavarro</sys_created_by>
@@ -12,7 +13,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dd22a7502b554390a0e0f76a6e91bfa1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
@@ -20,7 +21,7 @@
         <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
         <sys_update_name>par_dashboard_widget_dd22a7502b554390a0e0f76a6e91bfa1</sys_update_name>
         <sys_updated_by>ifnavarro</sys_updated_by>
-        <sys_updated_on>2026-06-06 05:08:54</sys_updated_on>
+        <sys_updated_on>2026-08-06 02:06:21</sys_updated_on>
         <visualization/>
         <w>48</w>
         <widget_props/>

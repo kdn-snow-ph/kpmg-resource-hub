@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>intermediateFlowVersion=1.3,labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview>Certification Reminder</display_name_after_preview>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source>text2flow</generation_source>
+        <internal_name>certification_reminder558</internal_name>
+        <label_cache>[{"name":"558805f4-a859-8f90-8cc3-6f3873e3308b.Records","label":"1 - Look Up Records➛Resource Profile Records","reference":"x_kp101_kpmg_res_0_resource_profile","reference_display":"Resource Profile","type":"reference","base_type":"reference","usedInstances":{"e58805f4-2659-8f90-6879-1377b36b0790":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e58805f4-2659-8f90-6879-1377b36b0790.item","label":"2 - For Each➛Resource Profile Record","reference":"x_kp101_kpmg_res_0_resource_profile","reference_display":"Resource Profile","type":"reference","base_type":"reference","usedInstances":{"e18805f4-5859-8f90-daf0-daee5e59a3ee":["conditions"],"record":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a18845f4-d259-8f90-57ca-2860411e4a28.Records","label":"6 - Look Up Records➛Resource Profile Records","reference":"x_kp101_kpmg_res_0_resource_profile","reference_display":"Resource Profile","type":"reference","base_type":"reference","usedInstances":{"a18845f4-bf59-8f90-e9b2-8a4b8fb13a36":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a18845f4-bf59-8f90-e9b2-8a4b8fb13a36.item","label":"7 - For Each➛Resource Profile Record","reference":"x_kp101_kpmg_res_0_resource_profile","reference_display":"Resource Profile","type":"reference","base_type":"reference","usedInstances":{"6d8845f4-a759-8f90-0301-2cd60b4d463c":["conditions"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"6d8845f4-a759-8f90-0301-2cd60b4d463c.Count","label":"8 - Look Up Records➛Count","reference":"","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"a58845f4-8f59-8f90-4f04-bafcaf75d13e":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6d8845f4-a759-8f90-0301-2cd60b4d463c.Records","label":"8 - Look Up Records➛User Certification Records","reference":"x_kp101_kpmg_res_0_user_certification","reference_display":"User Certification","type":"reference","base_type":"reference","usedInstances":{"a58845f4-8f59-8f90-4f04-bafcaf75d13e":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Certification Reminder</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d988c1f42b598f90a0e0f76a6e91bfeb</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Certification Reminder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="KPMG Resource Hub" source="x_kp101_kpmg_res_0">2d99e9272b948bd0a0e0f76a6e91bf71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_update_name>sys_hub_flow_d988c1f42b598f90a0e0f76a6e91bfeb</sys_update_name>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:44:29</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>62d8cdb82b598f90a0e0f76a6e91bf1c</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d988c1f42b598f90a0e0f76a6e91bfeb"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d988c1f42b598f90a0e0f76a6e91bfeb"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d988c1f42b598f90a0e0f76a6e91bfeb"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d988c1f42b598f90a0e0f76a6e91bfeb^sys_idNOT IN9588c1f42b598f90a0e0f76a6e91bfed"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d988c1f42b598f90a0e0f76a6e91bfeb</id>
+        <name>Certification Reminder558</name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:04</sys_created_on>
+        <sys_id>9588c1f42b598f90a0e0f76a6e91bfed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:43:04</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9588c1f42b598f90a0e0f76a6e91bfed"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d988c1f42b598f90a0e0f76a6e91bfeb"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=d988c1f42b598f90a0e0f76a6e91bfeb"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d988c1f42b598f90a0e0f76a6e91bfeb"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=d988c1f42b598f90a0e0f76a6e91bfeb^sys_idNOT IN7d8885f42b598f90a0e0f76a6e91bf0a"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment>every tuesday morning</comment>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <generation_source>text2flow</generation_source>
+        <name>Weekly</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:06</sys_created_on>
+        <sys_id>7d8885f42b598f90a0e0f76a6e91bf0a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:43:20</sys_updated_on>
+        <trigger_definition display_value="Weekly">cf352104c32222002841b63b12d3ae1f</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+1Ty26bQBT9FWvWFIHtJi67KlZWaSM1VrqIInRhLvYowwwdBjvUyr/3Du/KqIu2iy6KWHCfc85hztOZSUhQsohtoV7obPEV8YV5TCiLRoHc1QVSkUMd6yw+tUWOBSqOylKFwhwUB6tNzSJrKvRYZnS+w7yQYGk4A1lSUhuOhkVh4DEF+eXSI8jKZZf0XYChFuv6zwOUO6Fe2gPTg5DcoGLR0zNB5ZRNrzbvIQzW6WpJTxAsN+swuVol4ZKvAPmKpuaJzmKxc6xd8m52x4QavlonDR9oX4hjEPi9kvXQcRCjkK+l+E4nrwPXlyFxTLGtDWHMRUnK1m0624KFB9qc2spgL48WKZatOhwzqKS9mebahvvCCq3aEQuJ7Ke1rHL1uZWFDQseu99DmaokEOMV6GhkDwd9+tKjvBWq0aQrSp2CHCKw1oiksg7PmaHEnBbFORSFUPu4MPoommHCkvt7SYGfSX2iQ0uxVz6kDrhPsoJ/S/ltk34EIxyLT7SGht88VtbljYSyHLmQiPG3yiFh02sctzK4kdSIwn6kA479zX3zRo/sBG26MEeDMLZt7c+8MZqjW9e7IvxwHbwLQnoXwSYKAnp/yydwvf6FT8LNxCcd2Z/x2BnKU2N0Q1NCf8cSzar/nvhHPPH8A7JO89I5BgAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>weekly</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=d988c1f42b598f90a0e0f76a6e91bfeb^sys_idNOT IN0a8885f42b598f90a0e0f76a6e91bffb,4288c5f42b598f90a0e0f76a6e91bf00,4288c5f42b598f90a0e0f76a6e91bf35,4688c5f42b598f90a0e0f76a6e91bf3e,8288c5f42b598f90a0e0f76a6e91bf01,8e88c5f42b598f90a0e0f76a6e91bf39,fd8885f42b598f90a0e0f76a6e91bfdb"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>look up the user's certifications from the User Certification table</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <generation_source>text2flow</generation_source>
+        <order>3</order>
+        <parent_ui_id>e58805f4-2659-8f90-6879-1377b36b0790</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>0a8885f42b598f90a0e0f76a6e91bffb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:43:38</sys_updated_on>
+        <ui_id>e18805f4-5859-8f90-daf0-daee5e59a3ee</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VX22rjMBD9laBnE5y4TdK+LSmFhV6g7falFCFLciKq2F5JzqWh/74jS3a8iXtj09KyUAoazeXMzJmxcrdGKZlxdIwMiSVHAZoTWdjzEj/kvbAH/2cTrLjGIS40V5hyZUQiKDEiS0GfCZ1Lsrr1Zr9ApzPe0smJgiCGK3S8RnQqJFM8Rcd39wESDIyiUTjkPDwK4ygM4W90SMNRxONoOBhGJByBC0liLkH1xsPcQm1WeX3E5Z2TnTXNOhfuIlPMQgkDxJeGp4wDhoRIzQM0IykjJlOrWqI4YZep3AimIjXgEVnlpRaPEHcUWr2EQ1aUu7v6iH2BnDg5IYZcG1VQUyivSqeZoFy7ejCekEKacVPmFC7zspqliUvbWWeymKUXrhyodlD1AyTQNsx4bhO1yH0ayfU0W1xVKE9FWtbEX8qMElmfiDFKxIWxeNaISz4DR3hG8lykE5yrbC5KY8Ay604kHLqJzBYQVItJ2iXUAu9CXUn3FOQnpfiWKGGzOAc3YAyAhASGYNdCnRWqLOUcU1no8kKRVDtf6ClAeqXHkmi9yRxKjn8XFrerg88Yu6JZE6pEbn6Aizn3yT0F9QDQLGXCeteNKdgl+BvoHB6+ROc+b9B53AzaBsQTe0d21ubAE7u3N2IfhOF3ojYE/3rMfj9XRZoXRnddJV7lrc6Uwa5U/0rcQxIlyRHrjYbAWyDuYBBR0ovjaEDjMGbNPXxpqdaJVxva/o3D8zYRXLK2hXxqL7YWcv//XMhfkrUAiGHXPZFKkZZfVwD6OXQu2bMhcykjmu6SmnRM1nl8C7UHL1GbN6l9DdE6Nw5BC6hqI5cc2N7GldAzOtobo6P+fhi9rtOsS9dS5epDYvtS6T9afbKtD5xqGPSf2ibmE2JuTWT0rpFs0svdnDzDsj0/pZ4ZseAjZ3oKpj4edpOIF4JNuNlEr7RYZhZEPrTde8bhqlFleh/yLIMJsD8/oCnNd1kPHia726AXOPFry4Cylx5o0VFjGZyTZeeqDt+KyS8EmFk+Kavc3Ag/a6mn68EeH2df9iNXtad1mqoufYvfJfuj9P0fXKFUYWwPAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0a8885f42b598f90a0e0f76a6e91bffb"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>send a notification to the user reminding them about missing certifications</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <generation_source>text2flow</generation_source>
+        <order>5</order>
+        <parent_ui_id>e18805f4-ca59-8f90-a758-bb64a40681f1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>4288c5f42b598f90a0e0f76a6e91bf00</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:43:46</sys_updated_on>
+        <ui_id>2d8845f4-3559-8f90-fdfb-5a69a885e31f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WV227bMAyGX6XwdRz4EB/Su6FBgQJdO6Rdb4rCkGQqESYfKstpsyDvPsp2Dm7SFuvWAbsJIJoUyZ/8ovuVlZMMrFNLAStUag2sBZG1MaxWEMSxE/CR7YXB2I752LHDOBrbrh9F1A+pE42dodCQrdcYl4qqlGR514WjpSQK79agrNOVxeZCpgpy6/T+YWCJFF2AxNQNqOtw13Ud1wlcz40hBsqiMAKX4BWSUJDoOt1U97JavSzNOS1YnUGuE7ExXnaRk+7LycUEv2CQKccdWPCsIU8B6+BEVjCwMpKnRBdqubUoIOl1LneGuch121pGnivxEzP7nvHjgJ2xru3tMekkac18QjS50apmuladK5sXgkHVapICJ7XUZ/u21uG61KLI2xBNqNxEF7LO8qtWEWt7wd4E6gqLgNI0airH5NgFv5kXT9NNkecibyTpWpQFI3J7IlorQWttyllZtbg9pnZrPq43SGgcM1KWIp8lpSoWosmH1WfDmcTDkMviCcusxCwfEmZaHeIkyPAc7ZPGfEeUMH1/xWsw2OT8novHGi7MHqWuE/ljh9mRF/j2yGHEpnFKbUI9HoxGYRxS11oPrGpZnUlSVTvFcFTJY20abvXrlEoasRulk2bhTDBTotRfsLwFdPqsB1t69nx3BD0nP0rca/zNZomCKnHMb1ErXA0UggsJh9xMO4+Tb1uP9zjy4S2OvHCPo9tmewZHy+5QOrBd7seeXLUfOpC83wSp3cAjHMXOf8RR19afg9TTus9RT+1/ghGjlHIK+P9OGbNHEcR27JHIhsBhPvd8x4n4BzB6H5680IILRprh7PD50JvCvTdZYHssXPXTHi+mg2K3mn0mpnv2Dgn/bSRaAj7ytKDusDCyQkaETNoRv8LJi97+MjOvVdIDiXAOTEOacAEyxV1ImphPeaf4DRDF5ucmk5lhS00fut5gET3McQDd/jg/j7nbw52qQCedLIm5IOGFyojZiKbDl6iOxi5Evhfb49BDVMEPbJr6vu0iugAEuJd+zov38AvmZLozMQoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4288c5f42b598f90a0e0f76a6e91bf00"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>look up the user's certifications from the User Certification table</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <generation_source>text2flow</generation_source>
+        <order>8</order>
+        <parent_ui_id>a18845f4-bf59-8f90-e9b2-8a4b8fb13a36</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>4288c5f42b598f90a0e0f76a6e91bf35</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:43:59</sys_updated_on>
+        <ui_id>6d8845f4-a759-8f90-0301-2cd60b4d463c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VXW2vbMBT+K8HPabDjXJy+jZbCYFth7fqyFXEsyYmYYnuSnDYN+e87smzHS9wby0bHIAR0dO7n+yT568ZLYcm9U89ALLnX91YgC7u+J9/zwA/wfzknimvik0JzRShXRiSCghFZivpM6FzC+qYy+4I6vbM9nRwUBjFceacbjy6EZIqn3unX274nGBqFkT/l3J/5cej7+IvG1I9CHofTyTQEP0IXEmIuUfW6SnMva7POmyUp95zsQ9us98ltZIrZVPy+x+8NTxnHHBKQmve9JaQMTKbWjURxYJep3AkWIjXo0bPK91o8YNzIt3oJx6ood3vNklQNcuLkHAxcGVVQU6hKlS4yQbl2/WA8gUKas7bMKVzmZTdLE1e2s85ksUw/uXZ4jYN6HijBsRHGc1uozbwqI7laZHef6ywvRFr2pNqUGQXZrMAYJeLC2Hw2Hpd8iY7IEvJcpHOSq2wlSmPMZTmYS1wMEpndYVAt5ukAqE18gH2FwQXKz0vxDShhq/iIbtAYExISEULcCHVWqLKVK0JlocsNBal2vrxt39NrfSZB613l2HLyo7B5uz5UFRPXNGtClcjNO3Sx4lVx235DAJqlTFjvusUCBH6ZybcCgck2GwiiaDRORidxMp6dRMnMP+GzeHgSwSiOkjgIIZwMhOHL7faQG7/n7DkS+eOnSDTkLRKdtUvtKr+i04HsQ5eDik7B0eg08v1/iVAY/O3x6fUMEWleGD1wnXiWLTpThrhWtehyiPkXAHcMYZLMWBBNEbcI3MkkpBDEcTihsR+z9ul/aaHWi9c72P6aR4XbRHDJuq6BC7uxdw0M/89r4E2iFhNixE1PpFKk5Z2Oif4dOJfo2YG5lIGmh6CGnsl6Dy+B9uQpaPM2tK8wWu/aZdCRVH0ilxjYP41rYYXo8GiIDofHQfSmKbNpXUeX64vEzqXWf7D6sK+PmGoZDLddjPkLMfcYGb6Kkm14uZ3zR1B25AfcIxTr/0lOL9C0ikccE8mdYHNudtFrLZaZO5Dfu/YrxJF6UGV5f+QxiAywHz04lPZrMMCHyeFpEPSd+LnDgLKnHmjhrHUYfIT73ucmfGdO1YGAnOXzssvtE+F9I63gOjri4+zNXnL1eDrZVE/pn/gaOh6kb38CyWoAT+IPAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4288c5f42b598f90a0e0f76a6e91bf35"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>send a notification to the manager listing users missing certifications</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <generation_source>text2flow</generation_source>
+        <order>15</order>
+        <parent_ui_id>758845f4-9b59-8f90-9c1f-96182a523deb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>4688c5f42b598f90a0e0f76a6e91bf3e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:43:07</sys_updated_on>
+        <ui_id>7d8845f4-e759-8f90-67ed-9eb996953def</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WV30/jMAzH/xWU53Vq2m3teDsxISFxIAHHC0KVkzgsUvqDNh3sEP/7JW23tTA4HRwn3Vvj2LH9tT/qzRPJIEVySErkeSnIiKxA185gP4WqCg3r652lgNK6GyzJ4RPhS6VFiRk5vLkdESWsC0LM6JRRX1JKfepPaUBjjJHxaBYhBfuEBobaul5sEr4swKwLdxY5r1PMTKI2xtMuctHdHJws7I0NcuXQEcFHg5lAW4cEXeGIpJAJMHm53lpKBHGe6Z1hqTLTtpbCY6V+2sxh4Pwk2s541/b2mHSStGa5AAOXpqy5qcvOlS9zxbFqNREoodbmqG9rHc4Lo/KsDTHA9CY613WanbWKkO0DvQnUlS0CC9eoq9wmt13Iy2X+cLEp8lhljSRdizrnoLcnMKZUrDaunCdSq6t9arfm/XqjxsYxhaJQ2V1SlPlKNfls9en4TtvDWOr8wZZZqbtsDNy1OraTgPGxtS8a8zWUyvX93T5jg13OH5m6r/HE7ZGgfhTOfe5FwTT0Jj4Hj8WCecACOZ1MZvGMUfI8ItW6OtJQVTvF7KiS+9o13OrXKZU0YjdKJ83CuWBeqsJ8s+WtsNPnebQFouf7SShCfA+KYNaD4qpZhdHeGjouXtlO+7EHZ+1FR0Xwh1S067QHitj/j6Do2vo8FQOth1AM1P4nTHDGmGQ49yjj3JtEGHtxAJGHU5+HMgh9P5IfYOL3JGS5UVJxaIbzSRZk8C4LvMfC2TDt/mI6KHarOWTiomfvkAjfR6Il4CP/Cas7rpysmILSSTviNzh50dtfZuatSgYggZTIDYpEKtTC7kLSxHzJT0deIpR8eewyuRm21AyhGwzWomdzvIKuP86vY+7q9U5VaJJOlsQ9kMi8TMFtRNPhS1Qnc4pRGMTefBZYVDGcekyEoUctuoiAMhBf8/u6/QVuvsHp0QkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4688c5f42b598f90a0e0f76a6e91bf3e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>look up all active resource profiles again</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <generation_source>text2flow</generation_source>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>8288c5f42b598f90a0e0f76a6e91bf01</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:43:51</sys_updated_on>
+        <ui_id>a18845f4-d259-8f90-57ca-2860411e4a28</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+WXWWvjMBCA/0rQcwhO3CZp35aWwkKPpS196RYhS3IiqsheSc7R0P++I0t2vKl7QVpaFkLAoxlpjm/G8u0aKTLj6BBZkkiOumhOZOGel/g+70d9+J9NsOYGR+4/KzTlONdZKkptJkwuyeomGF0Gjc6vWiMnGg6wXKPDNaJTIZnmCh3e3nWRYGASj6MR59FBlMRRBL/xPo3GMU/i0XAUk2gMW0iScAmq18HFLY/tKq8fcbnmZadNs865X8g0c65EXcSXlivGwYeUSMO7aEYUIzbTq1qiOWEXSm4EU6Es7Iic8tKIBzh3HDm9lENUlPu1+hGH9HhxekwsubK6oLbQQZVOM0G58flgPCWFtEdNmVe4yK3IlDfxYXvrTBYzde7TgeoNqmqApDDgBM9doM7zEEZ6Nc0Wl5WXJ0KVOQmLMqNE1k/EWi2Swjp/1ohLPoON8IzkuVATB8JclMbgy6w3kfDQS2W2gEONmKgeoc7xHuSV9E5AflyKb4gWLooz2AaMwSEhgRDsS+gRgi3nmMrClAuaKOP3Qo9dZFbmSBJjNpFDyvGfwvnt8xAixj5pzoRqkdsfsMWch+AeuzX8NFNMuN1NowNIqfy7ACwZVK0F9xaN13CP9l/CfcAbuB81nWpzNID/RHbatkEAv78z8Pei6Duh7+rz5ch/P8tC5YU1PZ+JV7k2mbbYp6oB9lOQ3wDuPonT9ID1xyPgFsAdDmNK+kkSD2kSJaw5py8cap1ktcH2Xz8Ct6ngkrUN7BO3sDWwB//nwP6S1IJDDPvqCSWFKt++bvx9Cs4lPRuYSxkxtGU6d2zWeXgL2sOX0OZNtK/gtM6196DFqWoilwxsT+NKGIiOd0Z0PNgN0es6zDp1LVmuXiSuLpX+g9Mn2/rAVMNg8NjWMZ9w5lZHxu9qySZefuX4Gcp2fNV6psW6H9nTUzAN52HfiXgh2ITbzemVFsvsgsj7tvVAHK4KVYb3Idc26AD3UQJFad7b+nAxeToN+l0vfm0YUPbSBS0+aAyDM7LsXNbHt/oUBgL0LJ+UWW5OhJ+1NOC6t8PL2Zd9yVXlae2mqkrf4rtld0jf/QU+gy7AiA8AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8288c5f42b598f90a0e0f76a6e91bf01"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>look up the manager of the user from the resource profile</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <generation_source>text2flow</generation_source>
+        <order>11</order>
+        <parent_ui_id>a58845f4-8f59-8f90-4f04-bafcaf75d13e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>8e88c5f42b598f90a0e0f76a6e91bf39</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:44:12</sys_updated_on>
+        <ui_id>718845f4-9459-8f90-bb46-f59723c09de6</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+WY227bOBCGX0XQte2lLOuUuyKBgQLdBmjS3rQFQZFUTCxNqRKV1Any7jsUJVmxlTjBOtsTkItoOCR/Dj/+ovz5zlVkzd0TV5NUcnfiXhNZm+dqU+G64iWEmKgKSTaf2paPNlqQEnpq+P/kzqUrIVnJlXvy+evEFQzSosRHAY89lPoIwV8cUBT7PPWjMPJJHMAQkqRcQuplO/eOFL0p+kfctNnYu2E3571tyEtmpKCJy79rrhgHDRmRFZ+4a6IY0Xm56SMlJ+xcyW1gJZSGEV2T/L0StzBvjExexmFVlNu2/hG3JbHh7IxocqHLmuq6bFPpKheUV7YejGeklvp0GLMJ54UWubJd7LJt71zWa/XelsPtB+h2ACKwNZjxwizUKG+XkV2s8psPncqlUE1N2kaZUyL7J6J1KdJaGz13Lpd8DQPhNSkKoa5wUebXoukMWtazKwkPs0zmNzBpJa7UjFAjfAZ1JbMlxM+a8CdSCrOKv2EY6Hw/MRidSlJV27VAEfG32iixK2vXgG0ZTBdaikK/gQmueSv3ftJzSnPFhJm72oFVsC81gMb2gd1pPQSuD+Amj4IbJANwT4dixgS2CO/F3o0N0CLsHQ3hBUK/EsQw+e/AsC3BQZCrvNTY1mhA8j69zyCWeYs4DZIgjgBYIDYMfUq8NPVDmqLUCwfEnhvGnHSz5fWhjhbYTHDJxjx3aRp2PHf+Z3ruT4krCGLY7p5QUqjmBQpCX5njBpuBH5sYqeg+zcTRuXP7DKa95Emmhy58AbM5l1bBiKjOg5vN3/XfLtii7B8NZX9+HJTv+mX2pRupcvfqMPvS5d+afLKbDzANOszvx47K/zDnzlH0X3QWh3jZlrNHKDvyNemRswXziMsxql7rjNvphlCDshUM1grD9sjiG8GuuN7K7LJYrm+I/GesvUUTdzva1KGZ8qMS32r+1hzOJEhphCI25YuMThcpyqZJOp9PGctimlBvAReoV7n9iQyvYbtFAV8EJadAVIVJyXGW14phW70BfWb7M1FWuk3e96MPHA6dcnI4zY5ecafJdvrsQy6VsafuiuFi4FJvM6eT3o5fOSDdaaQ7vfSXLfQl3rY44r3y2N62JEI29a80LwYbyMsyLx/xmgNb9wQDzzS/HyfqP7njGPSjLnlA6x/7iYlxpSh4JPTIAAHohrst7/YP7TtJZ5SHLCP0PRIlBPzB8xDyEItQHEVeHKZZSCKUDizjLFfmq3UeaccIgZ1yOiGHpbbWkOa55ETteMMl+P1fy1ZxS17w0/nDL/HTSf8u3lb64W3gQa1f70YweD3HHM1jj9FpHHnRdJGxcJowEkxJkgaRzzhdZMd8PX/9FxipvKhGFAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8e88c5f42b598f90a0e0f76a6e91bf39"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>look up active resource profiles from the Resource Profile table</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <generation_source>text2flow</generation_source>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>fd8885f42b598f90a0e0f76a6e91bfdb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:43:29</sys_updated_on>
+        <ui_id>558805f4-a859-8f90-8cc3-6f3873e3308b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+WXWWvjMBCA/0rQcwhO3CZp35aWwkKPpS196RYhS3IiqsheSc7R0P++I0t2vKl7QVpaFkLAoxlpjm/G8u0aKTLj6BBZkkiOumhOZOGel/g+70d9+J9NsOYGR+4/KzTlONdZKkptJkwuyeomGF0Gjc6vWiMnGg6wXKPDNaJTIZnmCh3e3nWRYGASj6MR59FBlMRRBL/xPo3GMU/i0XAUk2gMW0iScAmq18HFLY/tKq8fcbnmZadNs865X8g0c65EXcSXlivGwYeUSMO7aEYUIzbTq1qiOWEXSm4EU6Es7Iic8tKIBzh3HDm9lENUlPu1+hGH9HhxekwsubK6oLbQQZVOM0G58flgPCWFtEdNmVe4yK3IlDfxYXvrTBYzde7TgeoNqmqApDDgBM9doM7zEEZ6Nc0Wl5WXJ0KVOQmLMqNE1k/EWi2Swjp/1ohLPoON8IzkuVATB8JclMbgy6w3kfDQS2W2gEONmKgeoc7xHuSV9E5AflyKb4gWLooz2AaMwSEhgRDsS+gRgi3nmMrClAuaKOP3Qo9dZFbmSBJjNpFDyvGfwvnt8xAixj5pzoRqkdsfsMWch+AeuzX8NFNMuN1NowNIqfy7ACwZVK0F9xaN13CP9l/CfcAbuB81nWpzNID/RHbatkEAv78z8Pei6Duh7+rz5ch/P8tC5YU1PZ+JV7k2mbbYp6oB9lOQ3wDuPonT9ID1xyPgFsAdDmNK+kkSD2kSJaw5py8cap1ktcH2Xz8Ct6ngkrUN7BO3sDWwB//nwP6S1IJDDPvqCSWFKt++bvx9Cs4lPRuYSxkxtGU6d2zWeXgL2sOX0OZNtK/gtM6196DFqWoilwxsT+NKGIiOd0Z0PNgN0es6zDp1LVmuXiSuLpX+g9Mn2/rAVMNg8NjWMZ9w5lZHxu9qySZefuX4Gcp2fNV6psW6H9nTUzAN52HfiXgh2ITbzemVFsvsgsj7tvVAHK4KVYb3Idc26AD3UQJFad7b+nAxeToN+l0vfm0YUPbSBS0+aAyDM7LsXNbHt/oUBgL0LJ+UWW5OhJ+1NOC6t8PL2Zd9yVXlae2mqkrf4rtld0jf/QU+gy7AiA8AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fd8885f42b598f90a0e0f76a6e91bfdb"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=d988c1f42b598f90a0e0f76a6e91bfeb"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=d988c1f42b598f90a0e0f76a6e91bfeb^sys_idNOT IN0688c5f42b598f90a0e0f76a6e91bf34,0688c5f42b598f90a0e0f76a6e91bf3b,0a88c5f42b598f90a0e0f76a6e91bf3d,4a88c5f42b598f90a0e0f76a6e91bf37,8688c5f42b598f90a0e0f76a6e91bf3c,8e8885f42b598f90a0e0f76a6e91bffc,c688c5f42b598f90a0e0f76a6e91bf36,f58885f42b598f90a0e0f76a6e91bff8"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0288c5f42b598f90a0e0f76a6e91bf02</block>
+        <comment>for each resource profile</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <flow_variables_assigned/>
+        <generation_source>text2flow</generation_source>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>0688c5f42b598f90a0e0f76a6e91bf34</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:43:55</sys_updated_on>
+        <ui_id>a18845f4-bf59-8f90-e9b2-8a4b8fb13a36</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51Ty27bMBD8F55tQZJlV/YtSBAgQNIATpBLERhrcmUTpUiVDzuq4H/v0nokyLEnaYe7szMjqmMm+CZ492punJMHzTa/3mdM6ojRe8c01Mg2THqsHZuxE6gQ666DrCyLZVXMRb5cz8tqnc6XPzjM83KVFlmGBeRlskVurHCXC40K6RoF7dv/MzRgSY1HyzYd40ephMVRsSDKbC2qdZau+SJfLfI0zcsi268W+ywXC0CxIgoFe1TU+jD4+WbPt00sbb90AB6Hme2E0iOKyNMZww+PWiCtr0A5nLEatABvbMs23gYCLIJ41qqdOo5Se6JjsffDyb+0MUvT2FghGeLYH07lbkiuh6s78PBC1NwHO7Tyo5EcXR+FwAqC8rdfsb7hufHS6H7Ew16N00aFWv/sk2ATwfihCAmORGATjUbpg4/q5WjO21HlvdTXUIZDZTioqQLvrdwHH/V0DBXWRLSroWmkPuwaa07yOkxa6uSgqEgqZc60NF7KBHgUnlCukNwTfneF38DK6OKJaGj4MmOudbcKnPv0QiHu/oSopHc2eNj1McQRbmXjb2jBCQe5l/d4z3vuKVMuHUl4jdjD+HfEg5ZukORfobOxv6P4T+zyD4gIMiJnAwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0e88c5f42b598f90a0e0f76a6e91bf3a</block>
+        <comment>if the manager is not already in the list of managers</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <flow_variables_assigned/>
+        <generation_source>text2flow</generation_source>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <parent_ui_id>a58845f4-8f59-8f90-4f04-bafcaf75d13e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>0688c5f42b598f90a0e0f76a6e91bf3b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:44:16</sys_updated_on>
+        <ui_id>7d8845f4-0159-8f90-f514-c9a8399db3e9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K0PPJvijDmveSkph0K2wlr6MYq4lORGTJU+Sk3oh/31XluwElrGN7nFv0tH9OOf44APRvet6Z5/0jbVio8jqy0tChPIYng9EQcvJilCtmHBCq2oEErID2fsHPDJhOwnD8wnpwGCV44asDoRuhWSGT6MZljQpNNk1zWiRL4s8TfP3V1m9LOosZwVwKHCEhJpLLF1Pi9/dj0jyS0Zu6DxunRFqE+/3ccrjBGrDPKssTQh/dVwxjnwakJYnpAXFwGkzzIjhwB6UPAFboVyQ2MKrFd9xYV6WvrDhKJFG/fO1it4EuLkFB0ilp643sZRutaDcBnMYb6CXbn2OhYKHzksNLQ5qOXVr2bfqU3CEzAPOPkVvkQTvvFJPPepoHrd6/3lieSfU6Ep8lJqCnG/g0Lu6d57PgXDJWxxUtdB16GjVGb0TYzNyaRcbiZdFI/Uel/o8LYB64gs0FhZ3iN+O8DMY4VV8xDHYHGjWYAWtxuzhOLSJk2NC7GDXEqw9iUR3q2+9pxgkR3FV8Me3UCM6d4ObdzzqOCY/R/mtKb6GsimztLyc4qvlpRRfyO9fRjf/TXS9b3+Y3DRN/0f3zdEVtgqBi9rG5f8wuS8+pmHn7DUVFqk9eezD9K/2DwOGS9BzaK/NVy/qhB1/AL/mN9/1BQAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0288c5f42b598f90a0e0f76a6e91bf3d</block>
+        <comment>for each manager in the list of managers to notify</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <flow_variables_assigned/>
+        <generation_source>text2flow</generation_source>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>14</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>0a88c5f42b598f90a0e0f76a6e91bf3d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:44:23</sys_updated_on>
+        <ui_id>758845f4-9b59-8f90-9c1f-96182a523deb</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/11SXWvjMBD8L3o2xnaOcMlbaSkU7q7Qlr4cxayldSJOlnT6SOoL+e+3imwn9Mne0e7szLAnZmKwMfg3c+e93Gm2/f1RMKkTRv8npmFAtmUy4OBZwQ6gYqrpV0hvFYzvV8SCo+6Ajm1PjO+lEg5nRkEt9Ub0m7ra8FWzXjVV1Xz/VnfrVVc3YgUo1kShoENFrU/Tvi/rw2hT6ZAbJ2bgxzTzsqD0SSKaqmD4GVALpPU9KI8FG0ALCMaNbBtcJMAhiGetxqVjL3XIhgb49PIfbayrKjX2SIb45HYp2ymJDPcPEOCVqHmIbmrleyM5+hyFwB6iCve3WG54tkEanUcCdGqeNioO+ldOgi0EN8FHTyLQJqNJ+uSjf92b48us8lHqSyjTozIc1FJBCE52MSQ9J4YKByJqB7BW6l1rnTnIyzBpGcqdoqLslTnS0nQ0JfAkvKRcoXwk/OECv4OTycVPoqHhc8H86O8VeH/1QiG2f2NSkp1NHtocQxrhTtpwRwsOOMk9f6Q7zNxLplx6kvCWsKf5etPDSBck+S10NO5PEn/Fzv8B9axcmwcDAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">4288c5f42b598f90a0e0f76a6e91bf37</block>
+        <comment>add the user to a list of users missing certifications</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <flow_variables_assigned/>
+        <generation_source>text2flow</generation_source>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <parent_ui_id>a58845f4-8f59-8f90-4f04-bafcaf75d13e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>4a88c5f42b598f90a0e0f76a6e91bf37</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:44:08</sys_updated_on>
+        <ui_id>658845f4-9059-8f90-564b-38ff0919413f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8e88c5f42b598f90a0e0f76a6e91bf3b</block>
+        <comment>add the manager to a list of managers to notify</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <flow_variables_assigned/>
+        <generation_source>text2flow</generation_source>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <parent_ui_id>7d8845f4-0159-8f90-f514-c9a8399db3e9</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>8688c5f42b598f90a0e0f76a6e91bf3c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:44:19</sys_updated_on>
+        <ui_id>398845f4-d959-8f90-eb11-d324080f5eea</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">868885f42b598f90a0e0f76a6e91bffc</block>
+        <comment>if the user has neither CAD nor DF certification</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <flow_variables_assigned/>
+        <generation_source>text2flow</generation_source>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>e58805f4-2659-8f90-6879-1377b36b0790</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>8e8885f42b598f90a0e0f76a6e91bffc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:43:42</sys_updated_on>
+        <ui_id>e18805f4-ca59-8f90-a758-bb64a40681f1</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K0PPJvijDmveSkph0K2wlr6MYq4lORGTJU+Sk3oh/31XluwElrGN7nFv0tH9OOf44APRvet6Z5/0jbVio8jqy0tChPIYng9EQcvJilCtmHBCq2oEErID2fsHPDJhOwnD8wnpwGCV44asDoRuhWSGT6MZljQpNNk1zWiRL4s8TfP3V1m9LOosZwVwKHCEhJpLLF1Pi9/dj0jyS0Zu6DxunRFqE+/3ccrjBGrDPKssTQh/dVwxjnwakJYnpAXFwGkzzIjhwB6UPAFboVyQ2MKrFd9xYV6WvrDhKJFG/fO1it4EuLkFB0ilp643sZRutaDcBnMYb6CXbn2OhYKHzksNLQ5qOXVr2bfqU3CEzAPOPkVvkQTvvFJPPepoHrd6/3lieSfU6Ep8lJqCnG/g0Lu6d57PgXDJWxxUtdB16GjVGb0TYzNyaRcbiZdFI/Uel/o8LYB64gs0FhZ3iN+O8DMY4VV8xDHYHGjWYAWtxuzhOLSJk2NC7GDXEqw9iUR3q2+9pxgkR3FV8Me3UCM6d4ObdzzqOCY/R/mtKb6GsimztLyc4qvlpRRfyO9fRjf/TXS9b3+Y3DRN/0f3zdEVtgqBi9rG5f8wuS8+pmHn7DUVFqk9eezD9K/2DwOGS9BzaK/NVy/qhB1/AL/mN9/1BQAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ce88c5f42b598f90a0e0f76a6e91bf35</block>
+        <comment>if the user has neither CAD nor DF certification</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <flow_variables_assigned/>
+        <generation_source>text2flow</generation_source>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <parent_ui_id>a18845f4-bf59-8f90-e9b2-8a4b8fb13a36</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>c688c5f42b598f90a0e0f76a6e91bf36</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:44:04</sys_updated_on>
+        <ui_id>a58845f4-8f59-8f90-4f04-bafcaf75d13e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXW+bMBT9K8hPq0QiA0mW9C2DRYrWDy2p+rK2yNimsWYwwyZtFvHfdw3kY2undh+PfcOH63vPObmcbJGqTFEZfaWmWov7HJ1+uXWRyC0Gz1uUk4yjU0RVzoQRKo8bwEVrIiv7Ah6Z0IUkm+sDUpASqgwv0ekW0ZWQrOS71gxKUkxSb0I9GvijwMfYHw+8ZBQkns8CwkkALSRJuITScDfYOWsQ97eMzKawuDalyO+781nXZbkDVcksKw+7iD8anjMOfFIiNXdRRnJGjCo3e6TkhF3m8gCsRG5aiRl51OI7DPSHQ1uYcpBIO/37Y9x508JpRAwBKhU1VdmV0pUSlOvWHMZTUkkTHmNtwWVhpbZXDEnk7raSVZZftI6gfYOjn6LSQIIXVqml3ulIlyv1sNixnIm8caV7KRUlcn8iBrxLKmP5bBGXPINGcUaKAhyNi1KtRXMZuGT9ewmHfirVAwy1+9Qn1BLvg7GkPwM8auBrUgqr4hzawOWWZkK0oHGze9AObOKodpHe6FASrQ8iwd34W2UptpI7cXHrj71CS1GYKUxe805H7T5d5aMt3m5HbDweDNNBj7wfTnrjdIJ7OMBez6dshJMBG4wC2g9VlZu6vqkwDhi+u1y88t6CU1g8Xddn808fb1DISyNSwZkzLQopKGn2O+JrLhXY4bwLp9HJDWrHNPTvLj7/5aj50uk5du+cGZBnzSgNE86jDw7suxMuo/MTOM+XvWj2K/4Th6df+ptrr3LtpTSckGE69PDw+TQcjJ5Lw2dy8A8j0H8hAu3398oExBi/ReA/R6DQcRtcnbZ2ff5fAt7auGtn7r2mQgO1K4vNd//59sUGlkvQY+hBlV+tqANW/wAMfPDCPQgAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">358885f42b598f90a0e0f76a6e91bff7</block>
+        <comment>for each resource profile</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Certification Reminder">d988c1f42b598f90a0e0f76a6e91bfeb</flow>
+        <flow_variables_assigned/>
+        <generation_source>text2flow</generation_source>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>jdgonzales1</sys_created_by>
+        <sys_created_on>2026-06-03 05:43:07</sys_created_on>
+        <sys_id>f58885f42b598f90a0e0f76a6e91bff8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="KPMG Resource Hub">2d99e9272b948bd0a0e0f76a6e91bf71</sys_scope>
+        <sys_updated_by>jdgonzales1</sys_updated_by>
+        <sys_updated_on>2026-06-03 05:43:33</sys_updated_on>
+        <ui_id>e58805f4-2659-8f90-6879-1377b36b0790</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51Ty27bMBD8F55tQbZiV/YtSBAgQNsATpBLEQgrcmkTpUiVpOyogv69S+uRIMeepB3uzs6MqI7ZJtRN8C/21nt1NGz/623BlIkYvXfMQIVsz1TAyrMFO4NuYt11m02epxt5s4R8s1vmcpcuc86z5VZm+bcMsyzNy+SA3Drh+55GhfK1hvb1/xlqcKQmoGP7jvGT0sLhpFgQ5Won5G6V7ni23mbrNF3nN6tym5WrtcgAxZYoNJSoqfVx9PPFXmjrWLph6Qh8H2cOM0qPKGKdLhi+BzQCab0E7XHBKjACgnUt2wfXEOAQxJPR7dxxUiYQHYu97179pY2rNI2NEskQx+FwLosxuQGW9xDgmah5aNzYyk9WcfRDFAIlNDrcfcaGhqc6KGuGkQClnqatbirzc0iCzQTThyKk8SQC62g0Sh99yOeTvRwmlQ/KXEMZD7XloOcKQnCqbELU0zHUWBFRUUFdK3MsamfP6jpMWqrkqKlIpLYXWhovZQI8Ck8oV0geCL+/wq/gVHTxg2houF8w3/o7Dd5/eKEQiz9NVDI4Gz0UQwxxhDtVh1tacMZRbv8W7/nAPWfKlScJLxF7nP6OeNDSDVL8M3Sx7ncU/4H1/wB9b7Z9ZwMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d988c1f42b598f90a0e0f76a6e91bfeb"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d988c1f42b598f90a0e0f76a6e91bfeb"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_variable_d988c1f42b598f90a0e0f76a6e91bfeb"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d988c1f42b598f90a0e0f76a6e91bfeb"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d988c1f42b598f90a0e0f76a6e91bfeb"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d988c1f42b598f90a0e0f76a6e91bfeb"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d988c1f42b598f90a0e0f76a6e91bfeb"/>
+</record_update>
